@@ -141,12 +141,46 @@
 # print(a)
 # print(b)
 
-a = 19
-new_a = str(a)
-#type是查看数据的类型
-print(type(a))#a是数字；是类型
-print(type(new_a))#new_a是把a变成字符串类型
+# a = 19
+# new_a = str(a)
+# #type是查看数据的类型
+# print(type(a))#a是数字；是类型
+# print(type(new_a))#new_a是把a变成字符串类型
 
+# user_name = "zhangyu"
+# gender = "男"
+# new_str = user_name+gender
+# print(new_str)
+
+# user_name = "姓名：张禹。性别：%s。%s岁。" %("男",30)
+# print(user_name)
+
+# content = "我叫张禹；爱玩游戏；魔兽世界和英雄联盟还有王者荣耀。"
+# if "玩" in content:
+#     print("爱玩的心；你不懂")
+# else:
+#     print(content)
+
+# #移除字符串两边空白
+# user_name = "  zhangyu   "
+# print(user_name)
+# new_str =  user_name.strip()#移除左右两边空白
+# print(new_str)
+# new_str_l = user_name.lstrip()#移除左边空白
+# print(new_str_l)
+# new_str_r = user_name.rstrip()#移除右边空白
+# print(new_str_r)
+
+# #分割
+# user_name = "yaoshen|123456|9"
+# #以又边一个“|”分割；分割成列表['yaoshen|123456', '9']
+# new_user = user_name.rsplit("|",1)
+# print(new_user)
+
+# #长度（字符）
+# user_name = "yaoshen|123456|9"
+# new_user = len(user_name)
+# print(new_user)
 
 
 
