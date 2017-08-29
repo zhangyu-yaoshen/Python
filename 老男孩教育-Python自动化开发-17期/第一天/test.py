@@ -127,15 +127,37 @@
 #         print("再来一次")
 #         i += 1
 
-#创建整数
-a = 123
-b = int(456)
-print(a,b)
-#转换整数
-c = "789"
-new_c = int(c)
-print(a,b,c)
-print(a,b,c)
-print(a,b,c)
-print(a,b,c)
-1
+# #创建整数
+# a = 123
+# b = int(456)
+# print(a,b)
+# #转换整数
+# c = "789"
+# new_c = int(c)
+
+#字符串
+# a = "zhangyu"
+# b = str("zhangyu-1")
+# print(a)
+# print(b)
+
+a = 19
+new_a = str(a)
+#type是查看数据的类型
+print(type(a))#a是数字；是类型
+print(type(new_a))#new_a是把a变成字符串类型
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
