@@ -300,13 +300,21 @@
 #         print("用户名或密码错误，请重新登录。")
 #         break#因为字典里有很多用户信息；当用户名密码错误时；跳出所有循环
 
-#基本文件操作
+# user_name = "yao|123123|0"
+# #以【|】分割字符串['yao', '123123', '0']
+# print(user_name.split("|"))#以【|】分割字符串['yao', '123123', '0']
+# #将字符串['yao', '123123', '0']以【\n】做分隔符
+# new_user = "\n".join(user_name.split("|"))
+# print(new_user)
 
 
-
-
-
-
+user_name = input("用户名：")
+user_pwd = input("密码：")
+user_dict = {
+    "name": "yaoshen",
+    "password": "123456"
+}
+if
 
 
 
