@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第二天/test.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" afterPath="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="列表list Coverage Results" MODIFIED="1504594000381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$gouwuche.coverage" NAME="gouwuche Coverage Results" MODIFIED="1504085749200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
     <SUITE FILE_PATH="coverage/Python$int.coverage" NAME="整数int Coverage Results" MODIFIED="1504233909995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$login.coverage" NAME="login Coverage Results" MODIFIED="1504080544067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
@@ -25,78 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="字符串str.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py">
+      <file leaf-file-name="列表list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="80" />
+            <state relative-caret-position="475">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="整数int.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/整数int.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="976" column="6" lean-forward="false" selection-start-line="976" selection-start-column="6" selection-end-line="976" selection-end-column="6" />
-              <folding>
-                <element signature="e#34500#34714#0" expanded="false" />
-                <element signature="e#34791#34859#0" expanded="false" />
-                <element signature="e#155006#155141#0" expanded="false" />
-                <element signature="e#155243#155463#0" expanded="false" />
-                <element signature="e#155569#155840#0" expanded="false" />
-                <element signature="e#155955#156496#0" expanded="false" />
-                <element signature="e#156608#156958#0" expanded="false" />
-                <element signature="e#157053#157285#0" expanded="false" />
-                <element signature="e#157390#157716#0" expanded="false" />
-                <element signature="e#157800#158027#0" expanded="false" />
-                <element signature="e#158120#158340#0" expanded="false" />
-                <element signature="e#158446#158607#0" expanded="false" />
-                <element signature="e#158688#158888#0" expanded="false" />
-                <element signature="e#158969#159167#0" expanded="false" />
-                <element signature="e#159250#159413#0" expanded="false" />
-                <element signature="e#159494#159688#0" expanded="false" />
-                <element signature="e#159774#160054#0" expanded="false" />
-                <element signature="e#160135#160344#0" expanded="false" />
-                <element signature="e#160427#160590#0" expanded="false" />
-                <element signature="e#160675#160870#0" expanded="false" />
-                <element signature="e#160951#161149#0" expanded="false" />
-                <element signature="e#161230#161555#0" expanded="false" />
-                <element signature="e#161636#161845#0" expanded="false" />
-                <element signature="e#161933#162136#0" expanded="false" />
-                <element signature="e#162237#162471#0" expanded="false" />
-                <element signature="e#162550#162679#0" expanded="false" />
-                <element signature="e#162771#162993#0" expanded="false" />
-                <element signature="e#163070#163704#0" expanded="false" />
-                <element signature="e#163792#164074#0" expanded="false" />
-                <element signature="e#164177#164450#0" expanded="false" />
-                <element signature="e#164556#164884#0" expanded="false" />
-                <element signature="e#164991#165154#0" expanded="false" />
-                <element signature="e#165255#165482#0" expanded="false" />
-                <element signature="e#165571#165880#0" expanded="false" />
-                <element signature="e#165983#166372#0" expanded="false" />
-                <element signature="e#166464#166687#0" expanded="false" />
-                <element signature="e#166789#167174#0" expanded="false" />
-                <element signature="e#167273#167539#0" expanded="false" />
-                <element signature="e#167653#168007#0" expanded="false" />
-                <element signature="e#168098#168340#0" expanded="false" />
-                <element signature="e#168422#168592#0" expanded="false" />
-                <element signature="e#168671#168881#0" expanded="false" />
-                <element signature="e#168971#169469#0" expanded="false" />
-                <element signature="e#169548#169666#0" expanded="false" />
-                <element signature="e#169752#169960#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +61,7 @@
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/test.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/int.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
+        <option value="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
       </list>
     </option>
   </component>
@@ -204,25 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.整数int">
-    <configuration name="fenlei" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第一天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第一天/fenlei.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.列表list">
     <configuration name="gouwuche" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,6 +172,24 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="列表list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,19 +231,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.fenlei" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gouwuche" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sanjimulu" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.整数int" />
+      <item index="0" class="java.lang.String" itemvalue="Python.gouwuche" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sanjimulu" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.整数int" />
+      <item index="4" class="java.lang.String" itemvalue="Python.列表list" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.整数int" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sanjimulu" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gouwuche" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fenlei" />
+        <item index="0" class="java.lang.String" itemvalue="Python.列表list" />
+        <item index="1" class="java.lang.String" itemvalue="Python.整数int" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sanjimulu" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gouwuche" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504173603399</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20170901">
+      <created>1504259391602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504259391602</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +349,8 @@
     <MESSAGE value="20170829-3" />
     <MESSAGE value="20170830" />
     <MESSAGE value="20170831" />
-    <option name="LAST_COMMIT_MESSAGE" value="20170831" />
+    <MESSAGE value="20170901" />
+    <option name="LAST_COMMIT_MESSAGE" value="20170901" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -422,11 +365,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18544">
+          <caret line="976" column="6" lean-forward="false" selection-start-line="976" selection-start-column="6" selection-end-line="976" selection-end-column="6" />
+          <folding>
+            <element signature="e#34500#34714#0" expanded="false" />
+            <element signature="e#34791#34859#0" expanded="false" />
+            <element signature="e#155006#155141#0" expanded="false" />
+            <element signature="e#155243#155463#0" expanded="false" />
+            <element signature="e#155569#155840#0" expanded="false" />
+            <element signature="e#155955#156496#0" expanded="false" />
+            <element signature="e#156608#156958#0" expanded="false" />
+            <element signature="e#157053#157285#0" expanded="false" />
+            <element signature="e#157390#157716#0" expanded="false" />
+            <element signature="e#157800#158027#0" expanded="false" />
+            <element signature="e#158120#158340#0" expanded="false" />
+            <element signature="e#158446#158607#0" expanded="false" />
+            <element signature="e#158688#158888#0" expanded="false" />
+            <element signature="e#158969#159167#0" expanded="false" />
+            <element signature="e#159250#159413#0" expanded="false" />
+            <element signature="e#159494#159688#0" expanded="false" />
+            <element signature="e#159774#160054#0" expanded="false" />
+            <element signature="e#160135#160344#0" expanded="false" />
+            <element signature="e#160427#160590#0" expanded="false" />
+            <element signature="e#160675#160870#0" expanded="false" />
+            <element signature="e#160951#161149#0" expanded="false" />
+            <element signature="e#161230#161555#0" expanded="false" />
+            <element signature="e#161636#161845#0" expanded="false" />
+            <element signature="e#161933#162136#0" expanded="false" />
+            <element signature="e#162237#162471#0" expanded="false" />
+            <element signature="e#162550#162679#0" expanded="false" />
+            <element signature="e#162771#162993#0" expanded="false" />
+            <element signature="e#163070#163704#0" expanded="false" />
+            <element signature="e#163792#164074#0" expanded="false" />
+            <element signature="e#164177#164450#0" expanded="false" />
+            <element signature="e#164556#164884#0" expanded="false" />
+            <element signature="e#164991#165154#0" expanded="false" />
+            <element signature="e#165255#165482#0" expanded="false" />
+            <element signature="e#165571#165880#0" expanded="false" />
+            <element signature="e#165983#166372#0" expanded="false" />
+            <element signature="e#166464#166687#0" expanded="false" />
+            <element signature="e#166789#167174#0" expanded="false" />
+            <element signature="e#167273#167539#0" expanded="false" />
+            <element signature="e#167653#168007#0" expanded="false" />
+            <element signature="e#168098#168340#0" expanded="false" />
+            <element signature="e#168422#168592#0" expanded="false" />
+            <element signature="e#168671#168881#0" expanded="false" />
+            <element signature="e#168971#169469#0" expanded="false" />
+            <element signature="e#169548#169666#0" expanded="false" />
+            <element signature="e#169752#169960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/整数int.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -601,15 +627,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="152">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
+        <state relative-caret-position="18544">
           <caret line="976" column="6" lean-forward="false" selection-start-line="976" selection-start-column="6" selection-end-line="976" selection-end-column="6" />
           <folding>
             <element signature="e#34500#34714#0" expanded="false" />
@@ -663,8 +688,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/整数int.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
