@@ -51,10 +51,9 @@
 # for i in range(10,0,-1):#倒序；减一
 #     print(i)
 # 从1开始打印变量序号
-szj_list = ["人之初","性本善","性相近","习相远"]
-for index,i in enumerate(szj_list,1):#index是索引；i是后面的变量
-    print (index,i)
-
+# szj_list = ["人之初","性本善","性相近","习相远"]
+# for index,i in enumerate(szj_list,1):#index是索引；i是后面的变量
+#     print (index,i)
 
 
 
