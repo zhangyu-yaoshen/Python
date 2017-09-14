@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/001/db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/001/fenlei.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/001/gouwuche.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/001/login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/001/sanjimulu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/001/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/002/列表list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/002/字典dict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/002/字符串str.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/002/整数int.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/002/集合set.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第一天/db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第一天/fenlei.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第一天/gouwuche.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第一天/login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第一天/sanjimulu.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第一天/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/003/1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/003/1b.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/003/字符编码.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/003/文件处理.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="列表list Coverage Results" MODIFIED="1504665272598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="文件处理 Coverage Results" MODIFIED="1505380518513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/003" />
     <SUITE FILE_PATH="coverage/Python$dict.coverage" NAME="字典dict Coverage Results" MODIFIED="1504667068256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$gouwuche.coverage" NAME="gouwuche Coverage Results" MODIFIED="1504085749200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
     <SUITE FILE_PATH="coverage/Python$int.coverage" NAME="整数int Coverage Results" MODIFIED="1504233909995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
@@ -43,7 +28,48 @@
     <SUITE FILE_PATH="coverage/Python$fenlei.coverage" NAME="fenlei Coverage Results" MODIFIED="1504081557817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="字符编码.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/字符编码.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1b.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1b.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="文件处理.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +98,9 @@
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/字典dict.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/集合set.py" />
+        <option value="$PROJECT_DIR$/Python自动化开发/003/字符编码.py" />
+        <option value="$PROJECT_DIR$/Python自动化开发/003/1.txt" />
+        <option value="$PROJECT_DIR$/Python自动化开发/003/文件处理.py" />
       </list>
     </option>
   </component>
@@ -83,9 +112,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1051" />
-    <option name="y" value="2" />
     <option name="width" value="865" />
-    <option name="height" value="1000" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -105,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,12 +147,16 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Python自动化开发" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python自动化开发" type="462c0819:PsiDirectoryNode" />
+              <item name="003" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +177,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.字典dict">
+  <component name="RunManager" selected="Python.文件处理">
+    <configuration name="文件处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/003" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/003/文件处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="字典dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,24 +250,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="sanjimulu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第一天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第一天/sanjimulu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,19 +269,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sanjimulu" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.整数int" />
-      <item index="3" class="java.lang.String" itemvalue="Python.列表list" />
-      <item index="4" class="java.lang.String" itemvalue="Python.字典dict" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.整数int" />
+      <item index="2" class="java.lang.String" itemvalue="Python.列表list" />
+      <item index="3" class="java.lang.String" itemvalue="Python.字典dict" />
+      <item index="4" class="java.lang.String" itemvalue="Python.文件处理" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.字典dict" />
-        <item index="1" class="java.lang.String" itemvalue="Python.列表list" />
-        <item index="2" class="java.lang.String" itemvalue="Python.整数int" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sanjimulu" />
+        <item index="0" class="java.lang.String" itemvalue="Python.文件处理" />
+        <item index="1" class="java.lang.String" itemvalue="Python.字典dict" />
+        <item index="2" class="java.lang.String" itemvalue="Python.列表list" />
+        <item index="3" class="java.lang.String" itemvalue="Python.整数int" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -321,19 +355,26 @@
       <option name="project" value="LOCAL" />
       <updated>1504616742456</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20170909">
+      <created>1504948513238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504948513238</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1051" y="2" width="865" height="1000" extended-state="0" />
+    <frame x="1051" y="0" width="865" height="1040" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -362,7 +403,8 @@
     <MESSAGE value="20170831" />
     <MESSAGE value="20170901" />
     <MESSAGE value="20170905" />
-    <option name="LAST_COMMIT_MESSAGE" value="20170905" />
+    <MESSAGE value="20170909" />
+    <option name="LAST_COMMIT_MESSAGE" value="20170909" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -377,6 +419,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/字符编码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/字符编码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/集合set.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/集合set.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
@@ -576,5 +650,45 @@
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字典dict.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/集合set.py" />
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/字符编码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1b.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
