@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python自动化开发/003/函数.py" afterPath="$PROJECT_DIR$/Python自动化开发/003/函数.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python自动化开发/003/1.txt" afterPath="$PROJECT_DIR$/Python自动化开发/003/1.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,68 +13,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="文件处理 Coverage Results" MODIFIED="1505380518513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/003" />
     <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="列表list Coverage Results" MODIFIED="1504665272598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="文件处理 Coverage Results" MODIFIED="1505380518513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/003" />
+    <SUITE FILE_PATH="coverage/Python$dict.coverage" NAME="字典dict Coverage Results" MODIFIED="1504667068256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$gouwuche.coverage" NAME="gouwuche Coverage Results" MODIFIED="1504085749200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
+    <SUITE FILE_PATH="coverage/Python$int.coverage" NAME="整数int Coverage Results" MODIFIED="1504233909995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
+    <SUITE FILE_PATH="coverage/Python$login.coverage" NAME="login Coverage Results" MODIFIED="1504080544067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1504233113883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1504057584286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
     <SUITE FILE_PATH="coverage/Python$sanjimulu.coverage" NAME="sanjimulu Coverage Results" MODIFIED="1504167089569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
-    <SUITE FILE_PATH="coverage/Python$login.coverage" NAME="login Coverage Results" MODIFIED="1504080544067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
     <SUITE FILE_PATH="coverage/Python$fenlei.coverage" NAME="fenlei Coverage Results" MODIFIED="1504081557817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
-    <SUITE FILE_PATH="coverage/Python$dict.coverage" NAME="字典dict Coverage Results" MODIFIED="1504667068256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
-    <SUITE FILE_PATH="coverage/Python$int.coverage" NAME="整数int Coverage Results" MODIFIED="1504233909995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
-    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1504233113883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="字符编码.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python自动化开发/003/字符编码.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="0">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1b.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1b.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="文件处理.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="函数.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python自动化开发/003/函数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -90,7 +56,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -111,9 +76,9 @@
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/字典dict.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/第二天/集合set.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/003/字符编码.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/003/1.txt" />
         <option value="$PROJECT_DIR$/Python自动化开发/003/文件处理.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/003/函数.py" />
+        <option value="$PROJECT_DIR$/Python自动化开发/003/二分查找.py" />
+        <option value="$PROJECT_DIR$/Python自动化开发/003/1.txt" />
       </list>
     </option>
   </component>
@@ -124,10 +89,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="15" />
-    <option name="width" value="1053" />
-    <option name="height" value="725" />
+    <option name="x" value="1051" />
+    <option name="width" value="865" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -148,61 +112,36 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python自动化开发" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="003" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python自动化开发" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python自动化开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python自动化开发" type="462c0819:PsiDirectoryNode" />
+              <item name="003" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/办公工具/GIT/Git-2.12.2.2-64-bit/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Python自动化开发/第一天" />
-    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,79 +156,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.文件处理">
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python\Python\Python自动化开发\第二天\字符串str.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="整数int" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="列表list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="字典dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/字典dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="文件处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="文件处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -305,221 +172,79 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/003/文件处理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+    <configuration name="字典dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/字典dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
+    <configuration name="整数int" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="Python" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="列表list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/第二天" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="E:\Python\Python\Python自动化开发\第二天\字符串str.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
@@ -615,50 +340,49 @@
       <option name="project" value="LOCAL" />
       <updated>1504948513238</updated>
     </task>
-    <task id="LOCAL-00010" summary="20170917">
-      <created>1505625213677</created>
+    <task id="LOCAL-00010" summary="20170914">
+      <created>1505382213015</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1505625213677</updated>
+      <updated>1505382213015</updated>
     </task>
-    <task id="LOCAL-00011" summary="20170917">
-      <created>1505625561939</created>
+    <task id="LOCAL-00011" summary="20170918">
+      <created>1505729718708</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1505625561939</updated>
+      <updated>1505729718708</updated>
     </task>
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="15" width="1053" height="725" extended-state="0" />
-    <editor active="false" />
+    <frame x="1051" y="0" width="865" height="1040" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25981873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -672,8 +396,9 @@
     <MESSAGE value="20170901" />
     <MESSAGE value="20170905" />
     <MESSAGE value="20170909" />
-    <MESSAGE value="20170917" />
-    <option name="LAST_COMMIT_MESSAGE" value="20170917" />
+    <MESSAGE value="20170914" />
+    <MESSAGE value="20170918" />
+    <option name="LAST_COMMIT_MESSAGE" value="20170918" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,18 +421,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/函数.py">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -720,14 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1b.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -736,10 +453,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -781,10 +506,116 @@
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18544">
+          <caret line="976" column="6" lean-forward="false" selection-start-line="976" selection-start-column="6" selection-end-line="976" selection-end-column="6" />
+          <folding>
+            <element signature="e#34500#34714#0" expanded="false" />
+            <element signature="e#34791#34859#0" expanded="false" />
+            <element signature="e#155006#155141#0" expanded="false" />
+            <element signature="e#155243#155463#0" expanded="false" />
+            <element signature="e#155569#155840#0" expanded="false" />
+            <element signature="e#155955#156496#0" expanded="false" />
+            <element signature="e#156608#156958#0" expanded="false" />
+            <element signature="e#157053#157285#0" expanded="false" />
+            <element signature="e#157390#157716#0" expanded="false" />
+            <element signature="e#157800#158027#0" expanded="false" />
+            <element signature="e#158120#158340#0" expanded="false" />
+            <element signature="e#158446#158607#0" expanded="false" />
+            <element signature="e#158688#158888#0" expanded="false" />
+            <element signature="e#158969#159167#0" expanded="false" />
+            <element signature="e#159250#159413#0" expanded="false" />
+            <element signature="e#159494#159688#0" expanded="false" />
+            <element signature="e#159774#160054#0" expanded="false" />
+            <element signature="e#160135#160344#0" expanded="false" />
+            <element signature="e#160427#160590#0" expanded="false" />
+            <element signature="e#160675#160870#0" expanded="false" />
+            <element signature="e#160951#161149#0" expanded="false" />
+            <element signature="e#161230#161555#0" expanded="false" />
+            <element signature="e#161636#161845#0" expanded="false" />
+            <element signature="e#161933#162136#0" expanded="false" />
+            <element signature="e#162237#162471#0" expanded="false" />
+            <element signature="e#162550#162679#0" expanded="false" />
+            <element signature="e#162771#162993#0" expanded="false" />
+            <element signature="e#163070#163704#0" expanded="false" />
+            <element signature="e#163792#164074#0" expanded="false" />
+            <element signature="e#164177#164450#0" expanded="false" />
+            <element signature="e#164556#164884#0" expanded="false" />
+            <element signature="e#164991#165154#0" expanded="false" />
+            <element signature="e#165255#165482#0" expanded="false" />
+            <element signature="e#165571#165880#0" expanded="false" />
+            <element signature="e#165983#166372#0" expanded="false" />
+            <element signature="e#166464#166687#0" expanded="false" />
+            <element signature="e#166789#167174#0" expanded="false" />
+            <element signature="e#167273#167539#0" expanded="false" />
+            <element signature="e#167653#168007#0" expanded="false" />
+            <element signature="e#168098#168340#0" expanded="false" />
+            <element signature="e#168422#168592#0" expanded="false" />
+            <element signature="e#168671#168881#0" expanded="false" />
+            <element signature="e#168971#169469#0" expanded="false" />
+            <element signature="e#169548#169666#0" expanded="false" />
+            <element signature="e#169752#169960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88350">
+          <caret line="4650" column="26" lean-forward="false" selection-start-line="4650" selection-start-column="26" selection-end-line="4650" selection-end-column="71" />
+          <folding>
+            <element signature="e#34500#34714#0" expanded="false" />
+            <element signature="e#34791#34859#0" expanded="false" />
+            <element signature="e#155006#155141#0" expanded="false" />
+            <element signature="e#155243#155463#0" expanded="false" />
+            <element signature="e#155569#155840#0" expanded="false" />
+            <element signature="e#155955#156496#0" expanded="false" />
+            <element signature="e#156608#156958#0" expanded="false" />
+            <element signature="e#157053#157285#0" expanded="false" />
+            <element signature="e#157390#157716#0" expanded="false" />
+            <element signature="e#157800#158027#0" expanded="false" />
+            <element signature="e#158120#158340#0" expanded="false" />
+            <element signature="e#158446#158607#0" expanded="false" />
+            <element signature="e#158688#158888#0" expanded="false" />
+            <element signature="e#158969#159167#0" expanded="false" />
+            <element signature="e#159250#159413#0" expanded="false" />
+            <element signature="e#159494#159688#0" expanded="false" />
+            <element signature="e#159774#160054#0" expanded="false" />
+            <element signature="e#160135#160344#0" expanded="false" />
+            <element signature="e#160427#160590#0" expanded="false" />
+            <element signature="e#160675#160870#0" expanded="false" />
+            <element signature="e#160951#161149#0" expanded="false" />
+            <element signature="e#161230#161555#0" expanded="false" />
+            <element signature="e#161636#161845#0" expanded="false" />
+            <element signature="e#161933#162136#0" expanded="false" />
+            <element signature="e#162237#162471#0" expanded="false" />
+            <element signature="e#162550#162679#0" expanded="false" />
+            <element signature="e#162771#162993#0" expanded="false" />
+            <element signature="e#163070#163704#0" expanded="false" />
+            <element signature="e#163792#164074#0" expanded="false" />
+            <element signature="e#164177#164450#0" expanded="false" />
+            <element signature="e#164556#164884#0" expanded="false" />
+            <element signature="e#164991#165154#0" expanded="false" />
+            <element signature="e#165255#165482#0" expanded="false" />
+            <element signature="e#165571#165880#0" expanded="false" />
+            <element signature="e#165983#166372#0" expanded="false" />
+            <element signature="e#166464#166687#0" expanded="false" />
+            <element signature="e#166789#167174#0" expanded="false" />
+            <element signature="e#167273#167539#0" expanded="false" />
+            <element signature="e#167653#168007#0" expanded="false" />
+            <element signature="e#168098#168340#0" expanded="false" />
+            <element signature="e#168422#168592#0" expanded="false" />
+            <element signature="e#168671#168881#0" expanded="false" />
+            <element signature="e#168971#169469#0" expanded="false" />
+            <element signature="e#169548#169666#0" expanded="false" />
+            <element signature="e#169752#169960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第一天/fenlei.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第一天/gouwuche.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第一天/sanjimulu.py" />
@@ -811,24 +642,85 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字符串str.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/745842791/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18544">
+          <caret line="976" column="6" lean-forward="false" selection-start-line="976" selection-start-column="6" selection-end-line="976" selection-end-column="6" />
+          <folding>
+            <element signature="e#34500#34714#0" expanded="false" />
+            <element signature="e#34791#34859#0" expanded="false" />
+            <element signature="e#155006#155141#0" expanded="false" />
+            <element signature="e#155243#155463#0" expanded="false" />
+            <element signature="e#155569#155840#0" expanded="false" />
+            <element signature="e#155955#156496#0" expanded="false" />
+            <element signature="e#156608#156958#0" expanded="false" />
+            <element signature="e#157053#157285#0" expanded="false" />
+            <element signature="e#157390#157716#0" expanded="false" />
+            <element signature="e#157800#158027#0" expanded="false" />
+            <element signature="e#158120#158340#0" expanded="false" />
+            <element signature="e#158446#158607#0" expanded="false" />
+            <element signature="e#158688#158888#0" expanded="false" />
+            <element signature="e#158969#159167#0" expanded="false" />
+            <element signature="e#159250#159413#0" expanded="false" />
+            <element signature="e#159494#159688#0" expanded="false" />
+            <element signature="e#159774#160054#0" expanded="false" />
+            <element signature="e#160135#160344#0" expanded="false" />
+            <element signature="e#160427#160590#0" expanded="false" />
+            <element signature="e#160675#160870#0" expanded="false" />
+            <element signature="e#160951#161149#0" expanded="false" />
+            <element signature="e#161230#161555#0" expanded="false" />
+            <element signature="e#161636#161845#0" expanded="false" />
+            <element signature="e#161933#162136#0" expanded="false" />
+            <element signature="e#162237#162471#0" expanded="false" />
+            <element signature="e#162550#162679#0" expanded="false" />
+            <element signature="e#162771#162993#0" expanded="false" />
+            <element signature="e#163070#163704#0" expanded="false" />
+            <element signature="e#163792#164074#0" expanded="false" />
+            <element signature="e#164177#164450#0" expanded="false" />
+            <element signature="e#164556#164884#0" expanded="false" />
+            <element signature="e#164991#165154#0" expanded="false" />
+            <element signature="e#165255#165482#0" expanded="false" />
+            <element signature="e#165571#165880#0" expanded="false" />
+            <element signature="e#165983#166372#0" expanded="false" />
+            <element signature="e#166464#166687#0" expanded="false" />
+            <element signature="e#166789#167174#0" expanded="false" />
+            <element signature="e#167273#167539#0" expanded="false" />
+            <element signature="e#167653#168007#0" expanded="false" />
+            <element signature="e#168098#168340#0" expanded="false" />
+            <element signature="e#168422#168592#0" expanded="false" />
+            <element signature="e#168671#168881#0" expanded="false" />
+            <element signature="e#168971#169469#0" expanded="false" />
+            <element signature="e#169548#169666#0" expanded="false" />
+            <element signature="e#169752#169960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/整数int.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/列表list.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/字典dict.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/第二天/集合set.py" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/003/字符编码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="0">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/003/2.txt" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/二分查找.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -841,18 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/文件处理.py">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/003/函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
