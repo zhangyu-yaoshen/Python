@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/03/员工信息表" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/02/ha.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/02/购物车.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/02/配置文件之【获取、添加、删除】.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/03/1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/03/sql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/三级目录.py" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/01/三级目录.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" afterPath="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +19,7 @@
     <SUITE FILE_PATH="coverage/Python$login.coverage" NAME="login Coverage Results" MODIFIED="1504080544067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
     <SUITE FILE_PATH="coverage/Python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1504057584286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
     <SUITE FILE_PATH="coverage/Python$sanjimulu.coverage" NAME="sanjimulu Coverage Results" MODIFIED="1504167089569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
-    <SUITE FILE_PATH="coverage/Python$python_sql.coverage" NAME="python_sql Coverage Results" MODIFIED="1507541030018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/000作业/03" />
+    <SUITE FILE_PATH="coverage/Python$python_sql.coverage" NAME="python_sql Coverage Results" MODIFIED="1508147933048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/000作业/03" />
     <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="列表list Coverage Results" MODIFIED="1504665272598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$.coverage" NAME="配置文件之【获取、添加、删除】 Coverage Results" MODIFIED="1507520930738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/000作业" />
     <SUITE FILE_PATH="coverage/Python$int.coverage" NAME="整数int Coverage Results" MODIFIED="1504233909995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
@@ -35,22 +28,20 @@
     <SUITE FILE_PATH="coverage/Python$fenlei.coverage" NAME="fenlei Coverage Results" MODIFIED="1504081557817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第一天" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="python_sql.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="python_sql.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="342">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
-                <element signature="e#576#642#0" expanded="false" />
-                <element signature="e#672#767#0" expanded="false" />
-                <element signature="e#797#892#0" expanded="false" />
-                <element signature="e#1023#1119#0" expanded="false" />
-                <element signature="e#1167#1222#0" expanded="false" />
-                <element signature="e#1255#1281#0" expanded="false" />
-                <element signature="e#1314#1369#0" expanded="false" />
-                <element signature="e#1402#1457#0" expanded="false" />
-                <element signature="e#1490#1545#0" expanded="false" />
+                <element signature="e#656#722#0" expanded="false" />
+                <element signature="e#752#847#0" expanded="false" />
+                <element signature="e#1696#1751#0" expanded="false" />
+                <element signature="e#1784#1810#0" expanded="false" />
+                <element signature="e#1843#1898#0" expanded="false" />
+                <element signature="e#1931#1986#0" expanded="false" />
+                <element signature="e#2019#2074#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -66,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/03/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="-418">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -114,8 +105,8 @@
         <option value="$PROJECT_DIR$/Python自动化开发/000作业/haproxy.conf" />
         <option value="$PROJECT_DIR$/Python自动化开发/000作业/配置文件之【获取、添加、删除】.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/sql.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/1.py" />
+        <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" />
       </list>
     </option>
   </component>
@@ -149,6 +140,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +190,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.python_sql">
     <configuration name="二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,24 +255,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/000作业/03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/000作业/03/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="配置文件之【获取、添加、删除】" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,6 +269,24 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\Python\Python\Python自动化开发\000作业\02\配置文件之【获取、添加、删除】.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/000作业/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/000作业/03/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,19 +346,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.gouwuche" />
-      <item index="1" class="java.lang.String" itemvalue="Python.配置文件之【获取、添加、删除】" />
+      <item index="0" class="java.lang.String" itemvalue="Python.二分查找" />
+      <item index="1" class="java.lang.String" itemvalue="Python.gouwuche" />
       <item index="2" class="java.lang.String" itemvalue="Python.python_sql" />
       <item index="3" class="java.lang.String" itemvalue="Python.sql" />
       <item index="4" class="java.lang.String" itemvalue="Python.1" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.python_sql" />
         <item index="1" class="java.lang.String" itemvalue="Python.1" />
         <item index="2" class="java.lang.String" itemvalue="Python.sql" />
-        <item index="3" class="java.lang.String" itemvalue="Python.配置文件之【获取、添加、删除】" />
-        <item index="4" class="java.lang.String" itemvalue="Python.gouwuche" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gouwuche" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507519203911</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="20171009-1">
+      <created>1507543629274</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1507543629274</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -544,7 +541,8 @@
     <MESSAGE value="20170925" />
     <MESSAGE value="20170929" />
     <MESSAGE value="20171009" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171009" />
+    <MESSAGE value="20171009-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171009-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -812,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="21" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,28 +817,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/haproxy.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/haproxy.conf" />
     <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/02/配置文件之【获取、添加、删除】.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-123">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="e#1364#1821#1" expanded="false" />
-            <element signature="e#1852#5101#0" expanded="false" />
-            <element signature="e#5290#5552#1" expanded="false" />
-            <element signature="e#5579#7470#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,25 +839,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/03/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#576#642#0" expanded="false" />
-            <element signature="e#672#767#0" expanded="false" />
-            <element signature="e#797#892#0" expanded="false" />
-            <element signature="e#1023#1119#0" expanded="false" />
-            <element signature="e#1167#1222#0" expanded="false" />
-            <element signature="e#1255#1281#0" expanded="false" />
-            <element signature="e#1314#1369#0" expanded="false" />
-            <element signature="e#1402#1457#0" expanded="false" />
-            <element signature="e#1490#1545#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-418">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,11 +858,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/03/1.py">
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="e#656#722#0" expanded="false" />
+            <element signature="e#752#847#0" expanded="false" />
+            <element signature="e#1696#1751#0" expanded="false" />
+            <element signature="e#1784#1810#0" expanded="false" />
+            <element signature="e#1843#1898#0" expanded="false" />
+            <element signature="e#1931#1986#0" expanded="false" />
+            <element signature="e#2019#2074#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
