@@ -9,6 +9,15 @@
 # x=9
 # f()
 #import requests
+# from urllib.request import urlopen
+# def page(url):
+#     def get():
+#         return urlopen(url).read()
+#     return get
+# baidu=page("http://m.88dushu.com/mulu/40326/")
+# print(baidu())
+
+
 from urllib.request import urlopen
 def page(url):
     def get():
@@ -16,5 +25,3 @@ def page(url):
     return get
 baidu=page("http://m.88dushu.com/mulu/40326/")
 print(baidu())
-
-
