@@ -5,7 +5,7 @@ def sql_parse(sql):
     """sql解析；把sql字符串切分；提取命令信息；分发给具体的函数解析
     四种操作方法insert delete update select
     将四个功能分发给四个函数
-    select * from db1.a.txt where id> 3 and id <5 limit 3
+    select * from db1.emp where id> 3 and id <5 limit 3
     """
     parse_func={
         "insert":insert_parse,
@@ -104,6 +104,7 @@ def where_parse(where_l):
         if len(i) == 0:continue#如果遇到空格就进行下次循环
         if i in key:#如果i在key里
             if len(char) != 0:#如果char不等于0
+                char= three_parse(char)#处理char成['id','>','3']
                 res.append(char)#res添加char
                 res.append(i)#res添加i
                 char=""#滞空char；一边下一个写入
@@ -111,8 +112,31 @@ def where_parse(where_l):
             char+=i#拼接key前边的值
     else:
         res.append(char)#拼接key后面的值
-        #print(res)#['id>3', 'and', 'id<5']
+    #['id>3', 'and', 'id<5', 'or', 'namelike李']转换成[['id','>','3'], 'and', ['id','<','5']', 'or', 'namelike李']
+    #print(res)#['id>3', 'and', 'id<5']
     return res
+
+def three_parse(exp_str):
+    """
+    #['id>3', 'and', 'id<5', 'or', 'namelike李']转换成[['id','>','3'], 'and', ['id','<','5']', 'or', 'namelike李']
+    :param exp_str:
+    :return:
+    """
+    key=[">","<","="]
+    red=[]
+    char=""#字符串
+    opt=""#运算符
+    tag=False
+    for i in exp_str:#循环接收的字符串
+        if i in key:#如果i是运算符
+            tag=True#
+        if not tag:#当tag不是真
+            char+=i#将值添加到char
+
+
+
+
+
 
 
 
@@ -145,15 +169,28 @@ def update(sql_dic):
 def select(sql_dic):
     """
     查操作
-    :param sql:
-    :return:
+    优先级
+    1、from
+    2、where
+    3、limit
+    4、select
     """
     print("这里是查操作执行 \033[32;1m%s\033[0m"%sql_dic)
-    # db, table =sql_dic.get("from")[0].split(".")#确定库名表名【多元素值；将值赋给前面的变量】
-    # fh=open("%s/%s" %(db,table),"r",encoding="utf-8")
-    # print(fh)
-    db, table = sql_dic.get('from')[0].split('.')
+    #处理from
+    db, table =sql_dic.get("from")[0].split(".")#确定库名表名【多元素值；将值赋给前面的变量】
+    fh=open("%s/%s" %(db,table),"r",encoding="utf-8")#打开文件
+    #处理where【select * from db1.a.txt where id> 3 and id <5 or name like 李】
+    filter_res=where_action(fh,sql_dic.get("where"))#将打开的文件；和自动的where信息传给where_action函数
 
+def where_action(fh,where_l):
+    """
+    传入参数为fh和sql_dic.get("where")
+    ['id>3', 'and', 'id<5', 'or', 'namelike李']
+    :param fh:
+    :param where_l:
+    :return:
+    """
+    pass
 
 
 
