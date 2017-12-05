@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day5/logger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day5/吃包子.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day5/时间模块time.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day5/生成器.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day5/迭代器.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day5/随机数模块random.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day6/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day6/daodejing" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python自动化开发/day6/shutil文件处理模块.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/01/三级目录.py" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/01/三级目录.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/02/ha.txt" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/02/ha.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/02/购物车.py" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/02/购物车.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/02/配置文件之【获取、添加、删除】.py" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/02/配置文件之【获取、添加、删除】.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/03/1.py" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/03/1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/03/db1/a.txt" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/03/db1/a.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/03/db1/emp" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/03/db1/emp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/03/python_sql.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/000作业/03/sql.py" afterPath="$PROJECT_DIR$/Python自动化开发/day作业/03/sql.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/001/db" afterPath="$PROJECT_DIR$/Python自动化开发/day1/db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/001/fenlei.py" afterPath="$PROJECT_DIR$/Python自动化开发/day1/fenlei.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/001/gouwuche.py" afterPath="$PROJECT_DIR$/Python自动化开发/day1/gouwuche.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/001/login.py" afterPath="$PROJECT_DIR$/Python自动化开发/day1/login.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/001/sanjimulu.py" afterPath="$PROJECT_DIR$/Python自动化开发/day1/sanjimulu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/001/test.py" afterPath="$PROJECT_DIR$/Python自动化开发/day1/test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/002/列表list.py" afterPath="$PROJECT_DIR$/Python自动化开发/day2/列表list.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/002/字典dict.py" afterPath="$PROJECT_DIR$/Python自动化开发/day2/字典dict.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/002/字符串str.py" afterPath="$PROJECT_DIR$/Python自动化开发/day2/字符串str.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/002/整数int.py" afterPath="$PROJECT_DIR$/Python自动化开发/day2/整数int.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/002/集合set.py" afterPath="$PROJECT_DIR$/Python自动化开发/day2/集合set.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/003/1.txt" afterPath="$PROJECT_DIR$/Python自动化开发/day3/1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/003/1b.txt" afterPath="$PROJECT_DIR$/Python自动化开发/day3/1b.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/003/二分查找.py" afterPath="$PROJECT_DIR$/Python自动化开发/day3/二分查找.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/003/函数.py" afterPath="$PROJECT_DIR$/Python自动化开发/day3/函数.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/003/字符编码.py" afterPath="$PROJECT_DIR$/Python自动化开发/day3/字符编码.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/003/文件处理.py" afterPath="$PROJECT_DIR$/Python自动化开发/day3/文件处理.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/004/函数的嵌套.py" afterPath="$PROJECT_DIR$/Python自动化开发/day4/函数的嵌套.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/004/模块.py" afterPath="$PROJECT_DIR$/Python自动化开发/day4/模块.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/004/登录认证.py" afterPath="$PROJECT_DIR$/Python自动化开发/day4/登录认证.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/004/装饰器.py" afterPath="$PROJECT_DIR$/Python自动化开发/day4/装饰器.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/004/闭包函数.py" afterPath="$PROJECT_DIR$/Python自动化开发/day4/闭包函数.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/OS模块.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/OS模块.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/logger.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/logger.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/吃包子.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/吃包子.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/时间模块time.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/时间模块time.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/生成器.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/生成器.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/迭代器.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/迭代器.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/005/随机数模块random.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/随机数模块random.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/006/__init__.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Python自动化开发/006/shutil文件处理模块.py" afterPath="$PROJECT_DIR$/Python自动化开发/day5/QQQ/OS模块.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,8 +40,8 @@
       <file leaf-file-name="shutil文件处理模块.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python自动化开发/day6/shutil文件处理模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,6 +247,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -849,14 +800,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512134313966</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="20171205">
+      <created>1512478300493</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1512478300493</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="244" y="31" width="1026" height="727" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18012422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18322982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -906,7 +864,8 @@
     <MESSAGE value="20171102" />
     <MESSAGE value="20171121" />
     <MESSAGE value="20171201" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171201" />
+    <MESSAGE value="20171205" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171205" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1183,8 +1142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/day6/shutil文件处理模块.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
