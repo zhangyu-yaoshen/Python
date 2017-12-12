@@ -44,6 +44,33 @@ owner：    用户，默认当前用户
 group：    组，默认当前组
 logger：    用于记录日志，通常是logging.Logger对象
 """
+#shutil.make_archive("day5","zip","E:\\Python\Python\Python\Python自动化开发\day5")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
