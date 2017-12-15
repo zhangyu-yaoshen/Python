@@ -60,6 +60,7 @@
 # config.write(open('example.ini',"w"))
 
 
+
 import configparser
 #生成configparser的实例
 config = configparser.ConfigParser()
