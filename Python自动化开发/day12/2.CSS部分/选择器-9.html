@@ -21,9 +21,24 @@
 
         /*!* class选择器 *!*/
         /*.c1{*/
-            /*color: red;*/
+            /*color: red !important;*/
         /*}*/
 
+        /*去div下的p里找*/
+        div p{
+            color: green;
+        }
+        /*去div下的p下的p里找*/
+        div>p{
+            color: green;
+        }
+        .c1 > p span{
+            color: green;
+        }
+
+        .c10:hover{
+            color: green;
+        }
     </style>
 </head>
 <body>

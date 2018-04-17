@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学习边框</title>
+    <style>
+        .c2{
+            background-color: #dddddd;
+            padding: 10px;
+            /*transparent为透明色*/
+            border-left: 3px solid transparent;
+        }
+        /*hover表示鼠标移动到c2；显示边框*/
+        .c2:hover{
+            border-left: 3px solid rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <!--border是边框；solid是实体-->
+    <div style="height:200px;border:1px solid red">SSSSSSSSSSSSSSS</div>
+    <div style="background-color: #dddddd;border-left: 3px solid rebeccapurple; padding: 10px;">
+        搜索数据
+    </div>
+    <br/>
+    <div class="c2">
+        搜索数据呀
+    </div>
+</body>
+</html>
