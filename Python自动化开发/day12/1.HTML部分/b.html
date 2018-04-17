@@ -138,13 +138,28 @@
         </table>
         -->
 
+        <!--选项也输入框关联-->
+        <label for="user">用户名</label> <input id="user" type="text" />
+
+        <!--格式方块-->
+        <fieldset>
+            <legend>登录</legend>
+            asdfasdfasdfas
+        </fieldset>
+
+        <!--图片-->
+        <a href="http://www.xiaohuar.com">
+            <img src="2.jpg" alt="贺磊" title="我是贺磊，旋涡选我选我">
+        </a>
+
+
         <!--表单类
         form里面的input都会提交
         action表示提交到哪个URL
         method表示发送类型
-        checked默认值
+        checked=selected默认值
         -->
-        <form action="http://127.0.0.1:8000/index/" method="POST">
+        <form action="http://127.0.0.1:8000/index/" method="POST" enctype="multipart/form-data">
             <div>
                 <span>用户名：</span>
                 <!--普通文本框-->
@@ -184,8 +199,19 @@
                 </select>
             </div>
 
+            <!--多行文本框-->
+            <div>
+                <textarea name="memo">默认值</textarea>
+            </div>
+
+            <!--文件: form里有这个属性enctype="multipart/form-data" -->
+            <div>
+                <input name="fafafa" type="file" />
+            </div>
+
             <input type="submit" value="Submit提交">
             <input type="button" value="Button提交">
+            <input type="reset" value="重置" />
         </form>
 
 
