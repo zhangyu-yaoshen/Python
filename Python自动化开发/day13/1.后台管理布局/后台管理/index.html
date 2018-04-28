@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理布局</title>
+    <!--引用css文件【图标font-awesome】-->
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css" />
+    <style>
+        body{
+            /*给pg-header设置个边框；自适应边距*/
+            margin:0;
+        }
+        /*浮动；在一个div块里写多个参数*/
+        .left{
+            float: left;
+        }
+        /*希望user-info块靠右*/
+        .right{
+            float: right;
+        }
+        .pg-header{
+            /*高*/
+            height:48px;
+            /*背景色*/
+            background-color:cadetblue;
+            /*使顶部所有元素上下剧中*/
+            line-height: 48px;
+            /*左右的最小宽度；出现滚轮*/
+            min-width: 1000px;
+        }
+        .pg-header .logo{
+            /*宽度*/
+            width: 200px;
+            /*背景颜色*/
+            background-color: burlywood;
+            /*左右居中*/
+            text-align: center;
+            /*字体颜色白色*/
+            color: white;
+            /*字体大小*/
+            font-size: 26px;
+            /*字体类型*/
+            font-family: 微软雅黑,华文细黑,黑体Arial;
+        }
+        .pg-header .user-info a.item{
+            /*【具有块级和内联的特性】*/
+            display: inline-block;
+            /*左右宽度；20像素*/
+            padding: 0 20px;
+        }
+        /*使鼠标放上去变颜色*/
+        .pg-header .user-info a.item:hover{
+            background-color: burlywood;
+        }
+        /*设置头像参数*/
+        .pg-header .avatar{
+            height: 40px;
+            width: 40px;
+            /*让这个图片成为圆形*/
+            padding: 4px 10px;
+            margin-right: 20px;
+        }
+        .pg-header .avatar .user-menu{
+            position: absolute;
+            width: 180px;
+            border: 1px solid #dddddd;
+            top: 48px;
+            right: -3px;
+            display: none;
+            /*数值越大；层叠在最上面*/
+            z-index: 100;
+        }
+        .pg-header .avatar .user-menu a{
+            display: block;
+        }
+        .pg-header .avatar:hover .user-menu{
+            display: block;
+        }
+        .pg-body{
+            /*左右的最小宽度；出现滚轮*/
+            min-width: 1000px;
+        }
+        .pg-body .menus{
+            position: absolute;
+            top: 48px;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            background-color: red;
+        }
+        .pg-body .content{
+            min-width: 800px;
+            position: absolute;
+            top: 48px;
+            left: 200px;
+            bottom: 0;
+            right: 0;
+            /*background-color: black;*/
+            /*超出高度出现滚动条*/
+            overflow: scroll;
+            z-index: 99;
+        }
+    </style>
+</head>
+<body>
+    <!--顶部块-->
+    <div class="pg-header">
+        <!--将顶部分为两块；【logo和user-info】;默认情况下一个div占一整行；需要使用float参数和别的元素同级-->
+        <div class="logo left">运维管理平台</div>
+        <div class="avatar right" style="position: relative">
+            <!--头像-->
+            <a style="overflow: hidden;"><img style="width: 100%;height: 100%;border-radius: 50%;" src="sb.jpg"></a>
+            <!--用户菜单-->
+            <div class="user-menu">
+                <a href="#">个人资料</a>
+                <a href="#">注销</a>
+            </div>
+        </div>
+        <div class="user-info right">
+            <a class="item"><i style="font-size: 30px;color: red;" class="fa fa-heart" aria-hidden="true"></i></a>
+            <a class="item"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a class="item">登录</a>
+            <a class="item">注册</a>
+
+        </div>
+    </div>
+    <!--下边部分；分左右两块-->
+    <dic class="pg-body">
+        <!--左侧菜单-->
+        <div class="menus"></div>
+        <!--右侧内容-->
+        <div class="content">
+        </div>
+
+    </dic>
+</body>
+</html>
