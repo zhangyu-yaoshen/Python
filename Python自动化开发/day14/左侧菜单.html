@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    .info{
+        width:400px;
+    }
+    .item{
+        /*height:34px;*/
+    }
+    .header{
+        /*line-height: 34px;*/
+        background-color: burlywood;
+        /*鼠标变成手*/
+        cursor: pointer;
+    }
+    .content{
+        /*隐藏*/
+        display: none;
+    }
+</style>
+<body>
+    <div class="info">
+        <div class="item">
+            <div class="header">菜单一</div>
+            <div class="content">内容一</div>
+            <div class="content">内容一</div>
+            <div class="content">内容一</div>
+        </div>
+        <div class="item">
+            <div class="header">菜单二</div>
+            <div class="content">内容二</div>
+            <div class="content">内容二</div>
+            <div class="content">内容二</div>
+        </div>
+        <div class="item">
+            <div class="header">菜单三</div>
+            <div class="content">内容三</div>
+            <div class="content">内容三</div>
+            <div class="content">内容三</div>
+        </div>
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script>
+//    找到class的值为header的；就是菜单；click是个循环；function（）是个匿名函数
+    $(".header").click(function(){
+//        $(this)表示当前鼠标所在的位置；css设置属性display为block；block显示
+        $(this).nextAll().css("display","block");
+        /*
+        .parent('.item')表示找到父级
+        .siblings('.item')表示找到同级
+        .children('.content')表示找到所有子元素
+        .css("display","none")表示添加隐藏属性
+        四句话连起来的意思是；
+        找到父级的同级下的所有子元素添加隐藏属性
+         */
+        $(this).parent('.item').siblings('.item').children('.content').css("display","none");
+    });
+</script>
+</html>
