@@ -19,7 +19,7 @@
         var flag = true;
         $(".err").remove();
         $("input[type='text'],input[type='password']").each(function(){
-            var v = $(this).val();
+            var v = $(this).val();//获得当前的值
             if(v.length == 0 ){
                 flag = false;
                 var desc = $(this).attr("desc");
