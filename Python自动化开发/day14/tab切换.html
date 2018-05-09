@@ -45,6 +45,7 @@
 <script src="jquery.js"></script>
 <script>
     $(".menu").click(function(){
+//        点击当前菜单时添加active属性；其他都删除active属性
         $(this).addClass('active').siblings().removeClass('active');
         var v = $(this).attr('a'); // 1, 2, 3
         $(this).parent().siblings().children("[b='"+ v +"']").removeClass("hide").siblings().addClass("hide");
