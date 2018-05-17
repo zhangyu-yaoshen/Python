@@ -31,10 +31,7 @@ def login(req):
             return redirect("/back")
     return render(req,'login.html')
 
-def back(req):
-    obg_list=Books.objects.all()
-    #locals表示当前函数内的所有变量；在back文件里直接写{{name}}就可以
-    return render(req,"back.html",locals())
+
 
 
 
@@ -55,7 +52,15 @@ def timer(req):
 
 #引用models模块
 from blog.models import *
-#增加数据
+
+#ORM-查看数据
+def back(req):
+    #这里要注意在html文件里怎么去obg_list的值
+    obg_list=Books.objects.all()
+    #locals表示当前函数内的所有变量；在back文件里直接写{{name}}就可以
+    return render(req,"back.html",locals())
+
+#ORM-增加数据
 def add_books(request):
 
     #创建记录的两种方式：1/create   2/save
@@ -69,7 +74,7 @@ def add_books(request):
     return redirect("/back/")
 
 
-#删除数据
+#ORM-删除数据
 def delete_books(req):
     #取/delete_books?id=3里面的id
     id=req.GET.get("id")
@@ -77,7 +82,7 @@ def delete_books(req):
     Books.objects.filter(id=id).delete()
     return redirect("/back/")
 
-#编辑数据
+#ORM-编辑数据
 def edit_books(req):
     id = req.GET.get("id")
     #filter和get都是筛选条件；filter取到的是集合对象；get是单一对象

@@ -8,7 +8,7 @@
     <h1>hello {{ name }}</h1>
 
 <h1>书籍管理工具</h1>
-
+{#注意这里的变量；深度变量的查找（万能的句点号）#}
 {% for obj in obg_list %}
     <p>书名{{ obj.title }} 作者{{ obj.author }} 日期{{ obj.pub_date }} 价格{{ obj.price }} <a href="/delete_books/?{{ obj.id }}">删除</a> <a href="/edit_books/?id=5">编辑</a></p>
 
