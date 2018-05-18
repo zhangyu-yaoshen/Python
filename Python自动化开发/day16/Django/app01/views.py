@@ -4,19 +4,54 @@ from django.shortcuts import render,HttpResponse,redirect
 
 def index(request):
     return HttpResponse("Index")
-"""
+
 def login(request):
     if request.method == "GET":
         return render(request,"login.html")
     elif request.method == "POST":
-        u = request.POST.get("user")
-        p = request.POST.get("pwd")
-        if u == "alex" and p == "123":
-            return redirect("/index/")
-        else:
-            return render(request, "login.html")
+        return render(request, "login.html")
     else:
         return redirect("/index/")
+
+#引用models模块
+from app01 import models
+#创建数据
+def orm(request):
+    # 创建数据
+    #models.UserInfo.objects.create(username="asdf",password="123",)
+    #return HttpResponse("添加成功！！！")
+
+    #查所有
+    #result = models.UserInfo.objects.all()
+    #查指定数据
+    # result = models.UserInfo.objects.filter(username="root",password="123")
+    # for row in result:
+    #     print(row.id,row.username,row.password)
+
+    #删除
+    #models.UserInfo.objects.filter(id=2).delete()
+
+    # 更新
+    #models.UserInfo.objects.all().update(password="999")
+    models.UserInfo.objects.filter(id="1").update(password="998889")
+
+
+    return HttpResponse("添加成功！！！")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """
 
 def login(request):
@@ -53,7 +88,7 @@ def login(request):
     else:
         return redirect("/index/")
 
-
+"""
 
 
 
