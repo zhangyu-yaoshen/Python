@@ -3,13 +3,24 @@ from django.shortcuts import render,HttpResponse,redirect
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Index")
+    return render(request,"index.html")
 
 def login(request):
     if request.method == "GET":
         return render(request,"login.html")
     elif request.method == "POST":
-        return render(request, "login.html")
+        #获取用户名和密码
+        u = request.POST.get("user")
+        p = request.POST.get("pwd")
+        #查找数据库是否有用户名密码；【.first()生成对象】
+        obj = models.UserInfo.objects.filter(username=u,password=p).first()
+        #【.count()】获取个数；如果是0；就没有；不是0；就有
+        #obj_count = models.UserInfo.objects.filter(username=u,password=p).count()
+        #判断obj是否有数据
+        if obj:
+            return redirect("/index/")
+        else:
+            return render(request, "login.html")
     else:
         return redirect("/index/")
 
