@@ -15,7 +15,7 @@ class User(View):
         obj = super(User,self).dispatch(request, *args, **kwargs)
         print('after')
         return obj
-
+    #以什么方式调用；就执行哪个
     def get(self,request):
         print("get...")
         return HttpResponse('...')
@@ -35,10 +35,11 @@ class User(View):
 
 from app01 import models
 def test(request):
+    #创建部门
     # models.DePart.objects.create(title='IT')
     # models.DePart.objects.create(title='咨询')
     # models.DePart.objects.create(title='公关')
-
+    #创建用户名密码和关联部门
     # models.UserInfo.objects.create(username='alex',password='123',dp_id=1)
     # models.UserInfo.objects.create(username='eric',password='123',dp_id=1)
     # models.UserInfo.objects.create(username='贺磊',password='123',dp_id=1)
@@ -46,19 +47,21 @@ def test(request):
 
 
     # 正向跨表
-    # 1. 对象
+    # 1. 对象【获取用户的所有信息；部门名称】
     # q = models.UserInfo.objects.all()
-    # queryset =  [obj(username,password,obj(id,title),dp_id),]
+    # #注意dp；这里面关联了部门表；部门表有两个值id和title；所以要写成row.dp.id,row.dp.title
+    # #queryset =  [obj(username,password,obj(id,title),dp_id),]
     # for row in q:
     #     print(row.username,row.password,row.dp_id,row.dp.id,row.dp.title)
 
-    # 2. 字典
+    # 2. 字典【values】
+    #双下划线跨表取字段值
     # q = models.UserInfo.objects.values('username', 'password', "dp_id", "dp__title")\
     # # [{...},{}]
     # for row in q:
     #     print(row['username'],row['dp__title'])
 
-    # 3. 元组
+    # 3. 元组【values_list】
     # q = models.UserInfo.objects.values_list('username', 'password', "dp_id", "dp__title")
     # # [(),()]
     # for row in q:
@@ -69,6 +72,7 @@ def test(request):
     # v = models.DePart.objects.all()
     # queryset = [obj,obj,obj]
     # for row in v:
+        #反向跨表【row.userinfo_set.all()】【表,表名小写，_set]
     #     print(row.id,row.title,row.userinfo_set.all())
     # 2. 字典
     # v = models.DePart.objects.values('id','title','userinfo__username','userinfo__password')
@@ -97,9 +101,9 @@ def test(request):
     # obj.m.remove(1)
     # obj.m.remove(2,3)
     # obj.m.remove(*[4,])
-    # obj.m.clear()
+    # obj.m.clear()#删除所有
 
-    # obj.m.set([3,1,2])
+    # obj.m.set([3,1,2])#表示只显示什么
 
     # q = obj.m.all()
     # print(q)
@@ -121,6 +125,7 @@ def login(request):
     else:
         u = request.POST.get('user')
         p = request.POST.get('pwd')
+        #count表示个数
         ct = models.UserInfo.objects.filter(username=u,password=p).count()
         if ct:
             obj = redirect('/home/')
@@ -135,6 +140,7 @@ def login(request):
             return render(request, 'login.html',{'msg':'用户名或密码错误'})
 
 def home(request):
+    #判断是否有session；如果有记录；证明已经登录；如果没有；跳转登录界面
     v = request.session.get('user')
     if v:
         return render(request,'home.html')
@@ -143,6 +149,7 @@ def home(request):
 
 
 def logout(request):
+    #情况session；退出登录
     request.session.clear()
     return redirect('/login/')
 

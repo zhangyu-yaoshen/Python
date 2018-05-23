@@ -1,17 +1,23 @@
 from django.db import models
 
+#部门表
 class DePart(models.Model):
     title = models.CharField(max_length=16)
-
+#用户表
 class UserInfo(models.Model):
 
     username = models.CharField(max_length=32)
     password = models.CharField(max_length=64)
-    dp = models.ForeignKey(to="DePart",to_field="id") # dp_id
+    #关联别的表ForeignKey(to="DePart"指定关联哪个表；关联哪个列用to_field="id"
+    dp = models.ForeignKey(to="DePart",to_field="id") # 在数据库里存【dp_id】
+    #这样写也可以；默认找主键；主键就是id
+    #dp = models.ForeignKey("DePart")
+
     # m = models.ManyToManyField("UserGroup")
 
 class UserGroup(models.Model):
     caption = models.CharField(max_length=32)
+    #Django自动根据ManyToManyField字段生成第三张表（列限制）
     m = models.ManyToManyField("UserInfo")
 
 
