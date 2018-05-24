@@ -11,6 +11,7 @@
             {% csrf_token %}
             <div class="form-group">
                 <label>用户名</label>
+                提交后保存正确的值value="{{ obj.cleaned_data.username }}
                 <input type="text" name="username" class="form-control"  placeholder="用户名" value="{{ obj.cleaned_data.username }}">
                 <span>{{ obj.errors.username.0 }}</span>
             </div>

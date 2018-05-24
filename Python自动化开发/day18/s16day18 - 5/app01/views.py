@@ -49,7 +49,7 @@ def users2(request):
 
     page_info = PageInfo(request.GET.get('p'),10,all_count,request.path_info)
 
-    # 主动进行跨表查询
+    # 主动进行跨表查询【select_related('ut')查询表关联的值】
     user_list = models.UserInfo.objects.all().select_related('ut').order_by('-id')[page_info.start():page_info.end()]
     # [obj,obj]
 
@@ -84,9 +84,10 @@ class UserForm(forms.Form):
         widget=widgets.Select(
             attrs={'class': 'form-control'},
             choices= [],
+            #choices= models.UserInfo.objects.values_list("id","name")
         )
     )
-
+    #每次实例化都从新构造代码；重新读取数据库；ut_id
     def __init__(self,*args,**kwargs):
         super(UserForm,self).__init__(*args,**kwargs)
         self.fields['ut_id'].widget.choices = models.UserType.objects.values_list('id','name')
@@ -121,6 +122,7 @@ def add_user(request):
 def edit_user(request,uid):
     if request.method == "GET":
         user = models.UserInfo.objects.filter(id=uid).first()
+        #设置修改的默认参数；就是原数据
         obj = UserForm(initial={'username':user.username,'password': user.password,"email":user.email,'ut_id': user.ut_id})
         return render(request,'edit_user.html',{"uid":uid,'obj':obj})
     else:
