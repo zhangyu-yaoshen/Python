@@ -6,7 +6,7 @@ class M1(MiddlewareMixin):
         print("m1.process_request")
 
         # return HttpResponse('.....')
-
+    #必须有返回值
     def process_response(self,request,response):
         print("m1.process_response")
         return response

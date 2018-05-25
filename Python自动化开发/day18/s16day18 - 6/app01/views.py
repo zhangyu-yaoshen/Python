@@ -145,16 +145,16 @@ class TestForm(forms.Form):
     n2 = fields.CharField(
         widget=widgets.Textarea()
     )
-
+    #单选下拉框
     n3 = fields.CharField(
         widget=widgets.Select(choices=[(1,"上海"),(2,"北京"),(3,"广州"),])
     )
-
+    #多选下拉框
     n4 = fields.ChoiceField(
         choices=[(1, "上海"), (2, "北京"), (3, "广州")],
         widget=widgets.SelectMultiple()
     )
-
+    #单选
     n5 = fields.IntegerField(
         widget=widgets.RadioSelect(choices=[(1,'上海'),(2,'北京'),])
     )
@@ -167,29 +167,33 @@ class TestForm(forms.Form):
         choices=[(1, '上海'), (2, '北京'), ],
         widget=widgets.CheckboxSelectMultiple()
     )
-
+    #文件格式【上传文件用】
     n8 = fields.FileField()
 
 def test(request):
 
     if request.method == "GET":
         obj = TestForm(
+            #默认值
             initial={'n1':'xx','n2':'xxx','n3': 2,'n4': [1,3],'n5':2}
         )
         return render(request,'test.html',{'obj':obj})
 
     else:
+        # 上传的文件在files=request.FILES
         # obj = TestForm(request.POST,files=request.FILES)
         # if obj.is_valid():
         #     file_obj = obj.cleaned_data['n8']
         #     file_obj.name # 上传的文件名称
         #     f = open(file_obj.name,'wb')
+        #     一点一点取文件
         #     for chunk in file_obj.chunks():
         #         f.write(chunk)
         #     f.close()
         # else:
         #     pass
 
+        # 上传文件
         # import os
         # file_obj = request.FILES.get('n8')
         # print(type(file_obj))
