@@ -43,6 +43,7 @@
 
     <div id="sd" class="shadow hide"></div>
     <div id="md" class="modal hide">
+        <!--将csrf_token加到form表单里-->
         <form id="f11">
             {% csrf_token %}
             <p><input type="text" id="username" name="username" placeholder="用户名" /></p>
@@ -70,6 +71,7 @@
                 $.ajax({
                     url: '/login/',
                     type: 'POST',
+//                    获取form表单里所有值；发过去
                     data: $('#f11').serialize(),
                     dataType: 'JSON',
                     header: {"X-CSRFToken": $.cookie('csrftoken')},

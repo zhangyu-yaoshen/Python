@@ -32,13 +32,15 @@
     </style>
 </head>
 <body>
+    <!--判断登录成功；request.session为原生参数；-->
     {% if request.session.uuu %}
+        <!--如果登录成功显示用户名uuu-->
         <a>{{ request.session.uuu }}</a>
-
     {% else %}
+        <!--如果没有session；继续显示登录-->
         <a id="btn">登录</a>
     {% endif %}
-
+    <!--设置可继承的母版-->
     {% block content %} {% endblock %}
 
     <div id="sd" class="shadow hide"></div>
@@ -71,6 +73,7 @@
                     dataType: 'JSON',
                     success:function (arg) {
                         if(arg.status){
+//                            页面刷新
                             location.reload();
                         }else{
                             $.each(arg.error,function (k,v) {

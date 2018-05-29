@@ -35,18 +35,24 @@ def home(request):
     return render(request, 'home.html')
 
 def logout(request):
+    # 删除session；退出登录
     request.session.clear()
     return redirect('/index/')
 
 def upload(request):
+    #上传文件
     if request.method == "GET":
         return render(request,'upload.html')
     else:
+        #获取上传文件的名
         obj = request.FILES.get('fffff')
+        #在本地打开文件
         f = open(obj.name,'wb')
+        #将上传的文件循环的写入本地
         for chunk in obj.chunks():
             f.write(chunk)
         f.close()
+        #上传完成后返回上传页面
         return render(request, 'upload.html')
 
 

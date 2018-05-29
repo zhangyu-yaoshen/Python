@@ -17,23 +17,28 @@
     <h1>"伪"Ajax操作</h1>
     <form id="ff1" action="/ajax-upload/" method="POST" enctype="multipart/form-data" target="ifr">
         {% csrf_token %}
+        <!--内容改变时自动会触发onchange-->
         <input  type="file" name="fffff" onchange="changeImg();"/>
     </form>
-
+    <!--onload加载；一个标签重新更新时会加载-->
     <iframe id="ifr" name="ifr" onload="successBack();"  style="display: none"></iframe>
-
+    <!--预览标签-->
     <div id="prevImg"></div>
 
     <script src="/static/jquery.js"></script>
     <script>
         $(function () {
             $('#btn1').click(function () {
+//                可以包含任何值得对象
                 var fm = new FormData();
+//                找到document.getElementById('ggggg')标签
                 fm.append('fffff', document.getElementById('ggggg').files[0]);
                 $.ajax({
                     url: "/ajax-upload/",
                     type: 'POST',
+//                    文件对象直接写fm
                     data: fm,
+//                    下面两个是告诉jquery不要做特殊处理；发的是文件
                     processData: false,  // tell jQuery not to process the data
                     contentType: false,  // tell jQuery not to set contentType
                     success:function (arg) {
@@ -42,17 +47,22 @@
                 })
             })
         });
+//        回调函数successBack()
         function successBack() {
+//            去下一个对象contents里找；在find('body')里找
             var v = $('#ifr').contents().find('body').html();
             var obj = JSON.parse(v);
-
+//            生成一个静态标签
             var tag = document.createElement('img');
+//            标注图片所在路劲；obj.data代表上传文件后的路就；所有URL要加"/"
             tag.src = "/" + obj.data;
-
+//            将图片的路劲添加到预览标签
             $('#prevImg').append(tag);
 
         }
+//        当上传的东西改变是会触发上传
         function changeImg() {
+//            直接提交ff1的form表单
             document.getElementById('ff1').submit();
         }
     </script>
