@@ -20,6 +20,7 @@ def do_favor(request):
     """
     ret = {'status': 0, 'error': ''}
     if request.session.get('is_login'):
+        # 获取ajax发送的get请求中的nid
         news_id = request.GET.get('nid')
         current_user_id = request.session['user_info']['user_id']
         ct = models.Favor.objects.filter(user_info_id=current_user_id,news_id=news_id).count()
@@ -31,8 +32,11 @@ def do_favor(request):
             ret['status'] = 1
         else:
             models.Favor.objects.create(user_info_id=current_user_id,news_id=news_id)
+            #获取点赞的值
             news_obj = models.News.objects.filter(nid=news_id).first()
+            #点赞加1
             temp = news_obj.favor_count + 1
+            #将点赞的值更新到新闻表里
             models.News.objects.filter(nid=news_id).update(favor_count=temp)
             ret['status'] = 2
     return HttpResponse(json.dumps(ret))
@@ -60,10 +64,18 @@ def check_code(request):
     # {  # 后台生成图片，并在图片上写文字#}
     # 自己写一个空白图片
     # 在图片上写文字
+
+    # f = open("static/2.jpg","rb")
+    # data = f.read()
+    # f.close()
+    # return  HttpResponse(data)
+    #去生成验证码；生成图片对象img_obj；生成验证码code
     img_obj, code = ac.create_validate_code()
+    #设置个在内存中的文件对象
     stream = BytesIO()
     img_obj.save(stream,'png')
     request.session['check_code'] = code
+    #stream.getvalue()去内存中取值
     return HttpResponse(stream.getvalue())
 
 

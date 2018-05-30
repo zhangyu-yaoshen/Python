@@ -14,14 +14,16 @@
             <input type="password" name="password" />
         </p>
         <p>
+            <!--验证码-->
             <input type="text" name="code" />
-
+            <!--验证码图片【生成图片并在图片上写文字】-->
             <img src="/check_code/" onclick="changeImg(this);">
         </p>
         <input type="submit" value="提交" />
     </form>
     <script>
         function changeImg(ths) {
+//            对"/check_code/"进行重置
             ths.src = ths.src + "?";
         }
     </script>

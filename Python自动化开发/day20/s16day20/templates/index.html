@@ -13,10 +13,13 @@
 
     {% for row in news_list %}
     <div>
+        <!--显示标题-->
         <a href="{{ row.url }}">{{ row.title }}</a>
+        <!--显示简介-->
         <p>{{ row.content }}</p>
         <span onclick="doFavor(this,{{ row.nid }});" style="position: relative;">
             点赞 <i class="favor-count">{{ row.favor_count }}</i>
+            <!--点赞动画效果-->
 {#            <span style="position: absolute;">+1</span>#}
         </span>
         <span>评论 {{ row.comment_count }}</span>
@@ -25,17 +28,19 @@
     <script src="/static/jquery.js"></script>
     <script>
         function doFavor(ths,nid) {
-
+//            如果是登录状态；发送ajax请求
             if ($('#tl').attr('login') == "true"){
                 $.ajax({
                 url: '/do-favor/',
                 type: "GET",
                 data: {nid: nid},
                 dataType: 'JSON',
+//                    arg是返回值
                 success:function (arg) {
                     if(arg.status == 1){
                         // -1
                         var favorCount = $(ths).find('.favor-count').text();
+//                        转换为数字类型
                         favorCount = parseInt(favorCount);
                         favorCount = favorCount -1;
                         $(ths).find('.favor-count').text(favorCount);
@@ -58,6 +63,7 @@
                 location.href = '/login/';
             }
         }
+//        点赞动画效果
         function ZMM(ths,txt) {
             var fontSize = 5;
             var left = 5;

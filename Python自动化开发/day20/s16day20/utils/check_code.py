@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #coding:utf-8
 
+# 验证码程序【生成图片并在图片上写文字】
+
 import random
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 # pip3 install Pillow
