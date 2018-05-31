@@ -79,7 +79,7 @@ def comment(request):
     4         1        11           我总算看明白了，原来是我智商低            3
     """
     # models.Comment.objects.filter(news_id=1).values('nid','news_id','user_info_id','content','reply_id')
-
+    #reply_id是评论ID；none表示空；意思是顶级评论；后面的【'reply_id': 1】表示回复【'id': 1】的评论
     comment_list = [
         {'id': 1, 'news_id': 1, 'user_id': 10, 'content': "写的什么玩意呀", 'reply_id': None},
         {'id': 2, 'news_id': 1, 'user_id': 11, 'content': "还真不是玩意 ", 'reply_id': 1},
@@ -130,20 +130,23 @@ def create_child_node(child_comment):
     return prev + end
 
 def create_html(comment_result):
+    #生成评论头
     prev = """
     <div class="comment">
         <div class="content">
     """
-
+    #评论内容
     for k,v in comment_result.items():
         tpl = '<div class="item">%s</div>'
+        #字符串格式化v里的content评论
         content = tpl %v['content']
+        #评论头加评论内容
         prev = prev + content
         if v['child']:
             # 有子评论
             node = create_child_node(v['child'])
             prev = prev + node
-
+    #生成评论尾
     end = """
         </div>
     </div>
