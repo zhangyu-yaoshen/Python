@@ -1,1 +1,3 @@
-ÓÃpython Ö´ÐÐ binÄ¿Â¼ÏÂµÄ start.py  ÅÀÍøÒ³´æ´¢µÄexeclÎÄµµ È»ºóÊäÈëË«É«ÇòµÄ7¸öºÅ ´Ó¼ÇÂ¼ÖÐ²éÕÒÊÇ·ñÖØ¸´
+ï¿½ï¿½python Ö´ï¿½ï¿½ binÄ¿Â¼ï¿½Âµï¿½ start.py  ï¿½ï¿½ï¿½ï¿½Ò³ï¿½æ´¢ï¿½ï¿½execlï¿½Äµï¿½ È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë«É«ï¿½ï¿½ï¿½7ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½Â¼ï¿½Ð²ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Ø¸ï¿½
+
+è§„èŒƒçš„æœºä¼š
