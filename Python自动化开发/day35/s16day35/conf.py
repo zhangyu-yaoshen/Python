@@ -1,2 +1,2 @@
-USER = "490238852"
-PWD = "Zzc100100!"
+USER = "yonghuming"
+PWD = "mima"
