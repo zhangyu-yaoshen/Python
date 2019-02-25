@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-01-26 删除些没用的东西">
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django03/__init__.py" afterDir="false" />
+    <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-02-20">
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,47 +83,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#645#677#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/settings.py">
+        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456" />
+            <state relative-caret-position="342">
+              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -156,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/sql.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/db1/emp" />
         <option value="$PROJECT_DIR$/Python自动化开发/000作业/03/python_sql.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/004/函数的嵌套.py" />
@@ -207,6 +168,7 @@
         <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/s2.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/conf.py" />
         <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/s3.py" />
+        <option value="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/settings.py" />
       </list>
     </option>
   </component>
@@ -230,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +250,7 @@
               <item name="django01" type="462c0819:PsiDirectoryNode" />
               <item name="day61" type="462c0819:PsiDirectoryNode" />
               <item name="mysiteday61" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -309,20 +270,13 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="工具" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -583,6 +537,8 @@
       <workItem from="1550109971015" duration="657000" />
       <workItem from="1550112970548" duration="6714000" />
       <workItem from="1550482877129" duration="695000" />
+      <workItem from="1550742015963" duration="119000" />
+      <workItem from="1551058572883" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="20170829-1">
       <created>1503972773645</created>
@@ -913,7 +869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548752834849</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2019-02-20">
+      <created>1550742094072</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1550742094072</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -928,7 +891,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30454000" />
+    <option name="totallyTimeSpent" value="35177000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,7 +906,7 @@
     <frame x="990" y="1" width="932" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23165138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24311927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -973,7 +936,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20171030" />
     <MESSAGE value="20171102" />
     <MESSAGE value="20171121" />
     <MESSAGE value="20171201" />
@@ -998,7 +960,8 @@
     <MESSAGE value="2019-01-26 删除些没用的东西" />
     <MESSAGE value="2019-01-28" />
     <MESSAGE value="2019-01-29" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-01-29" />
+    <MESSAGE value="2019-02-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-02-20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1011,14 +974,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/1984996127/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day16/Django/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python自动化开发/day3/二分查找.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1226,38 +1181,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
+        <state relative-caret-position="387">
           <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/urls.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#645#677#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="133">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/settings.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
+        <state relative-caret-position="266">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
       </provider>
     </entry>
   </component>
