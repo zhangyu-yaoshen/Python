@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-02-20">
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-02-25">
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/user_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f31709-a02c-464e-b31b-dc74488231dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c7f31709-a02c-464e-b31b-dc74488231dd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <SUITE FILE_PATH="coverage/Python$gouwuche.coverage" NAME="gouwuche Coverage Results" MODIFIED="1507519655647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/001" />
     <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="列表list Coverage Results" MODIFIED="1504665272598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$sanjimulu.coverage" NAME="sanjimulu Coverage Results" MODIFIED="1539070477626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/day1" />
+    <SUITE FILE_PATH="coverage/Python$__str__.coverage" NAME="类的__str__方法 Coverage Results" MODIFIED="1551410314508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1504233113883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/第二天" />
     <SUITE FILE_PATH="coverage/Python$1.coverage" NAME="1 Coverage Results" MODIFIED="1507540560414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/000作业/03" />
     <SUITE FILE_PATH="coverage/Python$shutil__1_.coverage" NAME="shutil文件处理模块 (1) Coverage Results" MODIFIED="1512195509246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化开发/day6" />
@@ -82,17 +84,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,9 +172,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="990" />
-    <option name="y" value="1" />
-    <option name="width" value="932" />
-    <option name="height" value="727" />
+    <option name="width" value="933" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -220,56 +211,6 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="day61" type="462c0819:PsiDirectoryNode" />
-              <item name="mysiteday61" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="day61" type="462c0819:PsiDirectoryNode" />
-              <item name="mysiteday61" type="462c0819:PsiDirectoryNode" />
-              <item name="app01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="day61" type="462c0819:PsiDirectoryNode" />
-              <item name="mysiteday61" type="462c0819:PsiDirectoryNode" />
-              <item name="mysiteday61" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="day61" type="462c0819:PsiDirectoryNode" />
-              <item name="mysiteday61" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
-              <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="工具" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -284,20 +225,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Python自动化开发/第一天" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python全栈9期/django01/mysite" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Python\Python全栈9期\django01\mysite\templates" />
+      <recent name="F:\Python\Python自动化开发" />
+      <recent name="E:\Python\Python自动化开发\005\QQQ" />
+      <recent name="E:\Python\Python\Python自动化开发\000作业\03" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Python\Python全栈9期" />
       <recent name="F:\Python\Python自动化开发" />
       <recent name="E:\Python\工具" />
       <recent name="E:\Python\Python\Python自动化开发\000作业\03\db1" />
-      <recent name="E:\Python\Python\Python自动化开发\000作业\03" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Python\Python自动化开发" />
-      <recent name="E:\Python\Python自动化开发\005\QQQ" />
       <recent name="E:\Python\Python\Python自动化开发\000作业\03" />
     </key>
   </component>
@@ -313,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s3">
+  <component name="RunManager" selected="Python.类的__str__方法">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,6 +275,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="类的__str__方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/类的__str__方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,28 +334,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/a1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/day1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/day1/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,18 +443,18 @@
     <list>
       <item itemvalue="Django server.Mysite" />
       <item itemvalue="Python.s1" />
-      <item itemvalue="Python.login" />
       <item itemvalue="Python.a1" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.s3" />
+      <item itemvalue="Python.类的__str__方法" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.类的__str__方法" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.a1" />
         <item itemvalue="Python.s1" />
-        <item itemvalue="Python.login" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +480,10 @@
       <workItem from="1550112970548" duration="6714000" />
       <workItem from="1550482877129" duration="695000" />
       <workItem from="1550742015963" duration="119000" />
-      <workItem from="1551058572883" duration="4604000" />
+      <workItem from="1551058572883" duration="4786000" />
+      <workItem from="1551162589999" duration="1865000" />
+      <workItem from="1551407725799" duration="1482000" />
+      <workItem from="1551922868990" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="20170829-1">
       <created>1503972773645</created>
@@ -876,7 +821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550742094072</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="2019-02-25">
+      <created>1551088130734</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1551088130734</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -891,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35177000" />
+    <option name="totallyTimeSpent" value="39322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -904,9 +856,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="990" y="1" width="932" height="727" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24311927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -922,7 +873,7 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32996634" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.19392918" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.19392918" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.22259696" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -936,7 +887,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20171102" />
     <MESSAGE value="20171121" />
     <MESSAGE value="20171201" />
     <MESSAGE value="20171205" />
@@ -961,7 +911,8 @@
     <MESSAGE value="2019-01-28" />
     <MESSAGE value="2019-01-29" />
     <MESSAGE value="2019-02-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-02-20" />
+    <MESSAGE value="2019-02-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-02-25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,19 +925,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day3/二分查找.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day7/类和对象.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day16/Django/Django/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/练习/ssq/model/contrast.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1205,16 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1222,10 +1150,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/mysite/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/类的__str__方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" column="33" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/add_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>

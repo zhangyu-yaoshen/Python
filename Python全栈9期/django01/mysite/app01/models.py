@@ -7,3 +7,5 @@ class UserInfo(models.Model):#UserInfo表名
     id = models.AutoField(primary_key=True)     #创建一个自增的主键字段
     name = models.CharField(null=False, max_length=32)        #创建一个varchar类型的不能为空,最大长度为20的字段
 
+    def __str__(self):
+        return "<{}-{}>".format(self.id, self.name)

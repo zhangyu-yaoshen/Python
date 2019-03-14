@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/fontawesome/css/font-awesome.min.css">
-    <title>Title</title>
+    <title>mysite-登录页面</title>
     <style>
         body {
             background-color: #eee;
@@ -19,19 +19,19 @@
     <div class="row">
         <div class="col-md-4 col-md-offset-4" style="margin-top: 100px">
             <h1 class="text-center">请登录</h1>
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="/login/" method="post">
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label"></label>
                     <div class="input-group col-sm-8">
                          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label"></label>
                     <div class="input-group col-sm-8">
                         <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        <input type="password" name="pwd" class="form-control" id="inputPassword3" placeholder="Password">
                     </div>
                 </div>
                 <div class="form-group">
@@ -48,6 +48,7 @@
                         <button type="submit" class="btn btn-primary btn-block">登录</button>
                     </div>
                 </div>
+                <p class="text-danger text-center">{{ error }}</p>
             </form>
         </div>
     </div>
