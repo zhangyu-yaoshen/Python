@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-02-25">
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/add_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/user_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f31709-a02c-464e-b31b-dc74488231dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c7f31709-a02c-464e-b31b-dc74488231dd.xml" afterDir="false" />
+    <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-03-14">
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/mysiteday62/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/mysiteday62/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/mysiteday62/.idea/mysiteday62.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/mysiteday62/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/mysiteday62/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/day62/mysiteday62/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,27 +57,29 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="db" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="db" type="e3449647:DbNodeDescriptor" />
-        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="db" type="e3449647:DbNodeDescriptor" />
-        <item name="main" type="e3449647:DbNodeDescriptor" />
-        <item name="blog_books" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -84,7 +88,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,18 +175,18 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="990" />
-    <option name="width" value="933" />
-    <option name="height" value="728" />
+    <option name="x" value="1495" />
+    <option name="y" value="66" />
+    <option name="width" value="1064" />
+    <option name="height" value="940" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +210,19 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
               <item name="django01" type="462c0819:PsiDirectoryNode" />
-              <item name="day61" type="462c0819:PsiDirectoryNode" />
+              <item name="day62" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
+              <item name="django02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈9期" type="462c0819:PsiDirectoryNode" />
+              <item name="django03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -217,7 +233,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,6 +499,14 @@
       <workItem from="1551162589999" duration="1865000" />
       <workItem from="1551407725799" duration="1482000" />
       <workItem from="1551922868990" duration="616000" />
+      <workItem from="1552534024455" duration="65000" />
+      <workItem from="1552534135870" duration="45000" />
+      <workItem from="1553824436135" duration="169000" />
+      <workItem from="1553824663482" duration="150000" />
+      <workItem from="1553824838677" duration="1290000" />
+      <workItem from="1553826562689" duration="656000" />
+      <workItem from="1553846433493" duration="172000" />
+      <workItem from="1554355315297" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="20170829-1">
       <created>1503972773645</created>
@@ -843,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39322000" />
+    <option name="totallyTimeSpent" value="44023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,9 +878,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="990" y="1" width="932" height="727" extended-state="0" />
+    <frame x="1196" y="53" width="851" height="752" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28625473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -873,13 +896,13 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32996634" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.19392918" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.22259696" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.28387097" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.22123894" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.2178899" />
+      <window_info anchor="right" id="Database" order="4" weight="0.2173913" />
       <window_info anchor="right" id="Data View" order="5" weight="0.3288948" />
     </layout>
   </component>
@@ -887,7 +910,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20171121" />
     <MESSAGE value="20171201" />
     <MESSAGE value="20171205" />
     <MESSAGE value="20171215" />
@@ -912,7 +934,8 @@
     <MESSAGE value="2019-01-29" />
     <MESSAGE value="2019-02-20" />
     <MESSAGE value="2019-02-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-02-25" />
+    <MESSAGE value="2019-03-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-03-14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
