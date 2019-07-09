@@ -1,0 +1,72 @@
+一. 昨日内容回顾
+    1. int + - * / % // **
+        bit_length()
+    2. bool 类型转换
+        结论1: 想把刘伟转换成刘德华. 刘德华(刘伟)
+        结论2: True => 1 False => 0
+        结论3: 可以当做False的数据: 0, "", [], (), {}, set(), None. 所有的空都是False
+    3. str字符串
+        字符: 单一的文字符号
+        字符串: 有序的字符序列
+        ', ", ''', """括起来的内容就是字符串
+        索引和切片:
+            1. 索引下标从0开始
+            2. 切片:[start: end: step]
+                1. 顾头不顾尾
+                2. 默认从左往右取. 如果step是负数. 从右往左取
+
+        操作:
+            1. uppper() 转化成大写
+            2. strip()  去掉空白(空格, 制表符\t, 换行符\n) white space
+            3. replace(old, new) 替换
+            4. split() 切割, 结果是列表
+            5. startswith() 判断是否以xxx开头
+            6. find() index()
+            7. isdigit() 判断是否由数字组成
+            8. len() 求字符串长度, 内置函数. 直接就可以了
+
+    迭代:
+        for 变量 in  可迭代对象:
+            循环体
+
+二. 作业
+三. 今日主要内容(重点)
+    1. 什么是列表(list)
+        能装东西的东西 列表中装的数据是没有限制的， 大小基本上是够用的
+        列表使用[]来表示。 在列表中每个元素与元素之间用逗号隔开
+        有索引和切片
+        [start, end, step]
+    2. 增删改查
+        1. 增加:
+            append(), insert(), extend()迭代增加
+        2. 删除:
+            remove(), pop(), clear(), del
+        3. 修改:
+            索引修改
+        4. 查询:
+            for el in list:
+                el
+        5. 操作:
+            1. count()
+            2. sort(reverse=True) 排序
+            3. reverse() 翻转
+            4. find()
+            5. index()
+    3. 元组(tuple)
+        不可变的列表. 只读列表, 由小括号表示. 第一层不可变.
+        如果是空元祖: tuple()
+        一个元素 (1, )
+    4. 列表的嵌套和元组的嵌套
+        元组和列表都可以进行嵌套
+
+    5. range()
+        range(边界) 从0到边界
+        range(start, end) 从start到end
+        range(start, end, step) 从start到end. 步长是step
+
+    遍历列表的时候可以使用range
+    for i in range(len(list)):
+        list[i]
+
+    预习:
+        字典

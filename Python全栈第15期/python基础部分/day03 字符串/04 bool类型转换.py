@@ -38,6 +38,6 @@
 #     print("alex是个人才")
 
 
-lst = [1,2,3] # 列表
-tu = tuple(lst)
-print(type(tu))
+# lst = [1,2,3] # 列表
+# tu = tuple(lst)
+# print(type(tu))

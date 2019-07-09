@@ -81,18 +81,18 @@
 
 
 # 质数
-# n = int(input("请输入一个数:"))
-# if n == 1:
-#     print("不知道是不是")
-# else:
-#     count = 2
-#     while count <= n-1: # 质数只能被1和自身整除. 让这个数从2开始除. 一直除到n-1 如果除开了 一定不是质数 到最后还没有除开. 一定是质数
-#         if n % count == 0:
-#             print("你这个不是质数")
-#             break
-#         count = count + 1
-#     else:
-#         print("是一个质数")
+n = int(input("请输入一个数:"))
+if n == 1:
+    print("不知道是不是")
+else:
+    count = 2
+    while count <= n-1: # 质数只能被1和自身整除. 让这个数从2开始除. 一直除到n-1 如果除开了 一定不是质数 到最后还没有除开. 一定是质数
+        if n % count == 0:
+            print("你这个不是质数")
+            break
+        count = count + 1
+    else:
+        print("是一个质数")
 
 
 
