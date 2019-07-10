@@ -1,0 +1,28 @@
+一. 上节课内容回顾
+    内置函数
+二. 没有作业
+三. 今日主要内容
+    1. lambda 匿名函数
+        lambda 参数: 返回值
+    2. sorted 排序
+        sorted(iterable, key=func, reverse=True/False)
+        执行流程:
+            把可迭代对象中的每一个元素拿出来, 放到func中运行. 返回一个数字. 根据数字进行排序
+
+    3. filter 筛选
+        filter(func, Iterable)
+        执行流程:
+            把可迭代对象中的每一个元素拿出来, 放到func中运行.返回True/False. 根据返回的True和False来决定这个数据是否保留
+    4. map 映射
+        map(func, Iterable)
+        执行流程:
+            把可迭代对象中的每一个元素拿出来, 放到func中运行.返回数据就是结果
+    5. 递归(难点)
+        自己调用自己
+        递归的入口
+        递归的出口: return
+        递归的循环条件：动
+        循环树形结构:
+    6. 二分法查找
+        核心思想: 掐头结尾取中间.
+        前提条件: 有序.

@@ -1,0 +1,43 @@
+一. 昨日内容回顾
+    1. 关系
+        1. 依赖关系. 在方法中传递参数.
+        2. 关联关系. self.xxx = xxxx
+        3. 继承关系. self是什么?  当前正在执行方法的对象
+        4. 特殊成员:
+            __init__()
+            __new__()
+            __getitem__()  obj[xxx]
+            __setitem__() obj[xxx] = xxxx
+            __delitem__() del obj[xxx]
+            __call__() obj()
+            __str__()  print(obj)   返回这个对象的字符串表示形式
+            __enter__()
+            __exit__()  with
+
+二. 作业讲解
+
+三. 今日主要内容
+    1. issubclass, type, isinstance
+        issubclass 判断xxxx类是否是xxxx类的子类
+        type 给出xxx的数据类型. 给出创建这个对象的类
+        isinstance 判断xxx对象是否是xxx类型的
+
+
+    2. 如何分辨方法和函数.
+        在外面定义的函数一定是函数
+        在类中:
+            1. 实例方法: 如果是对象访问.方法,, 如果是类名访问是函数
+            2. 静态方法: 都是函数
+            3. 类方法: 都是方法
+        如果想要用程序来判断. 需要引入两个模块
+        from types import FunctionType, MethodType
+        isinstance()
+
+    3. 反射(重点)
+        仅限于内存层面
+        重点：
+        hasattr(obj, str) 判断对象中是否包含了xxx（str）
+        getattr(obj, str) 从对象中获取xxxx（str）
+        次重点：
+        setattr(obj, str, value) 给对象设置xxxx(str)属性值(value)
+        delattr(obj, str) 从对象中删除xxxxx(str)信息

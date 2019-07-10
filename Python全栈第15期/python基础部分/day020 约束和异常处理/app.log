@@ -1,0 +1,100 @@
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise KeyError()
+KeyError
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise KeyError()
+KeyError
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise KeyError()
+KeyError
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise KeyError()
+KeyError
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise KeyError()
+KeyError
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise KeyError()
+KeyError
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 28, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2018-09-29 12:53:39 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "D:/python_workspace/day020 约束和异常处理/06 日志处理.py", line 30, in <module>
+    raise StopIteration()
+StopIteration
+

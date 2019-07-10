@@ -1,0 +1,71 @@
+一. 上节课内容回顾
+     1. collections
+        namedtuple: 命名元组. 创建类
+        Counter: 计数器
+        deque: 双向队列
+            stack: 栈  先进后出
+            queue: 队列  先进先出
+        OrderedDict 有序字典. 浪费内存
+        defaultdict:  默认值字典
+            d = defaultdict(callable)
+            ret = d.get("周润发")
+
+            ret是 callable()
+
+     2. time模块
+        1. 时间戳. float 数字. 1970-01-01 00:00:00
+        2. 格式化时间. %Y-%m-%d %H:%M:%S      %Y-%m-%d
+        3. 结构化时间. 把时间拆分了。
+        时间戳 -> 格式化时间
+            f = 10086
+            st = time.localtime(f)
+            s = time.strftime("%Y-%m-%d %H:%M:%S", st)
+        格式化时间 -> 时间戳
+            s = "2018-01-01 12:58:46"
+            st = time.strptime(s, "%Y-%m-%d %H:%M:%S")
+            f = time.mktime(st)
+
+        sleep()
+
+     3. random
+        random.randint(start, end) [start, end]随机整数
+        random.choice() 随机选择
+        random.sample() 随机选择n个
+     4. os和sys
+        os 和操作系统相关
+        sys  和解释器相关的
+        sys.path.clear()
+
+二. 作业
+
+三. 今日主要内容
+    1. 序列化
+        把对象打散成bytes或者字符串。 方便存储和传输 序列化
+        把bytes或者字符串转换回对象。 反序列化
+
+    2. pickle(比较重要)
+        把python中所有的对象都可以转化成bytes。进行存储和传输
+        dumps()  序列化。 不写文件
+        loads() 反序列化， 不读文件
+        dump()
+        load()
+
+    3. shelve
+        小型数据库. 操纵的是文件类型的字典.
+        shelve.open(文件, writeback=True)
+
+    4. json(重点)
+        前后端数据交互的通用的数据格式。
+        dumps() 把字典转化成字符串
+        loads() 把字符转化成字典
+
+        处理中文
+            ensure_ascii = False
+
+    5. configparser
+        处理配置文件的。
+        把配置文件作为一个大字典来处理就型了
+
+    明天预习：
+        正则表达式
+        re模块

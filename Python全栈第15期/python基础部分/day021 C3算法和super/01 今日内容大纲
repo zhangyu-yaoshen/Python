@@ -1,0 +1,96 @@
+一. 昨日内容回顾
+    1. 异常处理
+        raise: 抛出异常.
+        try:
+            可能会出现错误的代码
+        except 异常类 as e:
+            异常的处理
+        except 异常类 as e:
+            异常的处理
+        except 异常类 as e:
+            异常的处理
+        except 异常类 as e:
+            异常的处理
+        else:
+            如果上面的代码没有错误, 执行这里的代码
+        finally:
+            收尾
+
+        自定义异常: 随便写个类. 继承Exception
+    2. 约束
+        父类和子类.
+            在父类中声明方法. 要求子类必须重写它
+        1. 抛出异常. raise NotImplementError
+        2. 抽象类和抽象方法
+            from abc import ABCMeta,  abstractmethod
+            在父类声明的时候,  metaclass= ABCMeta
+            方法上面加@abstractmethod
+            子类必须重写这个抽象方法.
+
+            接口: 定义方法和约束子类
+    3. M5D
+        1. 引入模块
+        import hashlib
+        2. 创建md5对象(实例化)
+        obj = hashlib.md5(b"盐")
+        3. 把加密的内容交给md5
+        obj.update(bytes)
+        4. 获取密文
+        obj.hexdigest()
+    4. 日志
+        logging模块
+        basicConfig
+            filename
+            format
+            datefmt
+            level 级别
+                CRITICAL  50
+                ERROR     40
+                WARNING   30
+                INFO      20
+                DEBUG     10
+                NOTEST    0
+
+
+二. 作业
+
+三. 今日主要内容
+    一. python的继承. 多继承
+        子类继承父类.
+        为什么要继承???? 为了节省开发时间. 调高开发效率. 代码得到了重用
+        在python中存在多继承
+
+        MRO(method resolution Order) 方法路径顺序.
+            python2
+                1. 使用经典类(写继承关系的时候. 基类不继承object)
+                2. 新式类(继承关系的根. 是object)
+            python3
+                只有新式类
+
+    二. 经典类的MRO
+        经典类的MRO使用的是深度优先遍历
+
+    三. 新式类的MRO, C3(重点, 难点)
+        新式类中摒弃了(部分)旧的深度优先算法. 使用C3算法
+        如果你的继承关系中没有菱形继承( 深度优先就够了)
+        如果有菱形: 使用C3算法来计算MRO
+        假设C3算法. L(x) 表示 x的继承关系
+        先拆分。 拆到你能看出结果为止. 反着进行merge()运算
+            合并 - 归并
+            merge(元组， 元组， 元组，。。。。。。。)
+
+            摘头。
+            头和尾在比对,如果下一个尾没有这个头, 头就出现.  如果头在后面的尾出现. 跳过该元组. 继续下一个头. 直到最后一个元组. 根自己匹配
+
+    四. super是神马玩意
+        super可以访问MRO列表中的下一个类中的内容. 找父类
+
+    五. 一道面试题
+
+    十一作业:
+        完成学生选课
+        整理面向对象所学的内容
+        预习: 模块(os,sys,time)
+
+        后续的课程: 网络, 并发
+

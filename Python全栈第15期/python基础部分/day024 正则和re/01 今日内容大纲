@@ -1,0 +1,23 @@
+一. 昨日内容回顾
+        序列化:
+            pickle: 把对象序列化成bytes
+                dumps() 序列化
+                loads() 反序列化
+                dump()
+                load()
+            shelve
+                文件类型的字典
+                shelve.open(filename, writeback=True)
+            json
+                把对象序列化成字符串.
+                dumps()
+                loads()
+        configparser
+            类似文件字典. 主要用来处理ini文件
+
+二. 作业讲解
+    
+三. 今天主要内容
+    1. 正则表达式
+    2. re模块
+

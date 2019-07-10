@@ -8,10 +8,10 @@
 
 # set其实就是不存value的字典. 只存key
 # 去重复
-# lst = [1,2,3,4,4,4,4,5,5,6,7,7,7]
-# s = set(lst)
-# lst = list(s)
-# print(lst)
+lst = [1,2,3,4,4,4,4,5,5,6,7,7,7]
+s = set(lst)
+lst = list(s)
+print(lst)
 
 s = {"赵本山", "范伟", "小沈阳", "高秀敏", "宋小宝"}
 # s.add("赵铁柱")
@@ -23,8 +23,8 @@ s = {"赵本山", "范伟", "小沈阳", "高秀敏", "宋小宝"}
 # s.update(("刘伟", '张伟', "张三丰")) # 迭代更新
 
 # item = s.pop()
-s.remove("小沈阳")
-print(s)
+# s.remove("小沈阳")
+# print(s)
 # print(item)
 
 # for el in s:

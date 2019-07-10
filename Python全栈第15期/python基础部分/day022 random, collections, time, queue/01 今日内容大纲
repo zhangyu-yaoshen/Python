@@ -1,0 +1,136 @@
+一. 回顾上周内容
+    面向对象:
+        对象: 万事万物皆为对象.  特征, 动作或功能放在一起的就是一个对象
+        对象如何创建的. 在python中对象是通过类来创建的. 类是对对象的描述.统称.约束.
+        class Car:
+            def fly(self):
+                pass
+
+        类与对象的关系:
+            类是类型, 类别. 对事物的描述
+            对象是个体. 具体的某一个东西或者事物
+
+            创建对象:
+                类名()  实例化.
+
+        三大特征:
+            1. 封装. 将数据或者方法封装在一个类中.
+            2. 继承. 子类可以自动有用父类中除了私有内容外的所有内容. 包括了抽象方法
+            3. 多态. python原生就是多态. 同一个对象, 多种形态.
+
+
+        成员:
+            1. 变量
+                实例变量. 对象拥有的东西.
+                类变量. 类拥有的东西.多个对象共享. 最好是类名访问类变量
+            2. 方法
+                1. 实例方法   def 方法(self):pass
+                    self: 当前调用这个方法的对象.
+                2. 静态方法   最好是类名访问
+                    @staticmethod
+                    def 方法():
+                3. 类方法  最好是类名访问
+                    @classmethod
+                    def 方法(cls):
+            3. 属性
+                用方法来描述属性信息
+
+                @property
+                def age(self):
+                    return 18
+        类与类之间的关系:
+            1. 依赖关系     类与类的关系是最弱的
+                在方法的参数中传递其他类的对象
+
+            2. 关联关系. 组合. 聚合  关系很紧密.
+                把一个对象装在自己身上
+
+                class Phone:
+                    def __init__(self, person):
+                        self.owner = person
+                        self.user = user
+
+                class Person:
+                    pass
+
+                class User:
+                    pass
+
+            3. 继承关系, 实现关系
+               class 子类(父类):
+                    pass
+               父类: 基类. 超类
+               子类: 派生类.
+
+               实现关系:
+                    父类: 抽象类.  如果都是抽象方法. 父类被称为: 接口
+                    子类: 必须对父类中的抽象方法进行重写.
+               约束:
+                   父类对子类的约束. 子类必须重写的内容
+                   1. 抛异常 raise NotImplementError
+                   2. 抽象类
+                        from abc import ABCMeta, abstractmethod
+                        元类必须设置成ABCMeta。 metaclass = ABCMeta
+                        这个类中就可以写出抽象方法。 @abstractmethod
+                        类中包含抽象方法。 那么这个类就是抽象类.  抽象类一般不创建对象
+
+               MRO：
+                    1. 经典类
+                        采用的是深度优先遍历
+                    2. 新式类
+                        如果没有菱形继承. 就是深度优先遍历。
+                        如果是简单的菱形继承。把头干掉。 使用深度优先。 最后是头
+                        如果是复杂的菱形.需要用C3算法
+                        找到每个类的继承关系. 然后拆分. 拆到最后. 然后再合并.
+
+                        笔试题. 第一件事先画图. 看有没有菱形. 然后再算.
+               super:
+                    执行MRO列表中的下一个类中的方法
+                    super().方法()
+                    super(类名, self).方法()
+
+            反射
+                hasattr(obj, str)
+                getattr(obj, str)
+                setattr(obj, str, value)
+                delattr(obj, str)
+
+            issubclass, type, isinstance
+                issubclass: 判断是否是xxx的子类
+                type: 精准的给出对象是哪个类的对象
+                isinstance: 判断xxx是否是xxx类型的.
+
+            方法和函数
+                FunctionType, MethodType
+
+            异常处理:
+                抛出异常: raise Exception()
+                捕获异常:
+                    try:
+                        xxxx
+                    except Exception as e:
+                        xxxx
+                    else:
+
+                    finally:
+
+                堆栈信息:
+                    import traceback
+                    和logging一起用
+
+                自定义异常: 继承Exception
+
+二. 作业
+
+三. 今日主要内容
+    1. collections
+        
+    2. queue队列 stack栈
+
+    3. time
+
+    4. random
+
+    5. os, sys
+
+    序列化

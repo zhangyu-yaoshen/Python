@@ -1,0 +1,75 @@
+一. 昨日内容回顾
+    1. issubclass, type, isinstance
+        issubclass: 判断xxx是xxx的子类么?
+        type: 精准的返回对象的类型
+        isinstance: 判断xxxx对象是否是xxx类型的.
+
+    2. 函数和方法
+        在类外边, 是函数
+        在类里面:
+            1. 实例方法: 对象.方法  方法   类名.方法  函数
+            2. 静态方法: 都是函数
+            3. 类方法: 都是方法
+
+        引入types模块中的FunctionType和MethodType
+        isinstance()
+
+    3. 反射
+        1. hasattr(obj, str) 判断对象中是否包含xxxx(str)
+        2. getattr(obj, str) 从对象中获取xxx(str)
+        3. setattr(obj, str, value) 把对象中的str设置成value
+        4. delattr(obj, str) 从对象中删除xxxx(str)
+二. 作业
+三. 今日主要内容
+    异常处理(处理, 抛出异常, 自定义异常)
+        1. 产生异常. raise 异常类(), 抛出异常
+        2. 处理异常:
+            try:
+                xxxxx # 尝试执行的代码.
+            except 异常类 as 变量: # 出现错误的时候. 捕获到异常
+                xxxxxx  # 处理异常
+        3. 自定义异常
+            继承Exception
+        4. 堆栈信息
+            import traceback
+            traceback.format_exc() 获取堆栈信息
+    约束(难)
+        约束是对子类进行的约束。
+        一。 通过抛异常 (简单)
+            在父类中给出一个方法。 这个方法中什么都不写。 就抛异常。 NotImplementError()
+            在子类中把上述的方法进行重写。
+            重写：子类重新定义父类中的方法。
+
+
+        二。 抽象类和抽象方法(java, c#)
+                接口:类中都是抽象方法.
+             from abc import ABCMeta, abstractmethod
+
+             抽象方法： 抽象方法不用给出方法体. 写个pass就行了
+             抽象类:
+                语法：类(metaclass=ABCMeta)
+                概念: 如果类中包含了抽象方法.这个类一定是抽象类
+                特点: 抽象类一般不创建对象.
+                      抽象类中可以存在正常方法
+
+             可以约束子类必须实现抽象方法
+    MD5加密
+        MD5加密：不可逆
+        引入模块 hashlib
+            1 创建md5对象
+            2.把加密信息交给md5对象
+            3.获取密文
+
+    日志处理(重要, 简单)
+        引入logging模块
+        简单配置即可(basicConfig 单一日志文件  fileHandler 文件助手可以实现多文件操作)
+        日志级别：
+            CRITICAL 最高的
+            ERRO 40
+            WARN 30
+            INFO 20
+            DEBUG 10
+
+    明天预习： C3  新式类， 经典类
+
+

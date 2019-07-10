@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wf>
+    <name>汪峰</name>
+    <age>18</age>
+    <hobby>抢头条</hobby>
+    <wife>
+        <name></name>
+    </wife>
+</wf>
