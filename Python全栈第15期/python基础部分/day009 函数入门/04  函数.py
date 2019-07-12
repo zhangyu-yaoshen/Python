@@ -9,8 +9,8 @@
 #
 # print("吃饭")
 
-# 函数是对功能或者动作的封装
-# 函数的定义:
+# # 函数是对功能或者动作的封装
+# # 函数的定义:
 # def yue():
 #     print("拿出手机")
 #     print("打开陌陌")
@@ -22,9 +22,9 @@
 # # 函数的调用:  函数名()
 # yue()
 # print("回家休息休息")
-# yue() # 动作就可以在任何时候， 在任何位置， 进行访问
+# ue() # 动作就可以在任何时候， 在任何位置， 进行访问
 
-# 当函数执行之后。可以给调用者一个返回值
+# # 当函数执行之后。可以给调用者一个返回值
 # def yue(): # 参数
 #     print("拿出手机")
 #     print("打开陌陌")
@@ -69,32 +69,30 @@
 # chi(drink="可乐", "小米饭", "辣条")
 
 
-def regist(name,sex="男", age=18): # 语法上不允许
-    print(name, age, sex)
+# def regist(name,sex="男", age=18): # 语法上不允许
+#     print(name, age, sex)
+# def regist(name,age,sex="男"): # 语法上不允许
+#     print(name, age, sex)
+#
+# regist("刘伟", 22)
+# regist("高晓燕", 18, "女")
+# regist("李铁帅", 27)
 
-regist("刘伟", 22)
-regist("李铁帅", 27)
-regist("高晓燕", 18, "女")
-regist("李铁帅", 27)
-regist("李铁帅", 27)
-regist("李铁帅", 27)
-regist("李铁帅", 27)
-regist("李铁帅", 27)
 
 
 # 实参的分类:
 # 1. 位置参数. 按照位置。 给形参赋值
 # 2. 关键字参数. 按照形参的名字给参数赋值
 # 3. 混合参数, 位置参数必须放在前面。 关键字参数放后面
-
+#
 # 形参的分类(3大类)
 # 1. 位置参数 按照位置来声明形参
 # 2. 默认值参数, 当给参数传递值的时候。 默认值不起作用, 不给值。 默认值起作用. 保证你至少有个值能用
 # 顺序: 位置参数必须放在前面。 默认值参数必须放在后面
 
 
-# 函数：对功能或者动作的封装
-# 登陆验证
+# # 函数：对功能或者动作的封装
+# # 登陆验证
 # def login(username, password):
 #     if username == 'alex' and password == "123":
 #         return True
@@ -115,12 +113,12 @@ regist("李铁帅", 27)
 #     return x + 1
 # print(f(2))
 #
-# s = "你好啊我叫塞利亚"
-# print(len(s))
-#
-# def my_len(s):
-#     count = 0
-#     for el in s:
-#         count+=1
-#     return count
-# print(my_len(s))
+s = "你好啊我叫塞利亚"
+print(len(s))
+
+def my_len(s):
+    count = 0
+    for el in s:
+        count+=1
+    return count
+print(my_len(s))

@@ -17,7 +17,6 @@
 #         print("我是内部")
 #     print("我是外部")
 #     inner()
-#
 # outer()
 
 # def outer():
@@ -29,7 +28,6 @@
 #         print("我是里面的1")
 #     inner_1()
 #     print("我是外面的收尾")
-#
 # outer()
 
 # a = 10
@@ -41,8 +39,8 @@
 # print(a) # 10
 # func() # 20
 # print(a) # 20
-
-
+#
+#
 # def outer():
 #     a = 10
 #     def inner():
@@ -56,24 +54,24 @@
 
 
 
-# a = 1
-# def fun_1():
-#     a = 2
-#     def fun_2():
-#         nonlocal a
-#         a = 3
-#         def fun_3():
-#             a = 4
-#             print(a)
-#         print(a)
-#         fun_3()
-#         print(a)
-#     print(a)
-#     fun_2()
-#     print(a)
-# print(a)
-# fun_1()
-# print(a)
+a = 1
+def fun_1():
+    a = 2
+    def fun_2():
+        nonlocal a
+        a = 3
+        def fun_3():
+            a = 4
+            print(a)
+        print(a)
+        fun_3()
+        print(a)
+    print(a)
+    fun_2()
+    print(a)
+print(a)
+fun_1()
+print(a)
 
 # global 引入全局变量, 可以定义全局变量
 # nonlocal 引入局部中离他最近的外层变量
