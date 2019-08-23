@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" value="alex">
+<p></p>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    //初始化操作
+    $('p').html($('input[type=text]').val());
+
+    $('input[type=text]')[0].oninput = function (e) {
+        // console.log(e);
+        var val = e.target.value;
+        console.log(val);
+        $('p').html(val);
+    }
+</script>
+</body>
+</html>

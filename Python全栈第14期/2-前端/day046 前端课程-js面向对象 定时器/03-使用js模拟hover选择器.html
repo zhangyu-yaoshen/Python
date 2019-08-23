@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0
+        }
+        ul{
+            list-style: none;
+        }
+        ul{
+            width: 600px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            overflow: hidden;
+        }
+        ul li {
+            float: left;
+            margin: 0 10px;
+            width: 80px;
+            height: 80px;
+            background: darkcyan;
+            color: #fff;
+        }
+        ul li.active{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>铁帅</li>
+    <li>铁帅</li>
+    <li>铁帅</li>
+    <li>铁帅</li>
+    <li>铁帅</li>
+</ul>
+<script>
+    // 获取所有的li标签
+    var lists = document.getElementsByTagName('li');
+
+    for(var i = 0; i < lists.length; i ++){
+        lists[i].onclick  = function () {
+
+            //在修改当前盒子样式之前,先将所有的盒子的类名置空
+            for(var j = 0; j < lists.length; j++){
+                lists[j].className = '';
+            }
+
+            this.className  = 'active'; //修改当前 鼠标进入的盒子的样式
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

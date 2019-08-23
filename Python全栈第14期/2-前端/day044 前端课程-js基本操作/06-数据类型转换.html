@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = 5;
+    //强制类型转换
+    //构造函数
+    console.log(String(a));
+    console.log(a.toString());
+    //字符串转数值类型
+    var numStr = '7788.44563563563535616743516748146148914189489';
+    console.log(Number(numStr));
+    console.log(parseFloat(numStr));
+
+    //   float 单精度 随着小数点后的位数 越多 不精准  double 随着小数点后的位数 越多 不精准 但是它要比float精准
+
+    //    1.1111111111111111111111111111  1.111111119098000000    1.1111111111111189080000
+
+    var b = 7 / 0;
+    console.log(b);
+    console.log(typeof  b);
+
+
+    var b1 = '123'; //true
+    var b2 = 0; //false
+    var b3 = -123;//true
+
+    var b4 = Infinity; //true
+    var b5 = NaN; //fasle
+
+    var b6; //undefined  false
+    var b7 = null;
+    console.log(Boolean(b7));
+</script>
+</body>
+</html>

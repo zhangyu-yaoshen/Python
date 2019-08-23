@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fn(){
+        console.log(arguments);
+        // arguments.push('吴老板');
+        var arr = [];
+        for(var i= 0; i < arguments.length;i++){
+            console.log(arguments[i])
+            arr.push(arguments[i])
+        }
+        console.log(arr);
+
+        // console.log(['alex']);
+    }
+    fn('alex','wusir')
+</script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件流</title>
+    <script>
+
+        window.onload = function () {
+
+            var oBtn = document.getElementById('btn');
+
+            //1
+            document.addEventListener('click', function () {
+                console.log('document处于事件捕获阶段');
+            }, true);
+
+            //2
+            document.documentElement.addEventListener('click', function () {
+                console.log('html处于事件捕获阶段');
+            }, true);
+
+            //3
+            document.body.addEventListener('click', function () {
+                console.log('body处于事件捕获阶段');
+            }, true);
+
+            //4
+            oBtn.addEventListener('click', function () {
+                console.log('btn处于事件捕获阶段');
+            }, true);
+
+            //4
+
+            oBtn.addEventListener('click', function () {
+                console.log('btn处于事件冒泡阶段');
+            }, false);
+            //5  false 表示冒泡
+             document.body.addEventListener('click', function () {
+                console.log('body处于事件冒泡阶段');
+            }, false);
+            // //6
+            document.documentElement.addEventListener('click', function () {
+                console.log('html处于事件冒泡阶段');
+            }, false);
+
+            //7
+            document.addEventListener('click', function () {
+                console.log('document处于事件冒泡阶段');
+            }, false);
+
+
+
+
+
+        };
+
+    </script>
+</head>
+<body>
+<a href="javascript:void(0);" id="btn">按钮</a>
+</body>
+</html>

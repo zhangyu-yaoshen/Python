@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .title{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<ul>
+
+</ul>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+
+    $(function () {
+
+        var data = {
+            status:'ok',
+            lists:[
+                {
+                    title:'完美世界222',
+                    author:'辰东',
+                    status:'连载中',
+                    addr:'起点中文网'
+                },
+                 {
+                    title:'蛮荒记',
+                    author:'我吃西红柿',
+                    status:'已完结',
+                    addr:'起点中文网'
+                },
+                 {
+                    title:'辟邪剑谱',
+                    author:'吴老板',
+                    status:'连载中ing',
+                    addr:'起点中文网'
+                }
+            ]
+        };
+
+        if (data.status == 'ok'){
+            data.lists.forEach(function (item,index) {
+              $(`  <li>
+                <p class="title">${item.title}</p>
+                <p class="author">${item.author}</p>
+                <p class="stats">${item.status}</p>
+                <p class="addr">${item.addr}</p>
+            </li>`).appendTo('ul');
+            })
+        }
+
+
+
+
+
+
+    })
+</script>
+
+</body>
+</html>

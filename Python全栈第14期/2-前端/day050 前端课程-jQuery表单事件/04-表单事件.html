@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+男<input type="radio" checked name="sex" value="1">
+女<input type="radio" name="sex" value="0">
+
+<select name="" id="">
+    <option value="a">alex</option>
+    <option value="b">wusir</option>
+    <option value="c">xiaomage</option>
+</select>
+
+<input type="text" id="select">
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+
+        /*
+        $('input[type=radio]').change(function (e) {
+            console.log('被选中了');
+            console.log(e.target);
+            console.log($(this).val());
+            // this.value
+            // $(this).val()
+        })
+        */
+
+        $('select').change(function () {
+            console.log(this);
+
+           console.log( $(this).find('option:selected').text());
+           console.log( $(this).find('option:selected').val());
+        })
+
+        $('#select').select(function () {
+            console.log('被选中了');
+        })
+
+
+    })
+</script>
+</body>
+</html>

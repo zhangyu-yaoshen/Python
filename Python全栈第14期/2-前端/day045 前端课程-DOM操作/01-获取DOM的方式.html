@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="box" id="box">
+        <p>alex</p>
+    </div>
+    <p class="box">吴老板</p>
+
+    <script type="text/javascript">
+        console.log(window);
+        console.dir(document);
+        console.log(document.documentElement);
+        console.log(document.body)
+        //1.通过id获取
+        var oDiv = document.getElementById('box');
+        console.log(oDiv);
+    //    2.通过标签获取 获取是伪数组 多个DOM对象
+        var oTag = document.getElementsByTagName('div')[0]; //HTMLCollection 伪数组 有数组的索引和length,但是没有数组的方法
+        console.log(oTag);
+        oTag.style.color = 'red';
+    //    3.通过类名获取 获取的也是伪数组 多个DOM对象
+        var oActives = document.getElementsByClassName('box');
+        console.log(oActives);
+        for(var i = 0; i < oActives.length; i ++){
+            //样式设置
+            oActives[i].style.backgroundColor = 'green';
+        }
+        //救命稻草
+
+        var oD = document.querySelectorAll('div p')
+        console.log(oD);
+
+        oD.forEach(function (item,index) {
+            console.log(item);
+        })
+
+
+    </script>
+
+</body>
+</html>

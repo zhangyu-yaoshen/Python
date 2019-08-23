@@ -1,0 +1,34 @@
+{
+	"HeWeather6": [{
+		"basic": {
+			"cid": "CN101010100",
+			"location": "北京",
+			"parent_city": "北京",
+			"admin_area": "北京",
+			"cnty": "中国",
+			"lat": "39.90498734",
+			"lon": "116.4052887",
+			"tz": "+8.00"
+		},
+		"update": {
+			"loc": "2018-11-15 10:46",
+			"utc": "2018-11-15 02:46"
+		},
+		"status": "ok",
+		"now": {
+			"cloud": "0",
+			"cond_code": "104",
+			"cond_txt": "阴",
+			"fl": "4",
+			"hum": "33",
+			"pcpn": "0.0",
+			"pres": "1028",
+			"tmp": "9",
+			"vis": "29",
+			"wind_deg": "5",
+			"wind_dir": "北风",
+			"wind_sc": "3",
+			"wind_spd": "17"
+		}
+	}]
+}

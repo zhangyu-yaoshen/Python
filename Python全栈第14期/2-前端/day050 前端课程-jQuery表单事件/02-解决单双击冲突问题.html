@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>按钮</button>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+        // 双击时候 出现两次单击（干掉）
+        var time = null;
+        //双击  ---》（ 1次单击+（小于200ms）1次单击）
+        $('button').click(function () {
+            // 取消上次延时未执行的方法
+            clearTimeout(time);
+            //执行延时
+            time = setTimeout(function () {
+                //do function在此处写单击事件要执行的代码
+                console.log('单机')
+            }, 300);
+        });
+
+        $('button').dblclick(function(){
+            clearTimeout(time)
+
+            console.log('双击了')
+        })
+
+
+
+</script>
+</body>
+</html>

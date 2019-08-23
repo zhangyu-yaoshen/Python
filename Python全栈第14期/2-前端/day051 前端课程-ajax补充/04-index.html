@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--视口设置 支持移动端-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .a{
+            margin-left: 100px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <h1>h1. Bootstrap heading</h1>
+                <h2>h2. Bootstrap heading</h2>
+                <h3>h3. Bootstrap heading</h3>
+                <h4>h4. Bootstrap heading</h4>
+                <h5>h5. Bootstrap heading</h5>
+                <h6>h6. Bootstrap heading</h6>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <p>
+                    如果<span class="lead">列（column）</span>一“行（row）”中包含了的 大于 12，多余的“列（column）”所在的元素将被作为一个整体另起一行排列。
+                    栅格类适用于与屏幕宽度大于或等于
+                    <mark>分界点</mark>
+                    大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 .col-md-* 栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ，
+                    并且针对小屏幕设备覆盖栅格类。
+                    因此，在元素上应用任何 .col-lg-* 不存在， 也影响大屏幕设备。
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <p class="text-left">Left aligned text.</p>
+                <p class="text-center">Center aligned text.</p>
+                <p class="text-right">Right aligned text.</p>
+                <p class="text-justify">Justified text.</p>
+                <p class="text-nowrap">No wrap text.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <table class="table table-bordered table-hover ">
+                    <tr class="info">
+                        <td>id</td>
+                        <td>姓名</td>
+                        <td>年龄</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>1</td>
+                        <td>alex</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td class="active">2</td>
+                        <td class="info">wusir</td>
+                        <td>30</td>
+                    </tr>
+                    <tr class="success">
+                        <td>3</td>
+                        <td>Xiaoamge</td>
+                        <td>16</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <form>
+                    <div class="form-group">
+                        <label for="username">用户名</label>
+                        <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">密码</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="请输入密码">
+                    </div>
+
+                    <button type="submit" class="btn btn-success">登录</button>
+                    <button type="submit" class="btn btn-info a">注册</button>
+                    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 300px;
+            background-color: red;
+        }
+
+        #box {
+            background-color: yellow;
+        }
+
+        .active {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">切换</button>
+<div class="box"></div>
+<script>
+    var oDiv = document.getElementsByClassName('box')[0];
+    var oBtn = document.getElementById('btn');
+    var isShow = true;
+    //不等待
+    oBtn.onclick = function () {
+        if (isShow) {
+            //   对id 对标签赋值id
+            // oDiv.id = 'box';
+            // oDiv.title = '哈哈哈';
+            // console.log(oDiv.className); //box
+            //设置类名的时候 一定要用className 因为class是个关键字
+            oDiv.className = oDiv.className + ' active';
+            isShow = false;
+        }else{
+             oDiv.className = 'box';
+            isShow = true;
+        }
+
+    }
+    console.log(11111);
+
+</script>
+
+</body>
+</html>

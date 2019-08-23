@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>alex</li>
+    <li class="item">
+        <a href="">wusir</a>
+    </li>
+    <li>小马哥</li>
+    <li>涛哥</li>
+</ul>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+       // 查找的是后代  (子子孙孙)
+       console.log( $('ul').find('a'));
+       //查找的是亲儿子 如果指定亲儿子,就在children('选择器'),想获取所有的亲儿子 不用写参数
+       console.log( $('ul').children());
+       //查找的只有亲爸
+       console.log( $('a').parent());
+       //$(`li:eq(${index})`)
+       console.log( $('ul li').eq());
+
+    })
+</script>
+</body>
+</html>

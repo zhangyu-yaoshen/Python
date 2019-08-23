@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 200px;
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <p>alex</p>
+        <button id="btn">按钮</button>
+    </div>
+    <script src="./libs/jquery-3.3.1.js"></script>
+    <script>
+        $(function () {
+
+            //jquery中没有捕获阶段  冒泡阶段
+            //每一个事件的回调函数 都会有一个事件对象(js)
+            $('#btn').click(function (e) {
+                console.log(e);
+                //阻止冒泡
+                e.stopPropagation();
+                $('.box p').css({
+                    'font-size':20
+                })
+            })
+
+            $('.box').click(function (e) { e.stopPropagation();
+
+                alert(1);
+                $(this).css({
+                    backgroundColor:'green'
+                })
+            })
+
+            $('body').click(function () {
+                 $(this).css({
+                    backgroundColor:'yellow'
+                })
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+    /*窗口加载  1.先去加载文档 2.图片再去加载*/
+       window.onload = function () {
+            console.log(document);
+            console.log(document.getElementById('btn'));
+            // document.getElementById('btn').onclick = function () {
+            //     alert(1);
+            // }
+            document.getElementById('btn').onmouseover = function () {
+                console.log('鼠标悬停了');
+            }
+             document.getElementById('btn').onmouseout = function () {
+                console.log('鼠标离开了');
+            }
+            // document.getElementById('btn').onmouseenter = function(){
+            //
+            // }
+            //  document.getElementById('btn').onmouseenter = function(){
+            //
+            // }
+       }
+    </script>
+</head>
+<body>
+<button id="btn">点我</button>
+<img src="" alt="">
+
+
+</body>
+</html>

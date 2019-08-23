@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        //window.onload有事件覆盖
+        window.onload = function () {
+            alert(1)
+        }
+
+         window.onload = function () {
+            alert(2)
+        }
+        */
+
+    </script>
+</head>
+<body>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+
+    /*
+    //入口函数 返回的是jquery对象
+    $(document).ready(function(){
+        alert(1);
+    });
+     $(document).ready(function(){
+        alert(2);
+    })
+    */
+    // $(window).ready(function(){
+    //     alert(2);
+    // })
+
+    $(function(){
+        alert(1);
+    })
+
+
+
+
+</script>
+
+
+</body>
+</html>

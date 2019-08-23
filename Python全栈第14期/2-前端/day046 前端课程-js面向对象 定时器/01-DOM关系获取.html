@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <div class="child">
+            <a href="">吴老板</a>
+            <p id="sb">alex</p>
+            <p>wuisir</p>
+        </div>
+    </div>
+    <script>
+        var oP = document.getElementById('sb');
+        // console.log(oP.parentNode); //亲爹
+        // console.log(oP.nextSibling.innerText); //IE既可以
+        // console.log(oP.nextElementSibling.innerText); //谷歌 火狐 safrie
+
+
+        // var a =oP.nextElementSibling || oP.nextSibling;
+        // console.log(a);
+        console.log(oP.parentNode.children);
+    </script>
+</body>
+</html>

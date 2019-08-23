@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<img src="./xiaohua.jpg" alt=""  class="box">
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+
+        //attr
+        //获取值
+        console.log($('img').attr('src')); //./xiaohua.jpg
+        //设置值
+        $('img').attr('alt','美女'); //./xiaohua.jpg
+
+         //设置多个标签属性值
+         $('img').attr({
+             'aaa':'美女',
+             'bbbb':'个哈哈哈'
+         });
+
+
+
+
+
+         //移除 removeAttr()
+        setTimeout(()=>{
+            //移除单个属性
+           // $('img').removeAttr('alt');
+
+
+           //移除多个属性
+            $('img').removeAttr('alt aaa bbbb');
+
+        },3000)
+
+    })
+</script>
+</body>
+</html>

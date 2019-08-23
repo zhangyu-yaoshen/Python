@@ -1,0 +1,173 @@
+day59 2018-09-26
+
+1. 内容回顾
+	1. 课前练习，那些常用的内置模块
+	2. 昨日内容
+		1. Web框架的原理（了解）
+			socket服务端，收发的消息都是按照HTTP协议的格式
+			
+			socket客户端  浏览器
+		2. HTTP协议
+			请求 浏览器给服务端发消息叫请求（request）
+			响应 服务端给浏览器回消息叫响应（response）
+			请求方法
+				GET POST ...
+			版本号：HTTP/1.1
+			默认端口：
+				HTTP:80
+				HTTPS:443
+			...
+		3. Python Web框架分类
+			a. 收发socket消息，按照HTTP协议解析消息的
+			b. 字符串替换，用来实现动态网页的
+			c. 业务逻辑
+			
+			1. 自己实现a、b、c
+				tornado
+			2. 自己实现b和c，使用第三方的a
+				Django
+			3. 自己实现c,使用第三方的a和b
+				Flask
+		4. Django
+			1. Django的版本
+				1. LTS版本 Long Team support
+			2. 安装
+				pip install django==1.11.11
+				pip install django==1.11.11 -i https://pypi.tuna.tsinghua.edu.cn/simple
+			3. 创建Django项目
+				1. 命令行
+					django-admin startproject mysite
+				2. PyCharm
+					File -> new project -> ...
+			4. 启动
+				1. 命令行	
+					1. 进入项目的根目录
+					2. 执行：python manage.py runserver 127.0.0.1:8080
+				2. PyCharm
+					1. 点绿色三角
+					2. 前提是左侧框框中的内容和项目名一致的
+			5. 目录结构
+				1. 见群内截图
+			6. 配置文件 mysite/settings.py 
+				1. BASE_DIR  --> 项目的根目录		
+		
+2. 今日内容
+
+	1. form表单提交数据的三个要素
+		1. form标签必须要有action和method属性
+		2. 所有获取用户输入的标签必须放在form表单中，必须要有name属性
+		3. 必须要有submit按钮
+
+	2. Django 基础必会三件套
+		from django.shortcuts import HttpResponse, render, redirect
+			1. HttpResponse
+				返回一个指定的字符串时
+			2. render
+				返回一个HTML文件
+			3. redirect
+				跳转
+	3. request相关的属性
+		1. request.method   --> 返回的是请求的方法（全大写）：GET/POST ...
+		2. request.GET      --> 取得是URL里面的参数，类似于字典的数据结构
+		3. request.POST     --> post提交的数据，类似于字典的数据结构
+	
+	4. Django的模板语言
+		{{ 变量名 }}
+
+	5. 程序连mysql
+		使用pymysql模块
+		1. 导入pymysql模块
+		2. 创建连接
+		3. 获取执行命令的游标
+		4. 用游标去执行SQL语句
+		5. 获取SQL语句的执行结果
+		6. 关闭游标
+		7. 关闭连接
+		
+		
+		创建一种工具  帮你翻译SQL语句   --> ORM（Object Relationship Model）
+		
+		优点：
+			1. 开发效率高
+			2. 开发不用直接写SQL语句
+			
+		缺点：
+			1. 执行效率低
+			
+			
+		ORM          DB
+		
+		类    <-->   数据表
+		属性  <-->   字段
+		对象  <-->   数据行
+		
+		以后就不会再想写SQL语句了。
+			
+	6. Django项目app  --> 项目中又分了一级Python包,不同的功能放到不同的包里面
+		1. 创建app
+			python manage.py startapp app01
+		2. 告诉Django创建了一个app
+			在settings.py找那个的INSTALLED_APPS中添加新创建的app
+			
+	7. Django中ORM的使用
+		1. 用处
+			1. 操作数据表
+			2. 操作数据行
+			
+			
+		2. 使用（默写！！！）
+			1. 手动创建一个数据库
+				-> create database mysite;
+			2. 告诉Django连哪个数据库
+				DATABASES = {
+					'default': {
+						'ENGINE': 'django.db.backends.mysql',  # 连接数据库的类型
+						'NAME': 'mysite',  # 数据库名
+						'HOST': '127.0.0.1',  # 数据库主机地址
+						'PORT': 3306,  # 数据库的端口
+						'USER': 'root',
+						'PASSWORD': '',
+					}
+				}
+			3. 用什么连数据库？
+				利用第三方的包，比如第三方包：pymysql和MySQLdb
+				告诉Django用pymysql模块代替默认的MySQLdb去连接MySQL数据库
+				和settings.py同级的__init__.py文件，写上：
+				import pymysql
+				pymysql.install_as_MySQLdb()
+			4. 在app/models.py的文件中创建类
+				类必须继承models.Model
+			5. 另个命令
+				1. python manage.py makemigrations   --> 找个小本本把models.py的变更记录一下
+				2. python manage.py migrate          --> 把上面的变更记录翻译成SQL语句，去数据库执行
+		
+		3. ORM查询
+			User.objects.filter(email='', pwd='')   
+	
+	
+3. 今天作业
+	1. 课上ORM版登录练习
+	2. 图书管理系统
+		1. 有出版社、作者、书
+		2. 涉及表结构
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+

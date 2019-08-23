@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<button id="append">追加</button>
+<div class="box">
+    <ul>
+        <li>alex</li>
+        <li id="box">wusir</li>
+    </ul>
+</div>
+
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        // $('ul li').click(function () {
+        //     alert($(this).text());
+        // })
+
+        $('.box').on('click','li',function () {
+            console.log($(this));
+        })
+
+        //未来追加的元素  是没有事件 我们通过事件委托  当你出现点击页面中的DOM没有任何反应
+        //1.DOM是否underfine  2.考虑事件代理
+        $('#append').click(function () {
+            var val = $('input[type=text]').val();
+            $('ul').append(`<li>${val}</li>`);
+        })
+    })
+</script>
+</body>
+</html>

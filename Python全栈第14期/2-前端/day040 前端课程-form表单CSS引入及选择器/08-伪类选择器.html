@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            color: red;
+        }
+
+        /*没有被访问过的a的颜色*/
+        a:link{
+            color: greenyellow;
+        }
+        /*访问过后的颜色*/
+        a:visited{
+            color: darkgreen;
+        }
+        /*鼠标悬浮时候的状态*/
+        a:hover{
+            color: darkgray;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:active{
+            color: darkblue;
+        }
+        .box{
+            color: green;
+            /*设置小手的状态*/
+            cursor: pointer;
+        }
+        /*隐藏*/
+        .box>p{
+            display: none;
+        }
+        /*显示隐藏*/
+        .box:hover p{
+            color: darkorange;
+            font-size: 20px;
+            display: block;
+        }
+        input  {
+            border: 0;
+            outline: none;
+            width: 300px;
+            height: 40px;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--爱恨准则  LoVe HAte-->
+    <input type="text">
+    <a href="#">百度一下</a>
+
+    <div class="box">
+         悬浮
+        <p>
+            李凯
+        </p>
+    </div>
+</body>
+</html>

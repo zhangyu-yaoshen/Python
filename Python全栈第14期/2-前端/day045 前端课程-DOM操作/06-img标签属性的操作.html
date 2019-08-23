@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*重置样式*/
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .swiper{
+            width: 1000px;
+            height: 460px;
+            margin: 0 auto;
+            background-color: red;
+            position: relative;
+        }
+        .swiper span{
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: 41px;
+            height: 69px;
+            background: green url("./icon-slides.png") no-repeat -125px 0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="swiper">
+        <span id="next"></span>
+        <img src="./1.png" alt="" id="meinv">
+    </div>
+    <script>
+        var oImg = document.getElementById('meinv');
+        console.dir(oImg);
+        var oNext = document.getElementById('next');
+        oImg.onmouseover = function () {
+            //this.src 获取的是DOM对象的属性
+            console.log(this.src); //绝对路径
+            //获取出来的就是标签上的属性 通过getAttribute('');获取的标签上的属性
+            console.log(this.getAttribute('src'));
+            this.src = '1_hover.png';
+            this.alt = '哈哈哈'
+        }
+        oImg.onmouseout = function () {
+            this.src = '1.png'
+        }
+
+        oNext.onmouseover = function () {
+           // console.log( this.style);
+            this.style.backgroundPositionX = '-42px';
+            this.style.backgroundPositionY = '0';
+
+        }
+    </script>
+
+</body>
+</html>

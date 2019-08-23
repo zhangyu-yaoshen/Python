@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">隐藏</button>
+<div id="box"></div>
+
+
+<script>
+    //总结： 操作DOM的三步走  1.获取事件源  2.调用事件  3.逻辑处理（业务逻辑）
+    //DOM 文档对象模型 document object Model
+
+
+    //1.找开关
+   var oDiv = document.getElementById('box');
+   var oBtn = document.getElementById('btn');
+   var isRed = true;
+   var isShow = true;
+//   2.点一下 动作
+    oDiv.onclick = function(){
+        if (isRed){
+             oDiv.style.backgroundColor = 'green';
+             isRed = false;
+        }else{
+             oDiv.style.backgroundColor = 'red';
+             isRed = true;
+        }
+                console.log(  oDiv.style);
+
+        // alert(1);
+    //    3.灯亮了
+
+
+    }
+
+    function hidden(){
+        if (isShow){
+            oDiv.style.display = 'none';
+            isShow = false;
+            oBtn.innerText = '显示';
+        }else{
+            oDiv.style.display = 'block';
+            isShow = true;
+            oBtn.innerText = '隐藏';
+        }
+
+
+    }
+
+    oBtn.onclick = hidden
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

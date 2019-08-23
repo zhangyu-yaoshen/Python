@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">创建</button>
+    <button id="del">删除</button>
+    <div class="father">
+        <!--<a href="#">wusir</a>-->
+        <!--<p class='active'>alex</p>-->
+    </div>
+    <script>
+        var oBtn = document.querySelector('#btn');
+        var oDel = document.querySelector('#del');
+        var oFather = document.querySelector('.father');
+        var oP = null;
+        var oA = null;
+        oBtn.onclick = function () {
+        //    1.创建 dom p标签对象
+            oP = document.createElement('p');
+            oA = document.createElement('a');
+        //    2.追加到父级标签中 父子之间
+            oFather.appendChild(oP);
+            oFather.insertBefore(oA,oP);
+            //设置对象属性的值
+            oA.href = 'http://www.baidu.com';
+            //设置值
+            oA.innerText = '百度'
+        //    3.设置值
+            oP.innerHTML = 'alex';
+        //    4.设置标签属性的值
+            oP.setAttribute('class','active');
+        }
+        oDel.onclick = function () {
+            // console.log(oP);
+            if (!oP){
+                return;
+            }else{
+                console.log(oFather);
+                 oFather.removeChild(oP);
+            }
+
+        }
+    </script>
+</body>
+</html>

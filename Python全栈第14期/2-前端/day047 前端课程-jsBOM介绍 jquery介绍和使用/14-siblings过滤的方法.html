@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            display: none;
+        }
+        div.active{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button>按钮1</button>
+    <button>按钮2</button>
+    <button>按钮3</button>
+    <button>按钮4</button>
+    <button>按钮5</button>
+
+    <div class="active">
+        1
+    </div>
+    <div>
+        2
+    </div>
+    <div>
+        3
+    </div>
+    <div>
+        4
+    </div>
+    <div>
+        5
+    </div>
+
+    <script src="./libs/jquery-3.3.1.js"></script>
+    <script>
+        $(function () {
+
+            $('button').click(function () {
+                console.log( $(this).css('backgroundColor','red'));
+                //获取索引
+
+                let i = $(this).index()
+                
+                //返回了jquery对象
+                //链式编程
+                $(this).css('backgroundColor','red').siblings('button').css('backgroundColor','#666');
+                $('div').eq(i).addClass('active').siblings('div').removeClass('active');
+            })
+        })
+    </script>
+</body>
+</html>

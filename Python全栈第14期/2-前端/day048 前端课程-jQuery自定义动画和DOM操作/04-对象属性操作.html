@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<img src="./xiaohua.jpg" alt=""  class="box">
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        //获取值
+        console.log($('img').prop('src'));
+        $('img').prop('aaaa','美女');
+        $('img').prop({
+            'bbb':'哈哈',
+            'aa':'嘿嘿'
+        });
+
+        console.log($('img'));
+
+        //移除 removeProp() 删除一个属性 *** 不能一次性删除多个
+        $('img').removeProp('aa');
+        // $('img').removeProp('bbb');
+
+        console.log($('img'));
+
+
+        setTimeout(()=>{
+
+        },3000)
+
+    })
+</script>
+</body>
+</html>

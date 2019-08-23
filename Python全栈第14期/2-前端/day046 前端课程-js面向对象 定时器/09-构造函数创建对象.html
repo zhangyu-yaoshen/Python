@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name,age){
+        this.name = name;
+        this.age = age;
+        this.fav = function () {
+            alert(this.name)
+        }
+    }
+
+    function Fruit(name,age){
+        this.name = name;
+        this.age = age;
+        this.fav = function () {
+            alert(this.name)
+        }
+    }
+//    创建对象 使用new关键字
+    var p1 = new Person('alex',17);
+    var f1 = new Fruit('桃子',17);
+    console.log(p1 instanceof Object);
+    console.log(f1 instanceof Object);
+    console.log(p1 instanceof Person);
+    console.log(f1 instanceof Fruit);
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .item{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>alex</li>
+    <li class="item">wusir</li>
+    <li>小马哥</li>
+    <li>涛哥</li>
+</ul>
+<input type="text">
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        //获取值
+       console.log( $('li:eq(1)').css('color'));
+
+
+        //设置单个值或者多个值
+        //:eq(index)
+
+        // $('li:eq(1)').css('color','red');
+
+        $('li:eq(1)').css({
+            'color':"yellow",
+            // backgroundColor:'red'
+            'background-color':'red'
+        });
+         $('li:last').css('color','red');
+
+         $("input[type='text']").css({
+             backgroundColor:'red'
+         })
+
+    })
+</script>
+</body>
+</html>

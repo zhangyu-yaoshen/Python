@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="box" style="width: 200px;height: 200px;background-color:red; position: absolute; left: 0;top:0"></div>
+<script>
+
+    /*
+    var a  =2;
+    var b = 3;
+    console.log(a,b);
+    //异步操作
+    setTimeout(function () {
+        console.log('我出来了');
+    },5000);
+
+
+
+
+    var app = function(){
+        console.log('app');
+    }
+    app();
+    */
+    var oBox = document.querySelector('.box');
+
+    var count = 0;
+    var timer = null;
+    timer = setInterval(function () {
+        count+=5;
+        oBox.style.left = count + 'px';
+        if (count>500){
+            clearInterval(timer);
+        }
+    },100);
+
+ // clearTimeout()
+//clearInterval()
+</script>
+</body>
+</html>

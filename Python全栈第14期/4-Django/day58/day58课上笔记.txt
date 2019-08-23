@@ -1,0 +1,131 @@
+day58 2018-09-25
+
+1. 内容回顾
+	1. 课前练习题
+	2. 前面内容复习
+		1. MySQL  ****
+			1. SQL语句
+			2. 设计表的能力
+			3. 原理
+		2. 前端  ***
+			1. HTML/CSS/JS
+			2. jQuery  *****
+			3. Bootstrap  *****
+		3. 并发编程  **
+			1. 进程
+			2. 线程
+			3. 协程
+			4. IO多路复用
+		4. 网络编程  ***
+			1. socket/socketserver
+			2. 粘包
+		5. 面向对象  *****
+			1. 封装、继承、多态
+		6. 常用模块  *****
+			1. os/sys/time/random/re/json/pickle/hashlib
+			2. collections/functools(题：1 2 3 4能组成多少个不重复的三位数)
+		7. 函数  *****
+			1. 函数（函数定义/函数的参数/返回值/作用域/lambda）
+			2. 迭代器/生成器
+			3. 列表推导式/列表生成式
+			4. 内置函数
+				1. filter/map
+				2. zip
+				3. sorted
+				4. ...等68个
+			5. 递归
+		8. 数据类型和内置方法  *****
+		9. 文件操作  *****
+		10. Python语法基础  *****
+			
+
+2. 今日内容
+	1. web框架的原理（90%）
+		1. C/S架构和B/S架构
+			1. C/S客户端模式
+			2. B/S浏览器模式   --> Web开发
+	
+		2. Web开发的本质
+			1. 互联网上两台机器之间通信：
+				1. IP
+				2. 端口
+				3. 协议
+			2. 协议(回去了解一下)
+				1. HTTP  默认端口是80
+				2. HTTPS 默认端口是443
+			3. 浏览器输入URL一回车到返回页面，这之间都经历了什么？
+				1. 域名  -> DNS解析 -> IP地址 -> 服务端 -> 返回消息 -> 浏览器
+				
+				2. 浏览器  <-->  服务器
+				
+				3. 服务器把写好的HTML页面，返回给浏览器，浏览器按照HTML格式渲染（显示）
+			4. 请求和响应
+				1. HTTP协议中
+					浏览器给服务端发消息的过程叫请求(request)
+					服务端给浏览器回复消息的过程叫响应(response)
+					
+				2. 请求和响应的消息都必须遵循一个固定的格式
+				
+	
+	2. Python中Web框架的分类
+		a. 收发socket消息，按照HTTP协议解析消息   Web服务程序 wsgiref、gunicorn、uWSGI
+		
+		b. 字符串替换
+		c. 业务逻辑处理							  Web应用程序
+		
+		1. 自己实现a、b、c的
+			tornado
+		2. 自己实现b、c，使用别人的a
+			Django
+		3. 自己实现c，使用别人的a和b
+			Flask
+	
+		另外一个维度的框架分类：
+			1. Django
+			2. 其他
+		
+		
+		Web服务程序  <-- WSGI协议 -->Web应用程序
+	
+	
+	3. Django安装（10%）  --> 今日最难
+		1. Django版本介绍
+			1. 注意LTS版本
+		2. 安装
+			1. pip install Django==1.11.11(卸载django:pip uninstall django)
+			
+		3. 创建第一个Django项目
+			1. 命令行创建
+				django-admin startproject 项目名
+			2. PyCharm
+				File -> new Project -> 左侧选第二项，右侧第一项是路径，第二项是选python版本
+				在新的PyCharm窗口打开新建的Django项目
+	
+		4. 启动Django项目
+			1. 命令行启动
+				在Django项目的根目录下，执行下面的命令
+				python manage.py runserver
+				python manage.py runserver 8080
+				停止：Ctrl + C
+			2. PyCharm启动
+				点绿色三角
+				注意左侧框中的名字一定要是项目名称！
+	
+	
+	4. 作业
+		1. 上午的02-07例子自己敲一敲，重在理解web框架都做了什么！
+		2. 写一个Django项目，把我们之前写的Bootstrap 登录页面返回！
+			1. 创建Django项目
+			2. 配置
+				1. HTML文件存放的路径
+				2. 配置Bootstrap.css文件路径
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

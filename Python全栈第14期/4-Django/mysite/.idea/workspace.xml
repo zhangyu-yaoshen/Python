@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a48d56b8-c47d-4e35-8d1e-be1062c88a87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day58/mysite/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../自动化测试selenium/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day009 函数入门/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day009 函数入门/02 还原车祸现场.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day009 函数入门/03 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day009 函数入门/04  函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day009 函数入门/火锅" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day009 函数入门/疙瘩汤" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day01 认识python/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day01 认识python/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day01 认识python/作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/01  今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/03 动态传参.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/04 名称空间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/05 函数的嵌套.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/student_msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day010 函数的进阶/user_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day011 迭代器和闭包/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day011 迭代器和闭包/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day011 迭代器和闭包/03 函数名的应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day011 迭代器和闭包/04 闭包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day011 迭代器和闭包/05  迭代器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day011 迭代器和闭包/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day012 生成器 装饰器/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day012 生成器 装饰器/02 生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day012 生成器 装饰器/03 推导式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day012 生成器 装饰器/04 生成器表达式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day013 内置函数一/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day013 内置函数一/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day013 内置函数一/03 内置函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/02 匿名函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/03 sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/04 filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/05 map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/06 递归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day014 内置函数二/07 二分法查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day016 面向对象-初始面向对象/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day016 面向对象-初始面向对象/02 面向对象引入.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day016 面向对象-初始面向对象/03 面向对象练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day016 面向对象-初始面向对象/04 面向对象PK面向过程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day016 面向对象-初始面向对象/05 继承关系.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day017 面向对象-成员/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day017 面向对象-成员/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day017 面向对象-成员/03 变量.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day017 面向对象-成员/04 方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day017 面向对象-成员/05 属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day017 面向对象-成员/06 私有.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/03 分页.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/04 依赖关系.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/05 关联关系.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/06 类名和对象是否可以作为key.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day018 类与类之间的关系/07 特殊成员.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/03 补充升级题2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/04 补充升级题1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/05 issubclass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/06 type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/07 isinstance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/08 方法和函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/09 面向对象的反射.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/模块内容/master.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day019 反射/模块内容/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day02 循环/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day02 循环/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/03 异常处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/04 约束.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/05 MD5加密.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/06 日志处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/l1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/l2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/作业/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day020 约束和异常处理/作业/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day021 C3算法和super/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day021 C3算法和super/02 继承.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day021 C3算法和super/03 super.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day021 C3算法和super/04 面试题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/02 模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/03 collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/04 栈和队列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/05 time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/06 random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/07 os模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/a/b/asdfasdfadsfads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day022 random, collections, time, queue/start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/03 pickle模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/04 shelve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/05 json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/06 configparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/db.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/new_menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/pickle-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/waimai.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/wf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/大阳哥.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/大阳哥.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day023 序列化 configparser/大阳哥.dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day024 正则和re/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day024 正则和re/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/02 re模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/03 模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/move_info7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/模块/my_sys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/模块/yitian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/模块/金庸.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day025 re 模块/模块/金庸二号.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/03 from xxx import xxx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/04 包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/api/policy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/api/versions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/cmd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/cmd/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/glance/db/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/haha/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/hehe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/liuwei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day026 包/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day028 协议+socket/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day028 协议+socket/udp_客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day028 协议+socket/udp_服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day028 协议+socket/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day028 协议+socket/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/account" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/sub_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/udp_客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/udp_服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/粘包现象1客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/粘包现象1服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/粘包现象2客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day029 粘包 缓冲区/粘包现象2服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day03 字符串/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day03 字符串/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day03 字符串/03 int类型.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day03 字符串/04 bool类型转换.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day03 字符串/05 str索引和切片.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day03 字符串/06 str相关操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day031 ftp功能讲解+操作系统/ftp功能讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day031 ftp功能讲解+操作系统/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day031 ftp功能讲解+操作系统/进度条版ftp上传客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day031 ftp功能讲解+操作系统/进度条版ftp上传服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/03 list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/04 列表的增删改查.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/05 相关操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/06 列表的嵌套.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/07 元组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day04 列表和元组/08 range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/03 join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/04 关于删除.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/05 fromkeys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/06 set集合.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day07 深浅拷贝/07 深浅拷贝.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/03 基本的文件操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/04 write.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/05 append.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/06 文件拷贝.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/07 读写模式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/08 写读模式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/09 追加读.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/10 光标.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/11 truncate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/12 修改文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/13 日志处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/2018-09-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/a/tu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/a/壁纸.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/a/操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/alex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/b/破文件" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/sylar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/小护士模特少妇女网红.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/我的天呐" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/戴蓝帽子的小白猫.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/终极妖神.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day08 文件操作/菜单" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day27 CS架构 通信流程 初识socket/01 服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day27 CS架构 通信流程 初识socket/01客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day27 CS架构 通信流程 初识socket/02 客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day27 CS架构 通信流程 初识socket/02服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/aaa.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/ss_客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/ss_服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/神奇的打包工具struct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/简单版ftp上传客户端示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/简单版ftp上传服务端示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/粘包现象2客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python基础部分/day30 粘包解决方案2+ftp上传+socketserver/粘包现象2服务端.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="D:/python-3.7.3/Lib/site-packages/django/contrib/admin/widgets.py" />
+        <option value="$PROJECT_DIR$/mysite/views.py" />
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="977" />
+    <option name="y" value="25" />
+    <option name="width" value="899" />
+    <option name="height" value="940" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a48d56b8-c47d-4e35-8d1e-be1062c88a87" name="Default Changelist" comment="" />
+      <created>1565663791500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565663791500</updated>
+      <workItem from="1565663793403" duration="1511000" />
+      <workItem from="1566291070552" duration="117000" />
+      <workItem from="1566292132329" duration="125000" />
+      <workItem from="1566292408888" duration="1448000" />
+      <workItem from="1566366321091" duration="2353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5554000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="977" y="25" width="899" height="940" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27294397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287841" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/python-3.7.3/Lib/site-packages/django/contrib/admin/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="152" column="63" lean-forward="true" selection-start-line="152" selection-start-column="63" selection-end-line="152" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

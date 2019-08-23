@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<button>显示</button>
+<div class="box"></div>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        /*
+        var isHide = true;
+        $('button').click(function () {
+            if (isHide) {
+                $('.box').stop().show(2000,function(){
+                    alert(2);
+                });
+                isHide = false;
+            } else {
+                $('.box').stop().hide(3000);
+                isHide = true;
+            }
+
+        })
+        */
+
+        //wirte less  do more
+        $('button').click(function () {
+
+            //使用动画效果 一定先stop()停止动画 再开动画
+            // $('.box').stop().toggle(500);
+            //卷帘门效果
+            // $('.box').slideDown(300);
+            // $('.box').slideUp(1000);
+            // $('.box').slideToggle(1000);
+            // $('.box').fadeIn(1000);
+
+
+
+
+        })
+    })
+</script>
+</body>
+</html>

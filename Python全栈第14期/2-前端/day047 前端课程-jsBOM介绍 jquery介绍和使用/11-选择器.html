@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+</head>
+<body>
+<div class="box" id="wrap">
+    <p class="active">alex1</p>
+    <p class="active">alex2</p>
+    <p class="active">alex3</p>
+    <p class="active">alex4</p>
+    <p class="active">alex</p>
+    <p class="active">alex</p>
+    <p class="active">alex</p>
+</div>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+
+ $(function () {
+     //jquery的选择器(获取DOM对象  注意 它获取的是jQuery对象,而不是jsDOM对象)  标签选择器
+     // console.log();
+     $('div')[0].style.backgroundColor = 'red';
+
+     console.log($('#wrap'));
+     console.log($('.box'));
+     console.log($('#wrap .active'));
+
+     $('#wrap .active').click(function () {
+
+        // console.log(this.innerText);
+     //    jsdom=>jquery对象
+     //     console.log($(this));
+
+
+
+
+        // console.log( $(this).text());
+        //  $(this).text('hahah')
+       // console.log( $(this).text('hahah'));
+     })
+
+     function text(val) {
+         if (val){
+             oDiv.innerText = val;
+         } else{
+             return oDiv.innerText;
+         }
+     }
+
+
+ })
+
+
+
+</script>
+
+
+</body>
+</html>

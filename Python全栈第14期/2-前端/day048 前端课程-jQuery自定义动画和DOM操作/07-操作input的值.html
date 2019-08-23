@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="">
+    <input type="radio" name="sex" value="112"/>男
+    <!-- 设置cheked属性表示选中当前选项 -->
+    <input type="radio" name="sex" value="11" checked=""/>女
+    <input type="radio" name="sex" value="11"/>gay
+
+    <input type="checkbox" value="a" checked=""/>吃饭
+    <input type="checkbox" value="b"/>睡觉
+    <input type="checkbox" value="c" checked=""/>打豆豆
+
+    <!-- 下拉列表 option标签内设置selected属性 表示选中当前
+        总结: 如果option中没有value 设置当前的值 通过标签的文本设置
+               如果有值通过value
+
+
+    -->
+    <select name="timespan" id="timespan" class="Wdate" multiple="multiple">
+        <option selected>alex</option>
+        <option selected="">wusir</option>
+        <option>wulaoban</option>
+
+        <!--<option selected="selected">Multiple</option>-->
+        <!--<option>Multiple2</option>-->
+        <!--<option selected="selected">Multiple3</option>-->
+    </select>
+
+    <select name="" id="fruit">
+        <option>香蕉</option>
+        <option>苹果</option>
+    </select>
+    </select>
+    <input type="text" name="" id="" value="111"/>
+</form>
+
+<script type="text/javascript" src="./libs/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+
+        // 一、获取值
+        //1.获取单选框被选中的value值
+        console.log($('input[type=radio]:checked').val())
+        //
+        // //2.复选框被选中的value,获取的是第一个被选中的值
+        console.log($('input[type=checkbox]:checked').eq(1).val())
+
+        //
+        // //3.下拉列表被选中的值
+        //
+        var obj = $("#timespan option:selected");
+        // // 获取被选中的值
+        var time = obj.val();
+        console.log(time);
+        // // 获取文本
+        var time_text = obj.text();
+        console.log("val:" + time + " text" + time_text);
+
+        //4.获取文本框的value值
+        // console.log($("input[type=text]").val())//获取文本框中的值
+
+        // 二.设置值
+        //1.设置单选按钮和多选按钮被选中项
+        // $('input[type=radio]').val(['112']);
+        $('input[type=checkbox]').val(['a', 'b']);
+
+
+        //2.设置下拉列表框的选中值，必须使用select
+        /*因为option只能设置单个值，当给select标签设置multiple。
+        那么我们设置多个值,就没有办法了，但是使用select设置单个值和多个值都可以
+        */
+
+        // $('select').val(['2','3'])
+        // $('select').val([ "Multiple2", "Multiple3" ]);
+        // $('select').val([ "alex", "wulaoban" ]);
+
+
+        //3.设置文本框的value值
+        // $('input[type=text]').val('试试就试试')
+
+
+        // $('#fruit').val('苹果');
+        // $('#fruit').val(['苹果','哈哈哈']);
+
+
+    })
+
+</script>
+
+</body>
+</html>

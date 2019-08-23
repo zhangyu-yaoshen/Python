@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+
+        div.active {
+            display: block;
+        }
+        .ac{
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+<button id="show">显示</button>
+<button id="del">移除标签</button>
+<div class="box">
+
+</div>
+<input type="text" value="嘿嘿嘿">
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        var isHide = true;
+        $('#show').click(function () {
+
+
+            if (isHide) {
+                $('.box').addClass('active aa vbbb addad');
+                isHide = false;
+                //获取文本的值
+                console.log($(this).text());
+                //只设置文本
+                var name = 'alex2333'
+                $(this).text('隐藏');
+                $('.box').html(`<ul>
+                                <li id="" class="ac"><a href="">哈哈哈</a></li>
+                                <li>${name}</li>
+                                <li>alex</li>
+                                <li>alex</li>
+                              </ul>`)
+
+            } else {
+                $('.box').removeClass('active aa vbbb');
+                isHide = true;
+                $(this).text('显示');
+
+
+            }
+        })
+
+        $('#del').mouseenter(function () {
+            $('.box').html('');
+        })
+
+        //获取值
+        console.log( $('input[type=text]').val());
+        //设置值
+        $('input[type=text]').val('alex');
+
+         console.log( $('input[type=text]').val());
+
+    })
+</script>
+</body>
+</html>

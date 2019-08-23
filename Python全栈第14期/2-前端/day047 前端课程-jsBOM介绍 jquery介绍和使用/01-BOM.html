@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+
+        <!--行间的js中的open() window不能省略 第二个参数的默认值 _blank-->
+        <button onclick="window.open('https://www.luffycity.com/')">路飞学城</button>
+
+        <button>打开百度</button>
+        <button onclick="window.close()">关闭</button>
+        <button>关闭</button>
+
+    </body>
+    <script type="text/javascript">
+
+        var oBtn = document.getElementsByTagName('button')[1];
+        var closeBtn = document.getElementsByTagName('button')[3];
+
+        oBtn.onclick = function(){
+            open('https://www.baidu.com','_self')
+
+            //打开空白页面
+            // open('about:blank',"_self")
+        }
+        closeBtn.onclick = function(){
+            if(confirm("是否关闭？")){
+                close();
+            }
+        }
+
+    </script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<button id="append">追加</button>
+<ul class="comment">
+
+</ul>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+
+        $('#append').click(function () {
+            // console.log($('input[type=text]').val());
+            let content  = $('input[type=text]').val();
+
+            $('.comment').append(`<li>${content}</li>`);
+
+            //清空
+            $('input[type=text]').val('')
+        })
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-size: 12px;
+        }
+        .box1 #wrap2 div p{
+            color: red;
+            font-size: 20px;
+        }
+        /*继承来的权重为0,与选中的标签没有可比性*/
+
+        .box1 #wrap2 #wrap3 {
+            color: green;
+            /*font-size: 20px;*/
+            /*background-color: red;*/
+            /*!*让文本在盒子中心对其*!*/
+            /*text-align: right;*/
+            /*!*行高=盒子的高度 让文本居中*!*/
+            /*height: 50px;*/
+            /*line-height: 50px;*/
+            /*text-decoration: underline;*/
+        }
+
+    </style>
+</head>
+<body>
+<div class="box1" id="wrap1">
+    <div class="box2" id="wrap2">
+        <div class="box3" id="wrap3">
+            <p class="active">猜猜我的颜色</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

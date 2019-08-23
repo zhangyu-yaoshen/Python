@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+
+    $(function () {
+        $.ajax({
+            url: "https://www.luffycity.com/api/v1/course_sub/category/list/",
+            type: 'get',
+            success: function (res) {
+                // console.log(res);
+                var categorys = res.data;
+
+                let catrgory = {
+                    "id": 0,
+                    "name": "全部",
+                    "category": 0
+                };
+
+                categorys.unshift(catrgory);
+                 console.log(categorys)
+            }
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*内接式*/
+        /*找标签  选择器:选中标签*/
+        p{
+            color: red;
+            font-size: 30px;
+        }
+        .fu{
+            color: red;
+        }
+    </style>
+    <!--外接式-->
+    <!--<link rel="stylesheet" href="./css/index.css">-->
+    <style type="text/css">
+        @import url('./css/index.css');
+    </style>
+</head>
+<body>
+<!--标准文档流下
+    总结: 行内样式的优先级 1000 大于 内接和外接式
+
+-->
+<!--1.行内样式-->
+    <div class="fu" style="color: aqua">
+        福彩
+    </div>
+
+    <p>李凯</p>
+    <span>师宇</span>
+</body>
+</html>

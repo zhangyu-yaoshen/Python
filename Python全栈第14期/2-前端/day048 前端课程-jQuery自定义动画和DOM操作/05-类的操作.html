@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+        div.active{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<button>显示</button>
+<div class="box"></div>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        var isHide = true;
+        $('button').click(function () {
+
+            /*
+            if (isHide){
+                $('.box').addClass('active aa vbbb addad');
+                isHide = false;
+            }else{
+                $('.box').removeClass('active aa vbbb');
+                isHide = true;
+            }
+            */
+
+            $('.box').toggleClass('active');
+        })
+
+
+    })
+</script>
+</body>
+</html>

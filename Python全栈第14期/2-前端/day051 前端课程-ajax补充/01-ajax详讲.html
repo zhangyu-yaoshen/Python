@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p style="display: none;">alex</p>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+
+    $(function () {
+        $.ajax({
+            url: "https://www.luffycity.com/api/v1/course_sub/category/list/",
+            type: 'get',
+            async:false,
+            beforeSend:function(){
+              console.log('请求还开始')
+                $('p').show(300);
+            },
+            dataType:'json',
+            success: function (res) {
+                  $('p').hide(300);
+                // console.log(res);
+                var categorys = res.data;
+
+                let catrgory = {
+                    "id": 0,
+                    "name": "全部",
+                    "category": 0
+                };
+
+                categorys.unshift(catrgory);
+                 console.log(categorys)
+            }
+        })
+
+        console.log(1111);
+    })
+</script>
+</body>
+</html>

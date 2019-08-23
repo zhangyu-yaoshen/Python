@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<button id="append">后置追加</button>
+<button id="prepend">前置追加</button>
+<button id="after">兄弟追加后</button>
+<button id="replace">替换</button>
+<button id="del">删除</button>
+<button id="detach">删除2</button>
+<button id="empty">清空</button>
+<ul class="comment">
+    <li id="item">alex</li>
+    <li><a href="#">sb</a></li>
+    <li><a href="#">sb2</a></li>
+</ul>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+
+        //1.后置追加
+        $('#append').click(function () {
+            // console.log($('input[type=text]').val());
+            let content = $('input[type=text]').val();
+            if (!content) {
+                return;
+            }
+
+            $('.comment').append(`<li>${content}</li>`);
+
+            //清空
+            $('input[type=text]').val('')
+        })
+
+        //2.前置
+
+        $('#prepend').click(function () {
+            let content = $('input[type=text]').val();
+
+            // $('.comment').prepend(`<li>${content}</li>`);
+            $(`<li>${content}</li>`).prependTo('.comment');
+
+        })
+
+        //3.兄弟追加 后追加
+        $('#after').click(function () {
+            let content = $('input[type=text]').val();
+            // $('#item').after(`<li>${content}</li>`);
+            $(`<li>${content}</li>`).insertAfter('#item');
+        })
+
+        $('#replace').click(function () {
+
+            $('.comment li a').replaceWith('<span>1</span>');
+        })
+
+        //remove() 删除 表示整个标签都删除(事件也删除)
+        $('#del').click(function () {
+            alert(1);
+            // $('ul').remove();
+
+          var jbtn =   $(this).remove();
+          console.log(jbtn);
+
+          $('.comment #item').append(jbtn)
+
+        })
+
+        //删除标签 事件不删除
+        $('#detach').click(function () {
+            alert(1);
+              var jbtn =   $(this).detach();
+              console.log(jbtn);
+
+              $('.comment #item').append(jbtn)
+        })
+
+        //清空父级元素的子内容
+         $('#empty').click(function () {
+
+              // $('.comment').empty();
+              // $('.comment').html('');
+              $('.comment').text('');
+        })
+
+
+    })
+</script>
+</body>
+</html>

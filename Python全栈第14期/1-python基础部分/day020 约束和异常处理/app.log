@@ -1,0 +1,102 @@
+2019-07-31 17:08:56 - root - CRITICAL - 06 日志处理: 我是critical
+2019-07-31 17:08:56 - root - ERROR - 06 日志处理: 我是error
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 36, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 36, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 36, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 36, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 36, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 36, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 32, in <module>
+    raise FileNotFoundError("我是FileNotFountException")
+FileNotFoundError: 我是FileNotFountException
+
+2019-07-31 17:14:03 - root - ERROR - 06 日志处理: Traceback (most recent call last):
+  File "E:/Python/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py", line 34, in <module>
+    raise StopIteration()
+StopIteration
+

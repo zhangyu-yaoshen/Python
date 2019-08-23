@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .top{
+            width: 100%;
+            background-color: darkorange;
+            /*BFC*/
+            /*但是不要忘了它本来的一层的意思*/
+            overflow: hidden;
+
+
+
+        }
+        .top .left{
+            width: 500px;
+            height: 40px;
+            float: left;
+            background-color: darkgreen;
+        }
+        .top .right{
+            width: 100px;
+            height: 40px;
+            float: right;
+            background-color: darkmagenta;
+        }
+        .header{
+            width: 500px;
+            height: 100px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="left"></div>
+    <div class="right"></div>
+
+</div>
+<div class="header"></div>
+
+</body>
+</html>

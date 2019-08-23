@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var app = function () {
+    //     alert('app');
+    // }
+
+    // var app = ()=>{
+    //     alert(this);
+    // }
+    //
+    // //function(){}  ==== ()=>{}
+    // app()
+
+     var person1 = {
+        name:'alex',
+        fav: function () {
+            //alex
+            console.log(this); //person1
+            console.log(this.name);
+        }
+    }
+    person1.fav();
+
+
+    var person2 = {
+        name:'alex',
+        fav: ()=> {
+            //this的指向发生了改变 指向了 定义当前person2对象的父类
+          console.log(this);
+        }
+    }
+    person2.fav();
+
+
+
+
+
+</script>
+
+</body>
+</html>

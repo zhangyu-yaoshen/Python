@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+
+</ul>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        function getWeather() {
+            $.ajax({
+                url: 'https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976',
+                type: 'post',
+                success: function (data) {
+                    console.log(data);
+                    var code = data.HeWeather6[0].now.cond_code; //104
+
+                    $('ul').html(`<li>
+                    <img src="https://cdn.heweather.com/cond_icon/${code}.png" alt="">
+                </li>`)
+
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            })
+        }
+
+        getWeather();
+
+        setInterval(function () {
+            getWeather();
+        },1000*3);
+
+    })
+</script>
+</body>
+</html>

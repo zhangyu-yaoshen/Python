@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        ul,ol{ list-style: none;}
+        .wrapper{
+            width: 580px;
+            height: 240px;
+            margin: 100px auto;
+            /*overflow: hidden;*/
+            position: relative;
+        }
+        .wrapper ul{
+            width: 100%;
+            height: 240px;
+            overflow: hidden;
+
+        }
+        .wrapper ul li{
+            float: left;
+            width: 580px;
+            height: 240px;
+        }
+        ol{
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            width: 190px;
+        }
+        ol li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            text-align: center;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: #abc;
+        }
+        ol li.current{
+            background-color: pink;
+        }
+    </style>
+    <script type="text/javascript" src="./libs/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            // 根据ol下li的索引号，匹配ul下相对应li的索引号
+            $(".wrapper ol li").mouseenter(function () {
+              $(this).addClass('current').siblings('li').removeClass('current')
+
+                $('.wrapper ul li').eq($(this).index()).stop().fadeIn(300).siblings('li').stop().fadeOut(300);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <ul>
+            <li><img src="./images/hongmi01.jpg" alt=""/></li>
+            <li><img src="./images/hongmi02.jpg" alt=""/></li>
+            <li><img src="./images/hongmi03.png" alt=""/></li>
+
+        </ul>
+        <ol>
+            <li class="current">1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+    </div>
+</body>
+</html>

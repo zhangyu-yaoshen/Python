@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.log(2222);
+    console.log(window.location);
+    setInterval(function(){
+        //页面全局刷新 不建议 使用 可以用它调试
+        //更希望的是 局部刷新（ajax技术 与后端交互的核心技术）
+        location.reload();
+    },2000)
+</script>
+
+</body>
+</html>

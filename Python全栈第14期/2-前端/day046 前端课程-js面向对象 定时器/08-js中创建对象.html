@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    // 构造函数方式创建对象
+    let person = new Object();
+    person.name = 'alex';
+    person.fav = function () {
+        console.log(this);
+    }
+    //字面量方式创建 使用最多
+    var person2 = {
+        name:'wusir',
+        age:19,
+        fav:function () {
+            alert(this.age);
+        }
+    }
+    person2.fav();
+    */
+
+    function createPerson(name, age) {
+        let person = new Object();
+        person.name = name;
+        person.age = age;
+        person.fav = function () {
+            console.log(this);
+        }
+
+        return person;
+    }
+
+      function createFruit(name, age) {
+        let fruit = new Object();
+        fruit.name = name;
+        fruit.age = age;
+        fruit.fav = function () {
+            console.log(this);
+        }
+
+        return fruit;
+    }
+
+    var p1 = createPerson('alex',17);
+    var f1 = createFruit('桃子',1);
+    console.log(p1 instanceof Object);
+    console.log(f1 instanceof Object);
+
+
+</script>
+
+</body>
+</html>

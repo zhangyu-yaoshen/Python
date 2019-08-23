@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<input type="text">
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+
+        //如果有回调函数参数,表示输入框获取焦点的额时候会触发
+        //如果没有回调函数,当调用focus() 立马会获取焦点
+       $('input[type=text]').focus(function () {
+           console.log(1111);
+       })
+
+
+        setTimeout(function () {
+              $('input[type=text]').blur()
+        },3000)
+    })
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father1,.father2{
+            width: 400px;
+            height: 400px;
+
+        }
+        /*父亲怂了  儿子再牛逼也没用*/
+        .father1{
+            background-color: red;
+            position: absolute;
+            z-index: 10;
+        }
+        .father2{
+            background-color: green;
+            position: absolute;
+            z-index: 3;
+        }
+        .child1,.child2{
+            width: 200px;
+            height: 200px;
+
+        }
+        .child1{
+            background-color: darkmagenta;
+            position: absolute;
+            top: 350px;
+            left: 450px;
+            z-index: 5;
+        }
+        .child2{
+            background-color: #ff6700;
+            position: absolute;
+            top: 350px;
+            left: 420px;
+            z-index: 10000;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="father1">
+        <div class="child1"></div>
+    </div>
+    <div class="father2">
+        <div class="child2"></div>
+    </div>
+
+</body>
+</html>

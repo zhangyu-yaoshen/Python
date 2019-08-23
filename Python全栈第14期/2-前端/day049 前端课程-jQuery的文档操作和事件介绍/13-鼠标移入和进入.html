@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        ul li{
+            float: right;
+            margin-right: 100px;
+            width: 80px;
+            height: 32px;
+            font-size: 14px;
+            position: relative;
+            background-color: red;
+            line-height: 32px;
+            text-align: center;
+        }
+        ul li .list{
+            display: none;
+            width: 200px;
+            height: 300px;
+            background-color: green;
+            position: absolute;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href=#"">alex</a>
+            <div class="list">
+                <p>个人中心</p>
+                <p>账号设置</p>
+                <p>意见反馈</p>
+                <p>退出</p>
+            </div>
+        </li>
+    </ul>
+    <script src="./libs/jquery-3.3.1.js"></script>
+    <script>
+        $(function () {
+
+
+
+            /*冒泡导致了问题
+            //鼠标穿过备选元素 或者是被选的子元素
+            $('ul li').mouseover(function () {
+                console.log('进来了')
+                $('ul li .list').show();
+            })
+             $('ul li').mouseout(function () {
+                console.log('出去了')
+                $('ul li .list').hide();
+            })
+            */
+              $('ul li').mouseenter(function () {
+                console.log('进来了')
+                $('ul li .list').show();
+            })
+             $('ul li ').mouseleave(function () {
+                console.log('出去了')
+                $('ul li .list').hide();
+            })
+        })
+    </script>
+</body>
+</html>

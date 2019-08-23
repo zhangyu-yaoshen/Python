@@ -2,10 +2,226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2736ee5f-2e32-4153-9fe8-a94ea17a4572" name="Default" comment="2019-04-04">
-      <change afterPath="$PROJECT_DIR$/Python全栈第15期/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈第15期/4-Django/day58/mysite/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/mysite/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自动化测试selenium/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门/02 还原车祸现场.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门/03 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门/04  函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门/火锅" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门/疙瘩汤" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/01  今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/03 动态传参.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/04 名称空间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/05 函数的嵌套.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/student_msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day010 函数的进阶/user_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包/03 函数名的应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包/04 闭包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包/05  迭代器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day012 生成器 装饰器/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day012 生成器 装饰器/02 生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day012 生成器 装饰器/03 推导式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day012 生成器 装饰器/04 生成器表达式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day013 内置函数一/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day013 内置函数一/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day013 内置函数一/03 内置函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/02 匿名函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/03 sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/04 filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/05 map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/06 递归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day014 内置函数二/07 二分法查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day016 面向对象-初始面向对象/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day016 面向对象-初始面向对象/02 面向对象引入.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day016 面向对象-初始面向对象/03 面向对象练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day016 面向对象-初始面向对象/04 面向对象PK面向过程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day016 面向对象-初始面向对象/05 继承关系.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day017 面向对象-成员/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day017 面向对象-成员/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day017 面向对象-成员/03 变量.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day017 面向对象-成员/04 方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day017 面向对象-成员/05 属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day017 面向对象-成员/06 私有.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/03 分页.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/04 依赖关系.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/05 关联关系.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/06 类名和对象是否可以作为key.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系/07 特殊成员.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/03 补充升级题2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/04 补充升级题1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/05 issubclass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/06 type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/07 isinstance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/08 方法和函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/09 面向对象的反射.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/模块内容/master.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射/模块内容/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day02 循环/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day02 循环/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/03 异常处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/04 约束.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/05 MD5加密.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/06 日志处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/l1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/l2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/作业/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理/作业/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day021 C3算法和super/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day021 C3算法和super/02 继承.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day021 C3算法和super/03 super.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day021 C3算法和super/04 面试题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/02 模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/03 collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/04 栈和队列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/05 time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/06 random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/07 os模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/a/b/asdfasdfadsfads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue/start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/03 pickle模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/04 shelve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/05 json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/06 configparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/db.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/new_menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/pickle-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/waimai.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/wf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/大阳哥.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/大阳哥.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/大阳哥.dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day024 正则和re/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day024 正则和re/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/02 re模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/03 模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/move_info7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/模块/my_sys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/模块/yitian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/模块/金庸.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day025 re 模块/模块/金庸二号.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/02 作业.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/03 from xxx import xxx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/04 包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/api/policy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/api/versions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/cmd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/cmd/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/glance/db/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/haha/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/hehe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/liuwei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day026 包/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day028 协议+socket/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day028 协议+socket/udp_客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day028 协议+socket/udp_服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day028 协议+socket/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day028 协议+socket/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/account" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/sub_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/udp_客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/udp_服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/粘包现象1客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/粘包现象1服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/粘包现象2客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day029 粘包 缓冲区/粘包现象2服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串/03 int类型.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串/04 bool类型转换.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串/05 str索引和切片.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串/06 str相关操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day031 ftp功能讲解+操作系统/ftp功能讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day031 ftp功能讲解+操作系统/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day031 ftp功能讲解+操作系统/进度条版ftp上传客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day031 ftp功能讲解+操作系统/进度条版ftp上传服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/03 list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/04 列表的增删改查.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/05 相关操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/06 列表的嵌套.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/07 元组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day04 列表和元组/08 range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/03 join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/04 关于删除.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/05 fromkeys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/06 set集合.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝/07 深浅拷贝.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/01 今日内容大纲" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/02 作业讲解.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/03 基本的文件操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/04 write.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/05 append.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/06 文件拷贝.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/07 读写模式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/08 写读模式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/09 追加读.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/10 光标.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/11 truncate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/12 修改文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/13 日志处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/2018-09-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/a/tu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/a/壁纸.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/a/操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/alex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/b/破文件" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/sylar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/小护士模特少妇女网红.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/我的天呐" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/戴蓝帽子的小白猫.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/终极妖神.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/菜单" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day27 CS架构 通信流程 初识socket/01 服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day27 CS架构 通信流程 初识socket/01客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day27 CS架构 通信流程 初识socket/02 客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day27 CS架构 通信流程 初识socket/02服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/aaa.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/ss_客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/ss_服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/神奇的打包工具struct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/简单版ftp上传客户端示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/简单版ftp上传服务端示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/粘包现象2客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈第15期/python基础部分/day30 粘包解决方案2+ftp上传+socketserver/粘包现象2服务端.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +301,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/test.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/02-submit事件和阻止默认事件.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/03-事件冒泡.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="-691" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/04-index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1470" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/05-路飞首页.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -110,6 +345,7 @@
       <find>url</find>
       <find>csrf</find>
       <find>password</find>
+      <find>driver</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,70 +356,76 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python自动化开发/004/闭包函数.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/004/装饰器.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/004/登录认证.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/004/模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/迭代器.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/生成器.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/吃包子.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/时间模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/随机数模块random.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/OS模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/005/logger.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/006/daodejing" />
-        <option value="$PROJECT_DIR$/Python自动化开发/006/shutil文件处理模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/shutil文件处理模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/configparser配置文件解析.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/configparser-mod.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/configparser读.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/example.ini" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/configparser读增删改.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/hashlib模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day6/re模块.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day7/类和对象.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day12/1.HTML部分/server.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day12/1.HTML部分/b.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/templates/index.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/blog/urls.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/templates/login.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/Mysite/settings.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/templates/timer.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/blog/models.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/Mysite/urls.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/blog/views.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/templates/back.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day12/2.CSS部分/3.边距.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day16/Django/templates/login.html" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day16/Django/app01/views.py" />
-        <option value="$PROJECT_DIR$/练习/说明.txt" />
-        <option value="$PROJECT_DIR$/Python全栈开发/项目练习/CMDB/test/1.Agent方式.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发/项目练习/CMDB/test/3.SaltStack.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发/项目练习/CMDB/src/plugins/test.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发/项目练习/CMDB/src/plugins/base.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day99/test.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/a1.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/s2.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/conf.py" />
-        <option value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/s3.py" />
-        <option value="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/settings.py" />
-        <option value="$PROJECT_DIR$/Python全栈第15期/基础部分/day01 认识python/a.py" />
-        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/q.py" />
-        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/test.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/04 shelve.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/waimai.json" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/menu.json" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/new_menu.json" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/05 json.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/db.ini" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser/06 configparser.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块/1.应用程序.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块/3.线程的使用.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块/4.多线程.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day039 前端课程-HTML/01-我的第一个html代码.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day039 前端课程-HTML/02-div和span和a标签.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day039 前端课程-HTML/03-img标签.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day039 前端课程-HTML/06-table表格标签.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day039 前端课程-HTML/07-表单.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day040 前端课程-form表单CSS引入及选择器/01-input标签的使用.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day040 前端课程-form表单CSS引入及选择器/04-高级选择器.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day040 前端课程-form表单CSS引入及选择器/08-伪类选择器.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/前端/day041 前端课程-盒模型 浮动及清除浮动/02-盒模型的计算.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/1-python基础部分/day35 协程/6.协程.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day041 前端课程-盒模型 浮动及清除浮动/09-版心设置.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day042 前端课程-浮动 背景图设置 相对定位绝对定位/mi-project/css/index.css" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day042 前端课程-浮动 背景图设置 相对定位绝对定位/02-文本和字体.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day042 前端课程-浮动 背景图设置 相对定位绝对定位/04-font.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day042 前端课程-浮动 背景图设置 相对定位绝对定位/06-background-image.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day042 前端课程-浮动 背景图设置 相对定位绝对定位/09-banner图的设置.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day042 前端课程-浮动 背景图设置 相对定位绝对定位/11-相对定位微调元素.html" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/test.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第4章/第2集/find_by_partial_link_text.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第4章/第2集/find_by_link_text.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第4章/第3集/find_by_css_selector.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第4章/第3集/find_by_xpath.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第4章/第1集/find_by_id.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第5章/第2集/hover_menu.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第5章/第4课/time.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第5章/第4课/time2.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第6章/第1集/ratio.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第6章/第4集/cookie.py" />
+        <option value="$PROJECT_DIR$/自动化测试selenium/第8章/第5课/mail_demo.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day043 前端课程-固定定位/01-固定定位.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/01-我的第一个js.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/4-Django/day58/mysite/t1.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/4-Django/day59/mysite/mysite/__init__.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/templates/login.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/03-使用js模拟hover选择器.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/04-选项卡.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/01-BOM.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/02-location对象.html" />
+        <option value="$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/09-ajax技术.html" />
       </list>
     </option>
   </component>
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1495" />
-    <option name="y" value="65" />
-    <option name="width" value="1065" />
+    <option name="x" value="902" />
+    <option name="width" value="1025" />
     <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -210,19 +452,7 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈第15期" type="462c0819:PsiDirectoryNode" />
-              <item name="python基础部分" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈第15期" type="462c0819:PsiDirectoryNode" />
-              <item name="python基础部分" type="462c0819:PsiDirectoryNode" />
-              <item name="day01 认识python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="工具" type="462c0819:PsiDirectoryNode" />
+              <item name="4-Django" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,25 +463,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Python自动化开发/第一天" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python全栈9期/django01/mysite" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python" />
+      <recent name="E:\Python\Python全栈第15期\python基础部分" />
       <recent name="F:\Python\Python全栈9期\django01\mysite\templates" />
       <recent name="F:\Python\Python自动化开发" />
       <recent name="E:\Python\Python自动化开发\005\QQQ" />
-      <recent name="E:\Python\Python\Python自动化开发\000作业\03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python\Python全栈第15期\4-Django\mysite\templates" />
+      <recent name="E:\Python\Python全栈第15期\前端\day039 前端课程-HTML" />
       <recent name="F:\Python\Python全栈9期" />
       <recent name="F:\Python\Python自动化开发" />
       <recent name="E:\Python\工具" />
-      <recent name="E:\Python\Python\Python自动化开发\000作业\03\db1" />
-      <recent name="E:\Python\Python\Python自动化开发\000作业\03" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,7 +499,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="JavaScript Debug.05-路飞首页.html">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,26 +520,19 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="类的__str__方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/类的__str__方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="03-合成事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/03-合成事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="05-路飞首页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/Python全栈第15期/2-前端/day051 前端课程-ajax补充/05-路飞首页.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="09-ajax技术.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/09-ajax技术.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="10-和风天气.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/10-和风天气.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-免费课程请求.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/11-免费课程请求.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -323,94 +549,6 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈第15期/基础部分/day01 认识python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈第15期/基础部分/day01 认识python/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化开发/day35/s16day35" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化开发/day35/s16day35/s3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -453,19 +591,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.Mysite" />
-      <item itemvalue="Python.s3" />
-      <item itemvalue="Python.类的__str__方法" />
-      <item itemvalue="Python.a" />
-      <item itemvalue="Python.a (1)" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="JavaScript Debug.10-和风天气.html" />
+      <item itemvalue="JavaScript Debug.03-合成事件.html" />
+      <item itemvalue="JavaScript Debug.09-ajax技术.html" />
+      <item itemvalue="JavaScript Debug.11-免费课程请求.html" />
+      <item itemvalue="JavaScript Debug.05-路飞首页.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.a (1)" />
-        <item itemvalue="Python.a" />
-        <item itemvalue="Python.类的__str__方法" />
-        <item itemvalue="Python.s3" />
+        <item itemvalue="JavaScript Debug.05-路飞首页.html" />
+        <item itemvalue="JavaScript Debug.11-免费课程请求.html" />
+        <item itemvalue="JavaScript Debug.10-和风天气.html" />
+        <item itemvalue="JavaScript Debug.09-ajax技术.html" />
+        <item itemvalue="JavaScript Debug.03-合成事件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -504,41 +642,31 @@
       <workItem from="1553846433493" duration="172000" />
       <workItem from="1554355315297" duration="2255000" />
       <workItem from="1555983520615" duration="5422000" />
-    </task>
-    <task id="LOCAL-00002" summary="20170829-2">
-      <created>1503978809124</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1503978809124</updated>
-    </task>
-    <task id="LOCAL-00003" summary="20170829-3">
-      <created>1504000822956</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1504000822956</updated>
-    </task>
-    <task id="LOCAL-00004" summary="20170830">
-      <created>1504080434204</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1504080434204</updated>
-    </task>
-    <task id="LOCAL-00005" summary="20170830">
-      <created>1504087455276</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1504087455277</updated>
-    </task>
-    <task id="LOCAL-00006" summary="20170831">
-      <created>1504173603399</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1504173603399</updated>
+      <workItem from="1561110202561" duration="759000" />
+      <workItem from="1561976528986" duration="2685000" />
+      <workItem from="1562206197012" duration="1226000" />
+      <workItem from="1562567507909" duration="7819000" />
+      <workItem from="1562652363702" duration="5886000" />
+      <workItem from="1562725701343" duration="9693000" />
+      <workItem from="1562746961194" duration="19064000" />
+      <workItem from="1563157666054" duration="37510000" />
+      <workItem from="1563603381275" duration="6292000" />
+      <workItem from="1564109054768" duration="4966000" />
+      <workItem from="1564370030791" duration="62290000" />
+      <workItem from="1565065836693" duration="1059000" />
+      <workItem from="1565074609251" duration="1276000" />
+      <workItem from="1565080318552" duration="19836000" />
+      <workItem from="1565231510384" duration="111000" />
+      <workItem from="1565231637173" duration="402000" />
+      <workItem from="1565232073450" duration="18473000" />
+      <workItem from="1565580897214" duration="3483000" />
+      <workItem from="1565595762412" duration="1810000" />
+      <workItem from="1565602047127" duration="4553000" />
+      <workItem from="1565664719126" duration="54644000" />
+      <workItem from="1566292034496" duration="228000" />
+      <workItem from="1566292355500" duration="1535000" />
+      <workItem from="1566358688108" duration="2802000" />
+      <workItem from="1566373485302" duration="19734000" />
     </task>
     <task id="LOCAL-00007" summary="20170901">
       <created>1504259391602</created>
@@ -848,7 +976,42 @@
       <option name="project" value="LOCAL" />
       <updated>1554372120622</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="2019-06-21">
+      <created>1561110359700</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1561110359701</updated>
+    </task>
+    <task id="LOCAL-00052" summary="2019-07-03">
+      <created>1562210400721</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1562210400722</updated>
+    </task>
+    <task id="LOCAL-00053" summary="2019-07-09">
+      <created>1562671232877</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1562671232877</updated>
+    </task>
+    <task id="LOCAL-00054" summary="2019-07-10">
+      <created>1562756951728</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1562756951728</updated>
+    </task>
+    <task id="LOCAL-00055" summary="2019-07-12">
+      <created>1562930051818</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1562930051818</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -863,7 +1026,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49546000" />
+    <option name="totallyTimeSpent" value="337682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,43 +1038,64 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1196" y="52" width="852" height="752" extended-state="0" />
+    <frame x="902" y="0" width="1025" height="940" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29430053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989083" visible="true" weight="0.3435484" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3287841" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49821216" weight="0.34243175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32996634" />
       <window_info anchor="bottom" id="运行" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010917" side_tool="true" weight="0.33387357" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50178784" side_tool="true" weight="0.34243175" />
       <window_info anchor="bottom" id="调试" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32996634" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.28387097" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.22123894" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.27791563" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.22084367" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" weight="0.2173913" />
       <window_info anchor="right" id="Data View" order="5" weight="0.3288948" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27046633" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287841" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49821216" weight="0.34243175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995037" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32996634" />
+      <window_info anchor="bottom" id="运行" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50178784" side_tool="true" weight="0.34243175" />
+      <window_info anchor="bottom" id="调试" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32996634" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.27791563" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.22084367" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.2173913" />
+      <window_info anchor="right" id="Data View" order="5" weight="0.3288948" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20171205" />
-    <MESSAGE value="20171215" />
-    <MESSAGE value="20171216" />
-    <MESSAGE value="20180122" />
-    <MESSAGE value="20180122-1" />
     <MESSAGE value="20180126" />
     <MESSAGE value="20180509[更换Django版本]" />
     <MESSAGE value="20180509-2" />
@@ -932,7 +1116,12 @@
     <MESSAGE value="2019-02-25" />
     <MESSAGE value="2019-03-14" />
     <MESSAGE value="2019-04-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-04-04" />
+    <MESSAGE value="2019-06-21" />
+    <MESSAGE value="2019-07-03" />
+    <MESSAGE value="2019-07-09" />
+    <MESSAGE value="2019-07-10" />
+    <MESSAGE value="2019-07-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-07-12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -944,274 +1133,398 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$3_.coverage" NAME="3.线程的使用 Coverage Results" MODIFIED="1565157767218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块" />
+    <SUITE FILE_PATH="coverage/Python$find_by_id__1_.coverage" NAME="find_by_id (1) Coverage Results" MODIFIED="1565862725836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第4章/第1集" />
+    <SUITE FILE_PATH="coverage/Python$03_int.coverage" NAME="03 int类型 Coverage Results" MODIFIED="1562571981045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串" />
+    <SUITE FILE_PATH="coverage/Python$ratio.coverage" NAME="ratio Coverage Results" MODIFIED="1565925062302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第6章/第1集" />
+    <SUITE FILE_PATH="coverage/Python$find_by_css_selector.coverage" NAME="find_by_css_selector Coverage Results" MODIFIED="1565860369890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第4章/第3集" />
+    <SUITE FILE_PATH="coverage/Python$06_key.coverage" NAME="06 类名和对象是否可以作为key Coverage Results" MODIFIED="1564390906739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系" />
+    <SUITE FILE_PATH="coverage/Python$05_fromkeys.coverage" NAME="05 fromkeys Coverage Results" MODIFIED="1562671038266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝" />
+    <SUITE FILE_PATH="coverage/Python$05_json.coverage" NAME="05 json Coverage Results" MODIFIED="1564742604244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser" />
+    <SUITE FILE_PATH="coverage/Python$find_by_link_text.coverage" NAME="find_by_link_text Coverage Results" MODIFIED="1565857835640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第4章/第2集" />
+    <SUITE FILE_PATH="coverage/Python$12_.coverage" NAME="12 修改文件 Coverage Results" MODIFIED="1562750930483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作" />
+    <SUITE FILE_PATH="coverage/Python$7__IO.coverage" NAME="7.协程_IO切换 Coverage Results" MODIFIED="1565602806558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/1-python基础部分/day35 协程" />
+    <SUITE FILE_PATH="coverage/Python$04_.coverage" NAME="04 栈和队列 Coverage Results" MODIFIED="1564717658275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue" />
+    <SUITE FILE_PATH="coverage/Python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1561110324688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day02 循环" />
+    <SUITE FILE_PATH="coverage/Python$4_.coverage" NAME="4.多线程 Coverage Results" MODIFIED="1565158404727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块" />
+    <SUITE FILE_PATH="coverage/Python$05__.coverage" NAME="05  迭代器 Coverage Results" MODIFIED="1563344594539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day011 迭代器和闭包" />
+    <SUITE FILE_PATH="coverage/Python$05_MD5.coverage" NAME="05 MD5加密 Coverage Results" MODIFIED="1564561327033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理" />
+    <SUITE FILE_PATH="coverage/Python$06_configparser.coverage" NAME="06 configparser Coverage Results" MODIFIED="1564974352276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser" />
+    <SUITE FILE_PATH="coverage/Python$time.coverage" NAME="time Coverage Results" MODIFIED="1565869095016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第5章/第4课" />
+    <SUITE FILE_PATH="coverage/Python$05_.coverage" NAME="05 关联关系 Coverage Results" MODIFIED="1564385502301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="操作 Coverage Results" MODIFIED="1562751249650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作/a" />
+    <SUITE FILE_PATH="coverage/Python$03_pickle.coverage" NAME="03 pickle模块 Coverage Results" MODIFIED="1564734086915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser" />
+    <SUITE FILE_PATH="coverage/Python$06_str.coverage" NAME="06 str相关操作 Coverage Results" MODIFIED="1562579967862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串" />
+    <SUITE FILE_PATH="coverage/Python$04__.coverage" NAME="04  函数 Coverage Results" MODIFIED="1562837160990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day009 函数入门" />
+    <SUITE FILE_PATH="coverage/Python$05_str.coverage" NAME="05 str索引和切片 Coverage Results" MODIFIED="1562576077850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串" />
+    <SUITE FILE_PATH="coverage/Python$find_by_id.coverage" NAME="find_by_id Coverage Results" MODIFIED="1565853412014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/selenium3自动化测试/自动化测试资料/其他资料/第4章/第1集" />
+    <SUITE FILE_PATH="coverage/Python$03_collections.coverage" NAME="03 collections Coverage Results" MODIFIED="1564725171496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue" />
+    <SUITE FILE_PATH="coverage/Python$02_.coverage" NAME="02 继承 Coverage Results" MODIFIED="1564646633888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day021 C3算法和super" />
+    <SUITE FILE_PATH="coverage/Python$06_.coverage" NAME="06 日志处理 Coverage Results" MODIFIED="1564564757767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理" />
+    <SUITE FILE_PATH="coverage/Python$04_bool.coverage" NAME="04 bool类型转换 Coverage Results" MODIFIED="1562572195533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day03 字符串" />
+    <SUITE FILE_PATH="coverage/Python$04_PK.coverage" NAME="04 面向对象PK面向过程 Coverage Results" MODIFIED="1563604175275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day016 面向对象-初始面向对象" />
+    <SUITE FILE_PATH="coverage/Python$5_.coverage" NAME="5.多线程的问题 Coverage Results" MODIFIED="1565158582111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块" />
+    <SUITE FILE_PATH="coverage/Python$06_random.coverage" NAME="06 random Coverage Results" MODIFIED="1564727213589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue" />
+    <SUITE FILE_PATH="coverage/Python$09_.coverage" NAME="09 面向对象的反射 Coverage Results" MODIFIED="1564539080189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射" />
+    <SUITE FILE_PATH="coverage/Python$1_.coverage" NAME="1.应用程序 Coverage Results" MODIFIED="1565085606934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day32 操作系统原理 多道 并发原理 process模块" />
+    <SUITE FILE_PATH="coverage/Python$04_write.coverage" NAME="04 write Coverage Results" MODIFIED="1562743842625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作" />
+    <SUITE FILE_PATH="coverage/Python$find_by_partial_link_text.coverage" NAME="find_by_partial_link_text Coverage Results" MODIFIED="1565858056731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第4章/第2集" />
+    <SUITE FILE_PATH="coverage/Python$find_by_xpath.coverage" NAME="find_by_xpath Coverage Results" MODIFIED="1565861683164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第4章/第3集" />
+    <SUITE FILE_PATH="coverage/Python$03_super.coverage" NAME="03 super Coverage Results" MODIFIED="1564648205360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day021 C3算法和super" />
+    <SUITE FILE_PATH="coverage/Python$05_append.coverage" NAME="05 append Coverage Results" MODIFIED="1562743963646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作" />
+    <SUITE FILE_PATH="coverage/Python$07_os.coverage" NAME="07 os模块 Coverage Results" MODIFIED="1564729746914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue" />
+    <SUITE FILE_PATH="coverage/Python$04_shelve.coverage" NAME="04 shelve Coverage Results" MODIFIED="1564739572265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day023 序列化 configparser" />
+    <SUITE FILE_PATH="coverage/Python$07_.coverage" NAME="07 特殊成员 Coverage Results" MODIFIED="1564392433064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day018 类与类之间的关系" />
+    <SUITE FILE_PATH="coverage/Python$6_.coverage" NAME="6.协程 Coverage Results" MODIFIED="1565595771641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/1-python基础部分/day35 协程" />
+    <SUITE FILE_PATH="coverage/Python$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1566358724345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/4-Django/day58/mysite" />
+    <SUITE FILE_PATH="coverage/Python$05_time.coverage" NAME="05 time Coverage Results" MODIFIED="1564726548109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day022 random, collections, time, queue" />
+    <SUITE FILE_PATH="coverage/Python$13_.coverage" NAME="13 日志处理 Coverage Results" MODIFIED="1562751488903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day08 文件操作" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1565855071258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium" />
+    <SUITE FILE_PATH="coverage/Python$06_type.coverage" NAME="06 type Coverage Results" MODIFIED="1564472064676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day019 反射" />
+    <SUITE FILE_PATH="coverage/Python$time2.coverage" NAME="time2 Coverage Results" MODIFIED="1565869293841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第5章/第4课" />
+    <SUITE FILE_PATH="coverage/Python$hover_menu.coverage" NAME="hover_menu Coverage Results" MODIFIED="1565864228321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试selenium/第5章/第2集" />
+    <SUITE FILE_PATH="coverage/Python$03_join.coverage" NAME="03 join Coverage Results" MODIFIED="1562668950029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day07 深浅拷贝" />
+    <SUITE FILE_PATH="coverage/Python$03_.coverage" NAME="03 异常处理 Coverage Results" MODIFIED="1564553728971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈第15期/python基础部分/day020 约束和异常处理" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day22CMDB/s16MadKing/s16MadKing/settings.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/05-字符串的拼接(1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/08-switch.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day22CMDB/s16MadKing/s16MadKing/urls.py">
+    <entry file="file://$PROJECT_DIR$/../视频/老男孩Python全栈14期/第6部分-Django(哪吒,肖锋)/django-1-基础-哪吒/day59/day59课上代码和笔记/day59/01课前练习题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/07-流程控制.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/06-数据类型转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day58/mysite/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day58/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day59/mysite/mysite/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day59/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="135" selection-start-line="135" selection-end-line="140" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="122" column="23" lean-forward="true" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/mysite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#223#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day59/mysite/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day22CMDB/s16MadKing/asset/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day59/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#679#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day22CMDB/s16MadKing/asset/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/练习/说明.txt">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/4-Django/day59/mysite/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python自动化开发/day14/表单提交.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/练习/ssq/bin/start.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/12-常用内置对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day045 前端课程-DOM操作/01-获取DOM的方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/02-通过DOM操作对元素显示隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/03-使用js模拟hover选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day044 前端课程-js基本操作/10-for循环.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day22CMDB/s16MadKing/asset/models.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/04-选项卡.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="472" column="17" selection-start-line="472" selection-start-column="17" selection-end-line="472" selection-end-column="17" />
+        <state relative-caret-position="589">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day22CMDB/s16MadKing/asset/urls.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/08-js中创建对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="247">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/test/1.Agent方式.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/test/2.SSH类方式.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/test/3.SaltStack.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/bin/xiaoyunyun.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/src/plugins/nic.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/src/plugins/test.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/src/plugins/mem.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/src/plugins/disk.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/conf/settings.py" />
-    <entry file="file://$PROJECT_DIR$/练习/ssq/model/reptilian.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/09-构造函数创建对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" selection-end-line="72" />
+        <state relative-caret-position="627">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/src/package.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/Python全栈开发/项目练习/CMDB-1/src/plugins/base.py" />
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day1/sanjimulu.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day046 前端课程-js面向对象 定时器/12-定时器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day1/login.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/01-BOM.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="494">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django02/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django03/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day99/test.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/02-location对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/常用工具/python-3.6.8/Lib/site-packages/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/03-href属性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/a1.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/04-client系列.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        <state relative-caret-position="456">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/05-屏幕的可视区域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/08-滚动固定导航栏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/libs/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#133#148#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/s1.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/libs/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="36" column="4" selection-start-line="36" selection-end-line="51" selection-end-column="39" />
+        <state>
           <folding>
-            <element signature="e#87#102#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/s2.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/10-jQuery的入口函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#313#328#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/conf.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/09-jquery的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/12-基本过滤选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/03-合成事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day047 前端课程-jsBOM介绍 jquery介绍和使用/11-选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/06-小米轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/s3.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/07-插件轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6327">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/04-表单事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/09-ajax技术.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/10-和风天气.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="14" lean-forward="true" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day35/s16day35/s4.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day050 前端课程-jQuery表单事件/11-免费课程请求.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="e#241#250#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day60/mysite/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day60/mysite/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="125" column="6" selection-start-line="125" selection-end-line="128" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python自动化开发/day15/Django/Mysite/Mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/apps.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/01-ajax详讲.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/mysiteday61/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/mysite/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/类的__str__方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/day61/mysiteday61/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="23" column="33" selection-end-line="51" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈9期/django01/mysite/templates/add_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/q.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day049 前端课程-jQuery的文档操作和事件介绍/08-事件对象.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈第15期/python基础部分/day01 认识python/test.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/02-submit事件和阻止默认事件.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/03-事件冒泡.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="-691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/04-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈第15期/2-前端/day051 前端课程-ajax补充/05-路飞首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>

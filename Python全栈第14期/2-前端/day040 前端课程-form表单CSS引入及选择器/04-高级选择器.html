@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*后代选择器*/
+        /*.box1 p{*/
+            /*color: red;*/
+        /*}*/
+        /*子代*/
+        /*.box2>p{*/
+            /*color: yellow;*/
+        /*}*/
+        /*组合选择器*/
+        /*p,span,a{*/
+            /*font-size: 12px;*/
+        /*}*/
+        /**{*/
+        /*    font-size: 14px;*/
+        /*    padding: 0;*/
+        /*    margin: 0;*/
+        /*}*/
+
+        /*交集选择器*/
+        .box{
+            color: red;
+        }
+        p{
+            font-size: 20px;
+        }
+        p.active{
+            background-color: yellow;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="box1" id="wrap1">
+    <div class="box2" id="wrap2">
+        <div class="box3" id="wrap3">
+            <p class="box active">猜猜我的颜色</p>
+        </div>
+        <p>哈哈哈</p>
+    </div>
+</div>
+<a href="#">百度一下</a>
+<span>嘉兴</span>
+
+</body>
+</html>

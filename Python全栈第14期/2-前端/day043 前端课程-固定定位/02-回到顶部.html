@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .backTop{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background-color: black;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .backTop a{
+
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body style="height: 2000px">
+<div id="top"></div>
+<div class="backTop">
+    <!--阻止a标签的默认事件-->
+    <a href="javascript:void(0);">回到顶部</a>
+</div>
+<!--from xxx import ooo-->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script>
+    // def $(str):
+    //     .....
+    // return 对象
+    //
+    // $()
+
+    $('a').click(function(){
+    //   业务逻辑
+
+        $('body,html').animate({
+            scrollTop:0
+        },1000);
+
+    })
+
+</script>
+
+
+</body>
+</html>

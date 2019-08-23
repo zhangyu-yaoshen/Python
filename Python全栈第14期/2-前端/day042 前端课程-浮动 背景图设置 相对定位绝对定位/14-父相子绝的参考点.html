@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .yeye{
+            width: 800px;
+            height: 800px;
+            background-color: yellow;
+            position: relative;
+        }
+        .father{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            background-color:red;
+            /*position: relative;*/
+            /*定位 与padding没有任何关系*/
+            /*padding: 50px;*/
+        }
+        .child1{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            top: 200px;
+            left: 10px;
+        }
+        .child2{
+            width: 200px;
+            height: 200px;
+            background: darkmagenta;
+            position: absolute;
+            right: 0;
+            top: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="yeye">
+        <div class="father">
+            <div class="child1"></div>
+            <div class="child2"></div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .fuBox {
+            width: 100%;
+            height: 300px;
+            background-color: red;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        .fuBox .container {
+            width: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .fuBox .container span {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            cursor: pointer;
+            color: #0086b3;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body style="height: 2000px;">
+<button class="changefu">换肤</button>
+<div class="fuBox">
+    <div class="container">
+        <ul>
+            <li>热门</li>
+            <li>热门</li>
+            <li>热门</li>
+        </ul>
+        <span>收起</span>
+    </div>
+</div>
+<script src="./libs/jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        function changeFun() {
+
+            $('.changefu').click(function (e) {
+                e.stopPropagation();
+                $('.fuBox').stop().slideDown(400);
+            })
+
+            $('.fuBox .container span,body').click(function (e) {
+
+                $('.fuBox').stop().slideUp(400);
+            })
+
+            $('.fuBox .container ul li').click(function (e) {
+                e.stopPropagation()
+                alert(1);
+
+            })
+
+
+
+        }
+
+        changeFun();
+    })
+</script>
+</body>
+</html>

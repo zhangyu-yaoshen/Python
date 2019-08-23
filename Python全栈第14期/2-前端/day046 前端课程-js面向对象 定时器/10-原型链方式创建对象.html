@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    Person.prototype.fav = function () {
+        console.log(this.name);
+    }
+    let p1 = new Person('alex',16);
+    let p2 = new Person('alex',16);
+
+    p1.fav();
+
+    class Furit{
+        constructor(name='alex',age=16){
+            this.name = name;
+            this.age = age
+        }
+        //对象的单体模式 fav:function(){}
+        fav(){
+            console.log(this.age);
+        }
+    }
+
+   var f1 =  new Furit();
+    f1.fav();
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<script>
+    var oDiv = document.getElementsByClassName('box')[0];
+
+    var isRed = true;
+    oDiv.onclick = function () {
+        if (isRed) {
+            console.log(this.style);
+            //this  谁做的事件操作 this指向谁
+            this.style.backgroundColor = 'green';
+            this.style.width = '400px';
+            isRed = false;
+        } else {
+            this.style.backgroundColor = 'red';
+            isRed = true;
+        }
+
+    }
+</script>
+
+</body>
+</html>

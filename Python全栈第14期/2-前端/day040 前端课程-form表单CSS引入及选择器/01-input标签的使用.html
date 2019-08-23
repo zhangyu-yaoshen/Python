@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--上传文件时；要用method="post" enctype="multipart/form-data"-->
+<form action="" method="post" enctype="multipart/form-data">
+    <p class="user">
+        <label for="user">用户名：</label>
+        <input type="text" name="user" placeholder="请输入用户名" id="user">
+    </p>
+    <p class="pwd">
+        <label for="pwd">密码：</label>
+        &nbsp;&nbsp;
+        <input type="password" name="pwd" placeholder="请输入密码" id="pwd">
+    </p>
+    <p>
+        <!--单选框【默认条件checked="checked"】-->
+        男<input type="radio" name="sex" value="man" checked="checked">
+        女<input type="radio" name="sex" value="woman" >
+    </p>
+    <p>
+        <!--多选框-->
+        抽烟<input type="checkbox" name="fav" value="smoke">
+        喝酒<input type="checkbox" name="fav" value="drink">
+        汤头<input type="checkbox" name="fav" value="lifa">
+
+    </p>
+    <p>
+        <input type="file">
+    </p>
+    <p>
+        <!--登录按钮用submit-->
+        <input type="submit" value="注册">
+        <input type="button" value="登陆">
+        <button type="submit">按钮</button>
+        <button type="reset">重置按钮</button>
+    </p>
+    <p>
+        <!--下拉框-->
+        <select name="xuanmei" id="">
+            <option value="1">熊姐</option>
+            <option value="2" selected='selected'>婕哥</option>
+            <option value="3">张阳</option>
+            <option value="4">五爪</option>
+        </select>
+    </p>
+    <p>
+        <!--文本输入框-->
+        个人描述<textarea name="" id="desc" cols="50" rows="20">个人描述</textarea>
+    </p>
+
+
+    <!--&lt;p&gt;-->
+
+</form>
+
+
+</body>
+</html>
