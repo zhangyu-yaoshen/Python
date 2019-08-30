@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="content-Type" charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>添加作者</title>
+</head>
+<body>
+<h1>添加作者</h1>
+
+<form action="" method="post">
+    <input type="text" name="author_name">
+    <select name="books" multiple="multiple">
+        {% for book in book_list %}
+            <option value="{{ book.id }}">{{ book.title }}</option>
+        {% endfor %}
+    </select>
+    <hr>
+    <input type="checkbox" value="basketball" name="hobby">篮球
+    <input type="checkbox" value="football" name="hobby">足球
+    <input type="checkbox" value="doublecolorball" name="hobby">双色球
+    <input type="submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+day60  2018-09-27
+
+
+1. 内容回顾
+	1. 几个问题
+		1. form表单的action
+		2. PyCharm打开Django项目
+		3. PyCharm新建Django项目
+
+	2. 内容回顾
+		1. form表单提交数据三个要素
+			1. form标签要有action和method,上传文件需要额外指定enctype属性
+			2. 获取用户输入的标签要有name属性（input,select,textarea）
+			3. 必须要有submit按钮
+		2. Django基础必会三件套
+			from django.shortcuts import HttpResponse, render, redirect
+			1. HttpResponse('OK') --> 把字符串的OK转成二进制，然后按照HTTP响应的格式要求返回
+			2. render(request, 'login.html') --> 打开文件，读取内容，按照响应格式返回
+			3. render(request, 'login.html', {"key": "value"}) --> 打开文件，读取内容,替换特殊符号，按照响应格式返回
+				{{ key }}
+			4. redirect('/index/')  --> 在同网站不同地址间跳转（返回的是重定向的响应）
+			5. redirect('https://www.luffycity.com')   -> 让你的浏览器访问我指定的网址
+			
+		3. request
+			所有和请求相关的数据都封装在这个request对象中
+			request.method   --> 当前这次请求的方法（GET/POST）
+			request.GET      --> 取到URL里面携带的参数
+			request.POST     --> 取到POST提交的数据（form表单提交的数据）
+			
+		4. 模板语言（HTML中的特殊符号）
+			{{ name }}      {'name': '闷骚哥'}
+		
+		5. APP(项目中的一个包)
+			1. Django中创建app：
+				python manage.py startapp app名
+			2. 注册到Django中：
+				settings.py中的INSTALLED_APPS = ['app名',]
+		6. ORM
+			1. ORM的概念
+				ORM          DB
+				类          数据表
+				属性        字段
+				对象        数据行
+		
+			2. Django中ORM的使用
+				沙河之秋：五步骤
+				早上刚默写的
+			3. ORM查询语句
+				1. User.objects.filter(name='闷骚哥', pwd='123')
+				
+2. 今日内容
+	1. 图书管理系统之出版社的增删改查
+		1. 表结构设计
+			1. 出版社
+				id  name 
+			2. 作者
+				id  name  
+			3. 书
+				id  title 出版社_id
+			4. 作者_书_关系表
+				id 书_id 作者_id
+	
+		2. ORM版增删改查
+			1. ORM的语句
+				1. 类名.objects.all()		    	  --> 返回一个列表
+				2. 类名.objects.filter()              --> 返回一个列表
+				3. 类名.objects.get()                 --> 返回一个对象
+				
+				4. 类名.objects.create(name='')       --> 创建一个对象，返回的就是刚创建的对象
+				
+				5. 类名.objects.filter(id=).delete()  --> 删除
+				
+				6. obj = 类名.objects.get(id='')
+				   obj.name = '新值'                  --> 修改对象的属性（修改数据行某个字段的值）
+				   obj.save()                         --> 把修改同步到数据库
+	
+		3. Django 模板语言
+		
+			1. for循环
+				{% for i in ret %}
+					{{ i }}
+					{{ forloop.counter }}             --> for循环从1开始计数
+					{{ forloop.counter0 }}            --> for循环从0开始计数
+ 				{% endfor %}
+	
+		4. 出问题就是单词写错了！ 99%
+	
+	
+3. 今日任务
+	1. 把课上的代码自己敲一遍
+	2. 自己独立写一遍
+	3. 用Bootstrap样式把页面写好看一点
+
+
+4. 预习任务
+	1. 外键的增删改查
+	book表的增删改查
+	https://www.cnblogs.com/liwenzhou/p/8330550.html
+	
+	
+	
+	
+	
+	

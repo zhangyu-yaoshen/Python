@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="content-Type" charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>编辑作者</title>
+</head>
+<body>
+
+<h1>编辑作者</h1>
+<form action="" method="post">
+    <input type="text" name="author_name" value="{{ author.name }}">
+
+    <select name="book_ids" multiple>
+        {% for book in book_list %}
+            如果 这本书 在 我这个作者关联的书籍列表里
+            {% if book in author.books.all %}
+                <option selected value="{{ book.id }}">{{ book.title }}</option>
+            {% else %}
+                <option value="{{ book.id }}">{{ book.title }}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    <input type="submit">
+
+</form>
+
+</body>
+</html>

@@ -15,9 +15,20 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from . import views
+from app01 import views
 
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     url(r'^login/', views.login),#第一个login是URL；第二个是login函数
+    url(r'^index/', views.index),
+    url(r'^press_list/$', views.press_list),  # 展示出版社
+    url(r'^add_press/$', views.add_press),  # 添加出版社
+    url(r'^delete_press/$', views.delete_press),  # 删除出版社
+    url(r'^edit_press/$', views.edit_press),  # 编辑出版社
+
+    # ---------- day61 ↓ -------------------
+    url(r'^book_list/$', views.jilei),  # 展示书籍
+    url(r'^add_book/$', views.xiaojilei),  # 添加书籍
+    url(r'^delete_book/$', views.delete_book),  # 删除书籍
+    url(r'^edit_book/$', views.edit_book),  # 编辑书籍
 ]
